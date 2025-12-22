@@ -1,0 +1,11 @@
+﻿{
+	"name":	"Eu5 Aus Mod",
+	"id":	"Eu5AusMod",
+	"version":	"1.0.9",
+	"supported_game_version":	"",
+	"short_description":	"Eu5 Australia Balance Mod ",
+	"tags":	["Fixes"],
+	"relationships":	[],
+	"game_custom_data":	{
+}
+}
