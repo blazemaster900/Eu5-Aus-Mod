@@ -1,8 +1,0 @@
-﻿PAP = {
-	enabled = {
-		or = {
-			religion != root.religion
-			is_excommunicated = yes
-		}
-	}
-}
