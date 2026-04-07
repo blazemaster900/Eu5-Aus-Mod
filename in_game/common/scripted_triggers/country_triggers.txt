@@ -132,7 +132,7 @@ can_create_subject_alliance = {
 
 alliance_can_exist = {
 	scope:actor = {
-		opinion = { target = scope:recipient value >= 0 }
+		#opinion = { target = scope:recipient value >= 0 } #Removed relations requirement to send alliance/receieve alliance - blaze
 		not = { has_blocked_treaties = scope:recipient }
 		not = { is_subject_of = scope:recipient }
 		not = { is_rival_of = scope:recipient }
@@ -149,7 +149,7 @@ alliance_can_exist = {
 		is_rebel_country = no
 	}
 	scope:recipient = {
-		opinion = { target = scope:actor value >= 0 }
+		#opinion = { target = scope:actor value >= 0 } #Removed relations requirement to send alliance/receieve alliance - blaze
 		not = { has_blocked_treaties = scope:actor }
 		not = { is_subject_of = scope:actor }
 		not = { is_rival_of = scope:actor }
@@ -166,16 +166,16 @@ alliance_can_exist = {
 		actor = scope:actor
 		recipient = scope:recipient
 	}
-	NOT = {
-		 AND = {
-			scope:actor = {
-				is_hegemon = yes
-			}
-			scope:recipient = {
-				is_hegemon = yes
-			}
-		}
-	}
+	#NOT = { #Removed hegemons cannot be allied -blaze
+	#	 AND = {
+	#		scope:actor = {
+	#			is_hegemon = yes
+	#		}
+	#		scope:recipient = {
+	#			is_hegemon = yes
+	#		}
+	#	}
+	#}
 }
 
 
