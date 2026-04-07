@@ -34,7 +34,7 @@
 	#target_view_member_color = rgb { 255 0 0 }
 	#target_view_leader_color = rgb { 200 20 20 }
 
-	#join_defensive_wars_always = {
+	#join_defensive_wars_always = { #Removed chain annexing from coalitions -blaze
 	#	scope:target ?= {
 	#		this = root.international_organization_target
 	#	}
