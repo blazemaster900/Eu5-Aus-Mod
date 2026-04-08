@@ -8,3 +8,20 @@ REPLACE:debt_impact = {
     monthly_doom = 0.005
     monthly_righteousness = -0.001
 }
+
+REPLACE:complacency_impact = {
+	potential_trigger = {
+		modifier:has_complacency_effects = yes
+	}
+
+
+	scales_with = {
+		value = complacency
+		multiply = 0
+	}
+	
+	# good stuff
+	global_monthly_prosperity = 0.01
+
+	
+}
