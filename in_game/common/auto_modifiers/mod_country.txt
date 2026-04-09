@@ -20,8 +20,4 @@ REPLACE:complacency_impact = {
 		multiply = 0
 	}
 	
-	# good stuff
-	global_monthly_prosperity = 0.01
-
-	
 }
