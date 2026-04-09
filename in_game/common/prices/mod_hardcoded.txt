@@ -1,0 +1,3 @@
+REPLACE:destroy_market = {
+	prestige = 1
+}
