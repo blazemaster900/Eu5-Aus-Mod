@@ -1,6 +1,7 @@
 on_game_start = {
 	on_actions = {
 		mod_adjust_france
+		mod_remove_asia
 	}
 }
 
@@ -27,4 +28,12 @@ mod_adjust_france = {
 	}
 }
 
+mod_remove_asia = {
+	effect = {
+
+		sub_continent:east_asia = { mod_remove_sub_continent = yes }
+		sub_continent:south_east_asia = { mod_remove_sub_continent = yes }
+	}
+
+}
 
