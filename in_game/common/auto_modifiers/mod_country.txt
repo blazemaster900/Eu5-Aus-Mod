@@ -21,3 +21,11 @@ REPLACE:complacency_impact = {
 	}
 	
 }
+
+INJECT:country_base_values = {
+	max_diplomats = 5 ## PREV: 1 (used more frequently in mp)
+	monthly_diplomats = 0.2 ## PREV 0.1 (doubled)
+	mercenary_maintenance_cost = 0.75
+	hire_mercenary_premium_cost_modifier = 0.75
+	hire_mercenary_leader_cost_modifier = 0.75
+}
