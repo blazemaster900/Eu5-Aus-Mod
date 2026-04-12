@@ -1,5 +1,0 @@
-NDiplomacy = {
-SEND_GIFT_COOLDOWN = 1 #months
-}
-
-#reductin of Send gift to 1 month

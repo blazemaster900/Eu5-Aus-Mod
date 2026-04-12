@@ -1,0 +1,6 @@
+NDiplomacy = {
+SEND_GIFT_COOLDOWN = 1 #reductin of Send gift to 1 month
+WARGOAL_MAX_TICKING_WAR_SCORE = 50 #increased from 25
+
+}
+
