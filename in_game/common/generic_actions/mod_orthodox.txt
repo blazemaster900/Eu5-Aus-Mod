@@ -64,3 +64,106 @@
 	}
 }
 
+
+REPLACE:create_autocephalous_patriarchate = {
+	type = religious
+
+	sound = UI_action_religion_generic
+
+	ai_tick = monthly
+	ai_tick_frequency = 3
+	automation_tick = monthly
+	automation_tick_frequency = 1
+
+	automation_tick = monthly
+	automation_tick_frequency = 1
+	player_automated_category = religiousdoctrines
+
+	
+	potential = {
+		scope:actor.religion = {
+			has_autocephalous_patriarchates = yes
+		}
+	}
+
+	allow = {
+		scope:actor = {
+			OR = {
+				country_rank = country_rank:rank_kingdom
+				country_rank = country_rank:rank_empire
+			}
+			prestige >= 1
+			OR = {
+				NOT = {
+					exists = autocephalous_patriarchate
+				}
+				autocephalous_patriarchate ?= {
+					not = {
+						leader_country = scope:actor
+					}
+				}
+			}
+		}
+	}
+	
+	price = price:create_autocephalous_patriarchate
+	
+	select_trigger = {
+		looking_for_a = religion
+		source = actor
+		target_flag = recipient
+		name = "choose_religion"
+		column = {
+			data = name
+		}
+	}
+
+	effect = {
+		scope:actor = {
+			custom_tooltip = {
+				text = create_autocephalous_patriarchate_tt
+				create_international_organization = {
+					type = international_organization_type:autocephalous_patriarchate
+					add_country_to_international_organization = prev
+					set_leader_country = prev
+					#so we can use it in text
+					save_scope_as = target
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		add = {
+			if = {
+				limit = {
+					#if we have a holy site for this religion, big incentive as we can get bonuses
+					scope:actor = {
+						any_holy_site_in_country = {
+							is_holy_site_for = scope:actor.religion
+						}
+					}
+				}
+				value = 1000
+			}
+		}
+		add = {
+			#bias by size of country vs size of leader
+			scope:actor = {
+				autocephalous_patriarchate = {
+					value = scope:actor.total_population
+					divide = 0.75
+					if = {
+						limit = { leader_country.total_population > 0 }
+						divide = {
+							value = leader_country.total_population
+							add = 1
+						}
+					}
+					add = 1
+					multiply = 100
+				}
+			}
+		}
+	}
+}
