@@ -1,0 +1,26 @@
+REPLACE:take_capital_imperial = {
+	type = take_capital
+	
+	attacker = {
+		conquer_cost = 0.70
+		subjugate_cost = 0.70
+    }
+	defender = {
+		conquer_cost = 0.70
+		subjugate_cost = 0.70
+	}
+	ticking_war_score = 0.5
+}
+
+REPLACE:take_capital_enforce_hegemon_demands = {
+	type = take_capital
+	attacker = {
+		allowed_locations = { always = no }
+		allowed_subjugation = { always = no }
+	}
+	defender = {
+		conquer_cost = 0.70
+		subjugate_cost = 0.70
+	}
+	ticking_war_score = 0.5
+}
