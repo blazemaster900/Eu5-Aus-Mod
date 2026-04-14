@@ -29,7 +29,3 @@ INJECT:country_base_values = {
 	hire_mercenary_premium_cost_modifier = 0.75
 	hire_mercenary_leader_cost_modifier = 0.75
 }
-
-replace:receiving_scutage = {
-
-}
