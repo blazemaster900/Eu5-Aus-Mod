@@ -49,6 +49,7 @@ mod_remove_asia = {
 
 		sub_continent:east_asia = { mod_remove_and_disable_sub_continent = yes }
 		sub_continent:south_east_asia = { mod_remove_and_disable_sub_continent = yes }
+		sub_continent:pacific_islands = { mod_remove_and_disable_sub_continent = yes }
 	}
 
 }
