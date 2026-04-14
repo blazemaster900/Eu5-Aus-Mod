@@ -10,7 +10,7 @@ institution_manager = {
 		}
 		meritocracy = {
 			active = yes
-			birth_place = sarai
+			birth_place = sarai_al_jadid
 		}
 	}
 }
