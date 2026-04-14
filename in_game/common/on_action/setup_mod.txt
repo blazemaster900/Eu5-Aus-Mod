@@ -9,7 +9,6 @@ mod_adjust_france = {
 	effect = {
 		c:FRA = {
 			cancel_subject = c:FLA
-			cancel_subject = c:ARS
 
 			add_truce_with = { target = c:FLA mutual = yes months = 180 }
 			add_truce_with = { target = c:HAI mutual = yes months = 180 }
@@ -21,6 +20,23 @@ mod_adjust_france = {
 			add_truce_with = { target = c:LOO mutual = yes months = 180 }
 			add_truce_with = { target = c:NAM mutual = yes months = 180 }
 		}
+
+		c:ENG = {
+
+			add_truce_with = { target = c:FLA mutual = yes months = 180 }
+			add_truce_with = { target = c:HAI mutual = yes months = 180 }
+			add_truce_with = { target = c:BRB mutual = yes months = 180 }
+			add_truce_with = { target = c:LIE mutual = yes months = 180 }
+			add_truce_with = { target = c:HOL mutual = yes months = 180 }
+			add_truce_with = { target = c:GEL mutual = yes months = 180 }
+			add_truce_with = { target = c:UTR mutual = yes months = 180 }
+			add_truce_with = { target = c:LOO mutual = yes months = 180 }
+			add_truce_with = { target = c:NAM mutual = yes months = 180 }
+
+		}
+
+
+
 
 		c:FLA = {
 			cancel_subject = c:NAM
