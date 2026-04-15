@@ -24,3 +24,5 @@ REPLACE:take_capital_enforce_hegemon_demands = {
 	}
 	ticking_war_score = 0.5
 }
+
+#JK LMAO
