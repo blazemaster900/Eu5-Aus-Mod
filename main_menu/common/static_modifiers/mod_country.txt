@@ -1,7 +1,0 @@
-germanic_expansion = {
-	game_data = {
-		category = country
-	}
-	
-	cultures_capacity = 2
-}
