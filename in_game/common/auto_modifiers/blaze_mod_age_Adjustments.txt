@@ -1,0 +1,35 @@
+blaze_mod_merc_cost_age3 = {
+    potential_trigger = {
+        custom_description = {
+            is_ai = no 
+            current_age = age_3_discovery
+        }
+    }
+
+        hire_mercenary_premium_cost_modifier = 0.5
+	    hire_mercenary_leader_cost_modifier = 0.5
+}
+
+blaze_mod_merc_cost_age4 = {
+    potential_trigger = {
+        custom_description = {
+            is_ai = no 
+            current_age = age_4_reformation
+        }
+    }
+
+        hire_mercenary_premium_cost_modifier = 1.0
+	    hire_mercenary_leader_cost_modifier = 1.0
+}
+
+blaze_mod_merc_cost_age5 = {
+    potential_trigger = {
+        custom_description = {
+            is_ai = no 
+            current_age = age_5_absolutism
+        }
+    }
+
+        hire_mercenary_premium_cost_modifier = 1.5
+	    hire_mercenary_leader_cost_modifier = 1.5
+}
