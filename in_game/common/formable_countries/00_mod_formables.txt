@@ -1,0 +1,40 @@
+REPLACE:BGP_f = {
+	level = 2
+	required_locations_fraction = 0.5
+	rule = plausible
+
+	potential = {
+		OR = {
+			culture = culture:arpitan
+			culture = culture:vivaro_alpine
+			culture = culture:franc_comtois
+			culture = culture:provencal
+			OR = {
+				tag = DAU
+				tag = SAV
+			}			
+		}
+	}
+
+	allow = {
+        owns = location:dijon
+        owns = location:lyon
+	}
+	
+	name = BGP
+	flag = BGP
+	adjective = BGP_ADJ
+	tag = BGP
+	color = map_BUR
+	areas = {
+		provence_area
+		savoy_area
+		lyonnais_area
+		franche_comte_area
+		western_switzerland_area
+		central_switzerland_area
+        
+	}
+	form_effect = {
+	}
+}

@@ -5,6 +5,7 @@ on_game_start = {
 		dan_setup
 		mod_goods_change # for DS
 		habs_setup
+		mod_shatter_france
 	}
 }
 
@@ -51,6 +52,7 @@ mod_adjust_france = {
 		}
 
 		c:ENG = {
+
 			add_truce_with = { target = c:FLA mutual = yes months = 180 }
 			add_truce_with = { target = c:HAI mutual = yes months = 180 }
 			add_truce_with = { target = c:BRB mutual = yes months = 180 }
@@ -178,4 +180,22 @@ habs_setup = {
 		}
 	}
 	
+}
+mod_shatter_france = {
+	effect = {
+		c:FRA = {
+			
+		}
+
+		c:ENG = {
+
+		}
+
+
+
+
+		c:FLA = {
+			cancel_subject = c:NAM
+		}
+	}
 }

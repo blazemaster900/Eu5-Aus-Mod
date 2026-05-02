@@ -6,14 +6,6 @@ REPLACE:faster_levy_recruitment  = {
 	global_levy_recruitment_speed_modifier = 0.2
     correct_box_chance = 999
 }
-REPLACE:faster_levy_recruitment  = {
-	age = age_1_traditions
-	icon = offensive_army
-	requires = iron_working
-
-	global_levy_recruitment_speed_modifier = 0.2
-    correct_box_chance = 999
-}
 REPLACE:bur_between_two_realms = {
 	age = age_1_traditions
 	potential = {
