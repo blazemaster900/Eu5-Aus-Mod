@@ -1560,36 +1560,6 @@ countries = {
 	}
 
 	BRG = {	#Berg
-		own_control_core = {
-			dusseldorf remscheid siegburg solingen
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = brg_adolf_ix_berg
-
-			ruler_term = {	character = brg_adolf_ix_berg start_date = 1334.1.1 regnal_number = 1	}
-
-			regnal_numbers = {
-				name_adolf = 9
-				name_engelbert = 2
-				name_henry = 4
-				name_william = 1
-			}
-		}
-
-		accepted_cultures = {
-			low_franconian
-		}
-
-		country_rank = rank_county
-		capital = dusseldorf
-		dynasty = limbourg_dynasty
 	}
 
 	MAI = {	#Mainz
@@ -35064,7 +35034,6 @@ countries = {
 
 	PAL = {	#The Palatinate
 		own_control_core = {
-			heidelberg sinsheim germersheim neustadt_an_der_haardt oppenheim  kaiserslautern
 			amberg eschenbach neumarkt roding sulzbach #Oberpfalz
 		}
 
@@ -35360,34 +35329,6 @@ countries = {
 	}
 
 	WDE = {  # Waldeck (North Germany)
-		own_control_core = {
-			korbach
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		government = {
-			ruler = wde_henry_iv_von_waldeck
-
-			ruler_term = { character = wde_adolph_i_von_waldeck start_date = 1214.1.1 end_date = 1267.1.1 regnal_number = 1 }
-			ruler_term = { character = wde_henry_iii_von_waldeck start_date = 1267.1.1 end_date = 1270.10.3 regnal_number = 3 }
-			ruler_term = { character = wde_adolph_ii_von_waldeck start_date = 1270.10.3 end_date = 1302.12.13 regnal_number = 2 }
-			ruler_term = { character = wde_otto_i_von_waldeck start_date = 1302.12.13 end_date = 1305.11.11 regnal_number = 1 }
-			ruler_term = { character = wde_henry_iv_von_waldeck start_date = 1305.11.11 regnal_number = 4 }
-
-			regnal_numbers = {
-				name_adolf = 2
-				name_henry = 4
-				name_otto = 1
-			}
-		}
-		tolerated_cultures = {
-			angrian
-		}
-		country_rank = rank_county
-		capital = korbach
 	}
 
 	RBG = {  # Rietberg (North Germany)
@@ -35454,137 +35395,21 @@ countries = {
 	}
 
 	FLK = {  # Falkenstein (South Germany)
-		own_control_core = {
-			friedberg_hesse offenbach
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = flk_phillip_vi_falkenstein
-			ruler_term = {	character = flk_phillip_vi_falkenstein start_date = 1317.1.1 regnal_number = 6	}
-
-			regnal_numbers = {
-				name_philip = 6
-			}
-		}
-		country_rank = rank_county
-		capital = friedberg_hesse
-		dynasty = falkenstein_dynasty
 	}
 
 	KTZ = {
 	}
 
-	NSW = {  # Nassau Weilburg (North Germany)
-		own_control_core = {
-			usingen
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-
-		government = {
-			ruler = nsi_gerlach_i_nassau
-
-			ruler_term = {	character = nsi_walram_ii_nassau start_date = 1255.12.16 end_date = 1276.1.24 regnal_number = 2	}
-			ruler_term = {	character = ogk_adolf_von_nassau start_date = 1276.1.24 end_date = 1298.7.2 regnal_number = 1	}
-			ruler_term = {	character = nsi_gerlach_i_nassau start_date = 1298.7.2 regnal_number = 1	}
-
-			regnal_numbers = {
-				name_adolph = 1
-				name_gerlach = 1
-				name_waleram = 2
-			}
-		}
-
-		country_rank = rank_county
-		capital = usingen
+	NSW = {
 	}
 
 	NSI = {  # Nassau Idstein (North Germany)
-		own_control_core = {
-			wiesbaden
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-			ruler = nsi_gerlach_i_nassau
-
-			ruler_term = {	character = nsi_walram_ii_nassau start_date = 1255.12.16 end_date = 1276.1.24 regnal_number = 2	}
-			ruler_term = {	character = ogk_adolf_von_nassau start_date = 1276.1.24 end_date = 1298.7.2 regnal_number = 1	}
-			ruler_term = {	character = nsi_gerlach_i_nassau start_date = 1298.7.2 regnal_number = 1	}
-
-			regnal_numbers = {
-				name_adolph = 1
-				name_gerlach = 1
-				name_waleram = 2
-			}
-		}
-
-		country_rank = rank_county
-		capital = wiesbaden
 	}
 
 	NSH = {  # Nassau Hadamar (North Germany)
-		own_control_core = {
-			hadamar
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-			ruler = nsh_johann_nassau
-			consort = nsh_elisabeth_waldeck
-
-			ruler_term = {	character = nsh_emich_i_nassau start_date = 1303.1.1 end_date = 1334.1.1 regnal_number = 1	}
-			ruler_term = {	character = nsh_johann_nassau start_date = 1334.1.1 regnal_number = 1	}
-
-			regnal_numbers = {
-				name_emmerich = 1
-			}
-		}
-		tolerated_cultures = {
-			ripuarian_franconian
-		}
-		country_rank = rank_county
-		capital = hadamar
 	}
 
 	NSS = {  # Nassau Siegen (North Germany)
-		own_control_core = {
-			dillenburg #Nassau Dillenburg
-			siegen #Nassau Siegen
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-			ruler = nss_henry_i_nassau
-
-			ruler_term = {	character = nss_henry_i_nassau start_date = 1303.7.1 regnal_number = 1	}
-
-			regnal_numbers = {
-				name_henry = 1
-			}
-		}
-		tolerated_cultures = {
-			rhine_franconian
-		}
-		country_rank = rank_county
-		capital = siegen
 	}
 
 	NSD = {  # Nassau Dillenburg (North Germany)		
@@ -35682,48 +35507,9 @@ countries = {
 	}
 
 	LDA = {  # Landau (South Germany)
-		own_control_core = {
-			landau_rhineland
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_free_city_no_coast"
-		government = {
-			type = republic
-			heir_selection = republic_4_year_terms
-			ruler = random
-		}
-		country_rank = rank_county
-		capital = landau_rhineland
 	}
 
 	VEL = {  # Veldenz (South Germany)
-		own_control_core = {
-			lichtenberg_veldenz
-			meisenheim
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-			ruler = vel_georg_i_von_veldenz
-
-			ruler_term = { character = vel_emicho_von_kyrburg start_date = 1100.1.1 end_date = 1113.1.1 regnal_number = 1 }
-			ruler_term = { character = vel_gerlach_i_von_veldenz start_date = 1113.1.1 end_date = 1146.1.1 regnal_number = 1 }
-			ruler_term = { character = vel_gerlach_ii_von_veldenz start_date = 1146.1.1 end_date = 1186.1.1 regnal_number = 2 }
-			ruler_term = { character = vel_gerlach_iii_von_veldenz start_date = 1186.1.1 end_date = 1214.1.1 regnal_number = 3 }
-			ruler_term = { character = vel_gerlach_iv_von_veldenz start_date = 1214.1.1 end_date = 1254.1.1 regnal_number = 4 }
-			ruler_term = { character = vel_gerlach_v_von_veldenz start_date = 1254.1.1 end_date = 1260.1.1 regnal_number = 5 }
-			ruler_term = { character = vel_agnes_von_veldenz start_date = 1260.1.1 end_date = 1277.1.1 regnal_number = 1 }
-			ruler_term = { character = vel_heinrich_von_geroldseck start_date = 1277.1.1 end_date = 1298.1.1 regnal_number = 1 }
-			ruler_term = { character = vel_walter_von_geroldseck start_date = 1298.1.1 end_date = 1327.1.1 regnal_number = 2 }
-			ruler_term = { character = vel_georg_i_von_veldenz start_date = 1327.1.1 regnal_number = 1 }
-		}
-		country_rank = rank_county
-		capital = lichtenberg_veldenz
 	}
 
 	GRY = {  # Gruyère (South Germany)
@@ -35787,21 +35573,6 @@ countries = {
 	}
 
 	PSZ = {  # Simmern (South Germany)
-		own_control_core = {
-			simmern
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		government = { ruler = random }
-		tolerated_cultures = {
-			moselle_franconian
-		}
-		country_rank = rank_county
-		capital = simmern
-		dynasty = von_raugraf_dynasty
 	}
 
 	HLE = {  # God's House League (South Germany)
@@ -36075,20 +35846,6 @@ countries = {
 	}
 
 	WIE = {  # Wied (North Germany)
-		own_control_core = {
-			wied
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		government = { ruler = random }
-		tolerated_cultures = {
-			rhine_franconian
-		}
-		country_rank = rank_county
-		capital = wied
 	}
 
 	ELL = {  # Ellwangen (South Germany)
@@ -36328,24 +36085,6 @@ countries = {
 	}
 
 	MSB = {	#Mosbach
-		own_control_core = {
-			mosbach
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_republic_no_coast"
-		include = "expl_northern_europe"
-		government = {
-			ruler = random
-		}
-
-		tolerated_cultures = {
-			rhine_franconian
-		}
-
-		country_rank = rank_county
-		capital = mosbach
 	}
 
 	ROT = {	#Rothenburg
@@ -36566,37 +36305,6 @@ countries = {
 	}
 
 	BDE = {	#Baden
-		own_control_core = {
-			baden durlach
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-			regnal_numbers = {
-				name_herman = 9
-				name_frederick = 2
-			}
-			ruler = bde_hermann_ix_baden
-			ruler_term = {	 character = bde_friedrich_ii_baden start_date = 1291.6.22 end_date = 1333.6.22 regnal_number = 2	}
-			ruler_term = {	 character = bde_hermann_ix_baden start_date = 1333.6.22 regnal_number = 9	}
-
-
-			reforms = {
-				margraviate
-			}
-		}
-
-		tolerated_cultures = {
-			rhine_alemannic
-		}
-
-		country_rank = rank_county
-		capital = baden
-		dynasty = baden_dynasty
 	}
 
 	WDB = { #Waldburg
@@ -38095,39 +37803,6 @@ countries = {
 	}
 
 	HES = {	#Hesse
-		own_control_core = {
-			kassel rotenburg eschwege frankenberg marburg alsfeld
-			giessen melsungen
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = hes_heinrich_ii_hesse
-
-			ruler_term = {	character = hes_otto_i_hesse start_date = 1308.1.1 end_date = 1328.1.17 regnal_number = 1	}
-			ruler_term = {	character = hes_heinrich_ii_hesse start_date = 1328.1.17 regnal_number = 2	}
-
-			regnal_numbers = {
-				name_otto = 1
-				name_henry = 2
-			}
-			reforms = {
-				landgraviate
-			}
-		}
-
-		tolerated_cultures = {
-			angrian
-		}
-
-		country_rank = rank_county
-		capital = kassel
-		dynasty = hessen_dynasty
 	}
 
 	PDB = {	#Paderborn
@@ -38156,55 +37831,9 @@ countries = {
 	}
 
 	ZIG = {	#Ziegenhain
-		own_control_core = {
-			ziegenhain
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = zig_johann_i_ziegenhain
-			ruler_term = {	character = zig_gottfried_vi_ziegenhain start_date = 1272.1.1 end_date = 1304.11.30 regnal_number = 6	}
-			ruler_term = {	character = zig_johann_i_ziegenhain start_date = 1304.11.30 regnal_number = 1	}
-
-			regnal_numbers = {
-				name_godfrey = 6
-				name_engelbert = 1
-				name_john = 1
-			}
-		}
-		country_rank = rank_county
-		capital = ziegenhain
-		dynasty = ziegenhain_dynasty
 	}
 
 	HNA = {	#Hanau
-		own_control_core = {
-			hanau
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = hna_ulrich_ii_hanau
-			ruler_term = {	character = hna_ulrich_i_hanau start_date = 1281.1.1 end_date = 1306.1.1 regnal_number = 1	}
-			ruler_term = {	character = hna_ulrich_ii_hanau start_date = 1306.1.1 regnal_number = 2	}
-
-			regnal_numbers = {
-				name_ulrick = 2
-			}
-		}
-		country_rank = rank_county
-		capital = hanau
-		dynasty = hanau_dynasty
 	}
 
 	BUD = {	#Büdingen
@@ -38232,316 +37861,42 @@ countries = {
 	}
 
 	WTZ = {	#Wetzlar
-		own_control_core = {
-			wetzlar
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_republic_no_coast"
-		include = "expl_northern_europe"
-		government = {
-			ruler = random
-		}
-		country_rank = rank_county
-		capital = wetzlar
 	}
 
-	TRI = {	#Trier
-		own_control_core = {
-			trier wittlich
-			mayen coblenz saarburg
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_bishopric_no_coast"
-		include = "expl_northern_europe"
-		country_rank = rank_duchy
-		government = {
-			ruler = tri_balduin_von_luxembourg
-
-			ruler_term = { character = tri_balduin_von_luxembourg start_date = 1307.11.23 regnal_number = 1 }
-		}
-
-		tolerated_cultures = {
-			rhine_franconian
-			ripuarian_franconian
-		}
-
-		capital = trier
+	TRI = {
 	}
 
 	DIE = {	#Diez
-		own_control_core = {
-			diez
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = die_gerhard_vi_diez
-			ruler_term = {	character = die_gerhard_vi_diez start_date = 1317.1.1 regnal_number = 6	}
-
-			regnal_numbers = {
-				name_gerard = 6
-			}
-		}
-		country_rank = rank_county
-		capital = diez
-		dynasty = diez_dynasty
 	}
 
 	FRN = {	#Frankfurt
-		own_control_core = {
-			frankfurt
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_republic_no_coast"
-		include = "expl_northern_europe"
-		government = {
-			ruler = random
-		}
-		country_rank = rank_county
-		capital = frankfurt
 	}
 
 	ERB = {	#Erbach
-		own_control_core = {
-			erbach
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = erb_konrad_iii_erbach
-			ruler_term = {	character = erb_eberhard_v_erbach start_date = 1290.1.1 end_date = 1303.1.1 regnal_number = 5	}
-			ruler_term = {	character = erb_konrad_iii_erbach start_date = 1303.1.1 regnal_number = 3	}
-
-			regnal_numbers = {
-				name_everard = 5
-				name_conrad = 3
-			}
-		}
-		tolerated_cultures = {
-		}
-		country_rank = rank_county
-		capital = erbach
-		dynasty = erbach_dynasty
 	}
 
 	WRM = {	#Worms
-		own_control_core = {
-			worms
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_republic_no_coast"
-		include = "expl_northern_europe"
-		government = {
-			ruler = random
-		}
-		country_rank = rank_county
-		capital = worms
 	}
 
 	SYE = {	#Speyer
-		own_control_core = {
-			speyer
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_free_city_no_coast"
-		include = "expl_northern_europe"
-		government = {
-			ruler = random
-		}
-
-		tolerated_cultures = {
-			ashkenazi
-		}
-
-		country_rank = rank_county
-		capital = speyer
 	}
 
 	ZWE = {	#Zweibrucken
-		own_control_core = {
-			zweibrucken bitche pirmasens
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = zwe_walram_ii_zweibrucken
-			ruler_term = {	character = zwe_simon_ii_zweibrucken start_date = 1308.1.1 end_date = 1312.1.1 regnal_number = 2	}
-			ruler_term = {	character = zwe_walram_ii_zweibrucken start_date = 1312.1.1 regnal_number = 2	}
-
-			regnal_numbers = {
-				name_simeon = 2
-				Walram = 2
-			}
-		}
-		country_rank = rank_county
-		capital = zweibrucken
-		dynasty = zweibrucken_dynasty
 	}
 
 	LNN = {	#Leiningen
-		own_control_core = {
-			leiningen
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = lnn_friedrich_vi_leiningen_dagsburg
-			ruler_term = {	character = lnn_friedrich_v_leiningen_dagsburg start_date = 1316.1.1 end_date = 1327.1.1 regnal_number = 5	}
-			ruler_term = {	character = lnn_friedrich_vi_leiningen_dagsburg start_date = 1327.1.1 regnal_number = 6	}
-
-			regnal_numbers = {
-				name_frederick = 6
-			}
-		}
-		tolerated_cultures = {
-		}
-		country_rank = rank_county
-		capital = leiningen
-		dynasty = leiningen_dynasty
 	}
 
 	SPO = {	#Sponheim
-		own_control_core = {
-			kreuznach birkenfeld castellaun
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = spo_johann_ii_sponheim_kreuznach
-			ruler_term = {	character = spo_johann_i_sponheim_kreuznach start_date = 1265.1.1 end_date = 1290.1.1 regnal_number = 1	}
-			ruler_term = {	character = spo_johann_ii_sponheim_kreuznach start_date = 1290.1.1 regnal_number = 2	}
-
-			regnal_numbers = {
-				name_john = 2
-				Walram = 2
-				name_simeon = 2
-			}
-		}
-		tolerated_cultures = {
-			moselle_franconian
-		}
-		country_rank = rank_county
-		capital = kreuznach
-		dynasty = sponheim_dynasty
 	}
 
 	SYN = {	#Sayn
-		own_control_core = {
-			altenkirchen gummersbach
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = syn_johann_iii_sayn
-			ruler_term = {	character = syn_johann_ii_sayn start_date = 1284.1.1 end_date = 1324.1.1 regnal_number = 2	}
-			ruler_term = {	character = syn_gottfried_sayn start_date = 1324.1.1 end_date = 1327.1.1 regnal_number = 1	}
-			ruler_term = {	character = syn_johann_iii_sayn start_date = 1327.1.1 regnal_number = 3	}
-
-			regnal_numbers = {
-				name_john = 3
-				name_godfrey = 1
-			}
-		}
-
-		tolerated_cultures = {
-			ripuarian_franconian
-		}
-
-		country_rank = rank_county
-		capital = altenkirchen
-		dynasty = sayn_dynasty
 	}
 
 	KOL = {	#Cologne
-		own_control_core = {
-			cologne ahrweiler neuss attendorn brilon soest recklinghausen
-			bonn
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_bishopric_no_coast"
-		include = "expl_northern_europe"
-		country_rank = rank_duchy
-		government = {
-			ruler = kol_walram_von_julich
-		}
-
-		accepted_cultures = {
-			westphalian
-			angrian
-		}
-
-		capital = cologne
 	}
 
 	DUN = {	#Daun
-		own_control_core = {
-			daun cochem
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = dun_wirich_iii_daun
-			ruler_term = {	character = dun_wirich_ii_daun start_date = 1280.1.1 end_date = 1310.1.1 regnal_number = 2	}
-			ruler_term = {	character = dun_wirich_iii_daun start_date = 1310.1.1 regnal_number = 3	}
-
-			regnal_numbers = {
-				Wirich = 3
-				name_henry = 2
-			}
-		}
-		tolerated_cultures = {
-			rhine_franconian
-		}
-		country_rank = rank_county
-		capital = daun
-		dynasty = daun_dynasty
 	}
 
 	APR = {	#Prüm
@@ -38584,38 +37939,6 @@ countries = {
 	}
 
 	JUL = {	#Jülich
-		own_control_core = {
-			bergheim duren monchengladbach
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = jul_wilhelm_i_julich
-			ruler_term = {	character = jul_gerhard_v_julich start_date = 1297.1.1 end_date = 1328.1.1 regnal_number = 5	}
-			ruler_term = {	character = jul_wilhelm_i_julich start_date = 1328.1.1 regnal_number = 1	}
-
-			regnal_numbers = {
-				name_gerard = 5
-				name_william = 1
-			}
-
-			reforms = {
-				margraviate
-			}
-		}
-
-		tolerated_cultures = {
-			low_franconian
-		}
-
-		country_rank = rank_county
-		capital = duren
-		dynasty = julich_dynasty
 	}
 
 	GEL = {	#Guelders / Geldern / former EU4 Gelre
@@ -38715,34 +38038,6 @@ countries = {
 	}
 
 	WTG = {	#Wittgenstein
-		own_control_core = {
-			berleburg
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = wtg_werner_iii_wittgenstein
-			ruler_term = {	character = wtg_werner_iii_wittgenstein start_date = 1277.1.1 end_date = 1322.1.1 regnal_number = 3	} #It isn't really known who actually ruled in this period. For simplicity sake we assume it was Werner
-			ruler_term = {	character = wtg_siegfried_ii_wittgenstein start_date = 1322.7.18 regnal_number = 2	}
-
-			regnal_numbers = {
-				Werner = 3
-				Siegfried = 2
-				Wiedekind = 1
-			}
-		}
-
-		tolerated_cultures = {
-		}
-
-		country_rank = rank_county
-		capital = berleburg
-		dynasty = wittgenstein_dynasty
 	}
 
 	DTM = { #Dortmund
