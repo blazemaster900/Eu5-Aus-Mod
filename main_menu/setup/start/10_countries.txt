@@ -1595,7 +1595,45 @@ countries = {
 	MAI = {	#Mainz
 		own_control_core = {
 			mainz aschaffenburg miltenberg buchen tauberbischofsheim
-			hofgeismar bensheim
+			hofgeismar bensheim 
+			katzenelnbogen darmstadt
+			kreuznach birkenfeld castellaun
+			lichtenberg_veldenz meisenheim 
+			usingen 
+			diez 
+			wetzlar
+			worms
+			heidelberg
+			neustadt_an_der_haardt germersheim kaiserslautern sinsheim oppenheim
+			landau_rhineland
+			zweibrucken bitche pirmasens 
+			leiningen 
+			speyer
+			trier wittlich
+			mayen coblenz saarburg
+			baden durlach
+			wiesbaden
+			simmern
+			friedberg_hesse offenbach
+			frankfurt
+			hanau
+			daun cochem
+			erbach
+			mosbach
+			wied
+			cologne ahrweiler neuss attendorn brilon soest recklinghausen
+			bonn
+			dusseldorf remscheid siegburg solingen
+			dillenburg #Nassau Dillenburg
+			siegen #Nassau Siegen
+			altenkirchen gummersbach
+			hadamar
+			bergheim duren monchengladbach
+			kassel rotenburg eschwege frankenberg marburg alsfeld
+			giessen melsungen
+			ziegenhain
+			korbach
+			berleburg
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -35438,18 +35476,7 @@ countries = {
 		dynasty = falkenstein_dynasty
 	}
 
-	KTZ = {  # Katzenelnbogen (North Germany)
-		own_control_core = {
-			katzenelnbogen darmstadt
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = { ruler = random }
-		country_rank = rank_county
-		capital = katzenelnbogen
+	KTZ = {
 	}
 
 	NSW = {  # Nassau Weilburg (North Germany)
