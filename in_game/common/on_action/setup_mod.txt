@@ -1,7 +1,8 @@
 on_game_start = {
 	on_actions = {
 		mod_adjust_france
-		mod_save_fix
+		mod_remove_asia
+		mod_shatter_france
 	}
 }
 
@@ -44,14 +45,31 @@ mod_adjust_france = {
 	}
 }
 
-mod_save_fix = {
+mod_shatter_france = {
+	effect = {
+		c:FRA = {
+			
+		}
 
+		c:ENG = {
+
+		}
+
+
+
+
+		c:FLA = {
+			cancel_subject = c:NAM
+		}
+	}
+}
+mod_remove_asia = {
 	effect = {
 
 		sub_continent:east_asia = { mod_remove_and_disable_sub_continent = yes }
 		sub_continent:south_east_asia = { mod_remove_and_disable_sub_continent = yes }
 		sub_continent:pacific_islands = { mod_remove_and_disable_sub_continent = yes }
-
 	}
 
 }
+
