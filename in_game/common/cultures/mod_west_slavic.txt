@@ -1,0 +1,17 @@
+﻿REPLACE:lesser_polish = {
+	language = polish_dialect
+	
+	color = rgb { 209 90 136 }
+	
+	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		greater_polish = kindred
+		mazovian = kindred
+		silesian = kindred
+	}
+	culture_groups = {
+		polish_group
+		slavic_group
+	}
+}
