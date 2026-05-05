@@ -267,8 +267,8 @@ locations={
 	
 	aachen = { rank = town town_setup = german_town }
 	bamberg = { rank = town town_setup = german_town }
-	brandenburg = { rank = town town_setup = german_town }
-	berlin = { rank = town town_setup = german_town }
+	brandenburg = { rank = city town_setup = german_city }
+	berlin = { rank = city town_setup = german_city }
 	bremen = { rank = town town_setup = german_town }
 	brunswick = { rank = town town_setup = german_town }
 	dortmund = { rank = town town_setup = german_town }
