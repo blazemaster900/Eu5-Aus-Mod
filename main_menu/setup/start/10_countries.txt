@@ -14936,7 +14936,9 @@ countries = {
 				great_offices_of_the_crown_of_france
 			}
 		}
-
+		currency_data = {
+			prestige = 0
+		}
 		tolerated_cultures = {
 			arpitan
 			languedocien
