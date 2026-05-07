@@ -384,7 +384,7 @@ locations={
 	# Ruthenia
 	chernihiv = { rank = town 	town_setup = ruthenian_town }
 	ismail = { rank = town town_setup = ruthenian_town }
-	kyiv = { rank = city 		town_setup = ruthenian_town }	
+	kyiv = { rank = city 		town_setup = german_city }	
 	lviv = { rank = town 		town_setup = ruthenian_town }	
 	polotsk = { rank = town 	town_setup = ruthenian_town }
 	poltava = { rank = town town_setup = ruthenian_town }
