@@ -165,9 +165,9 @@ diplomacy_manager = {
     dependency = { first = FRA second = DRE subject_type = appanage }
     dependency = { first = FRA second = EVR subject_type = appanage }
     dependency = { first = FRA second = ETA subject_type = appanage }
-    dependency = { first = FRA second = NRM subject_type = appanage }
-    dependency = { first = FRA second = ANJ subject_type = appanage }
-    dependency = { first = FRA second = ARS subject_type = appanage }
+    dependency = { first = FRA second = NRM subject_type = vassal }
+    dependency = { first = FRA second = ANJ subject_type = vassal }
+    dependency = { first = FRA second = ARS subject_type = vassal }
     dependency = { first = FRA second = ANG subject_type = appanage }
 
     #Vassal, Fief Mouvant of France
