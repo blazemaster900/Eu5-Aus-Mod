@@ -14199,7 +14199,7 @@ countries = {
 			paris brie_comte_robert corbeil montmorency
 			amiens breteuil corbie nesle peronne
 			clermont montargis sens saint_florentin senlis nemours melun
-			beauvais saint_quentin noyon la_rochelle
+			beauvais saint_quentin noyon
 			ribemont laon
 			cahors mirepoix limoux carcassonne lavaur castelnaudary condom nerac bazas agen
 			bergerac montauban albi millau sauveterre_de_guyenne
@@ -14236,7 +14236,7 @@ countries = {
 
 			chateauroux boussac #S. de Chateauroux
 
-			tarbes #C. Bigorre
+			#C. Bigorre
 
 			fenouillet toulouse verdun_sur_garonne villemur
 			meaux
@@ -14249,8 +14249,7 @@ countries = {
 
 			#Poitou (Own by the ruler)
 			poitiers la_roche_sur_yon montaigu thouars parthenay fontenay montmorillon
-			niort bourganeuf chatellerault brosse lusignan aulnay st_jean_dangely
-			talmont beauvoir mauleon_poitou
+			niort chatellerault brosse
 
 			#C. de Champagne
 			chateau_thierry broyes vertus nogent_sur_seine bar_sur_aube
@@ -14262,7 +14261,7 @@ countries = {
 
 			#Too small/unimportant vassals (fiefs movants)
 			coucy marle #S. Coucy
-			saint_gaudens #Vic. des Quatre Valles
+			#Vic. des Quatre Valles
 			brienne #C. Brienne
 			joinville #S. Joinville
 			grandpre #C. Grandpre
@@ -14951,7 +14950,7 @@ countries = {
 	#La Marche (In PU with Bourbonnais)
 	MRC = {
 		own_control_core = {
-			bellac charroux gueret aubusson #La Marche
+			bellac charroux gueret aubusson bourganeuf #La Marche
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -15655,7 +15654,7 @@ countries = {
 	#Astarac (Vassal, Fief Mouvant)
 	AST = {
 		own_control_core = {
-			mirande
+			mirande tarbes saint_gaudens
 		}
 
 		starting_technology_level = 3
@@ -16573,9 +16572,9 @@ countries = {
 
 	#Poitou (Revolter)
 	POI = {
-		our_cores_conquered_by_others = {
+		own_control_core = {
 			poitiers la_roche_sur_yon montaigu thouars parthenay fontenay montmorillon
-			niort rochechouart bourganeuf chatellerault
+			niort chatellerault mauleon_poitou talmont beauvoir la_rochelle st_jean_dangely aulnay lusignan
 		}
 
 		starting_technology_level = 3
@@ -16992,11 +16991,11 @@ countries = {
 
 	#Toulouse (Revolter)
 	TOU = {
-		our_cores_conquered_by_others = {
-			toulouse lisle_jourdain narbonne lavaur castelnaudary saint_pons beziers agde melgueil
-			nimes uzes french_ales castres rodez villefranche figeac cahors agen peyrusse entraigues peyre mende
-			lectoure montauban albi villemur lautrec verdun_sur_garonne montflanquin gourdon pamiers foix
-			mirepoix limoux carcassonne fenouillet montpellier chateauneuf_de_randon st_affrique millau 
+		own_control_core = {
+			toulouse lavaur castelnaudary
+			villefranche figeac cahors agen peyrusse entraigues peyre mende
+			montauban albi villemur lautrec verdun_sur_garonne montflanquin gourdon
+			mirepoix limoux carcassonne fenouillet chateauneuf_de_randon st_affrique millau 
 			florac
 		}
 
