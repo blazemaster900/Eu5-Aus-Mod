@@ -1,0 +1,58 @@
+REPLACE:MAI = {	#Mainz
+		own_control_core = {
+			mainz aschaffenburg miltenberg buchen tauberbischofsheim
+			hofgeismar bensheim 
+			katzenelnbogen darmstadt kreuznach birkenfeld castellaun lichtenberg_veldenz
+			meisenheim usingen diez wetzlar worms heidelberg neustadt_an_der_haardt germersheim kaiserslautern
+			sinsheim landau_rhineland zweibrucken bitche pirmasens oppenheim leiningen speyer
+			trier wittlich
+			mayen coblenz saarburg
+			baden durlach
+			wiesbaden
+			simmern
+			friedberg_hesse offenbach
+			frankfurt
+			hanau
+			daun cochem
+			erbach
+			mosbach
+			wied
+			cologne ahrweiler neuss attendorn brilon soest recklinghausen
+			bonn
+			dusseldorf remscheid siegburg solingen
+			dillenburg #Nassau Dillenburg
+			siegen #Nassau Siegen
+			altenkirchen gummersbach
+			hadamar
+			bergheim duren monchengladbach
+			kassel rotenburg eschwege frankenberg marburg alsfeld
+			giessen melsungen
+			ziegenhain
+			korbach
+			berleburg
+		}
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_bishopric_no_coast"
+		include = "expl_northern_europe"
+		country_rank = rank_kingdom
+		government = {
+			ruler = mai_heinrich_iii_von_virneburg
+
+			ruler_term = { character = mai_konrad_i_wittelsbach start_date = 1161.1.1 end_date = 1165.1.1 regnal_number = 1 }
+			ruler_term = { character = mai_konrad_i_wittelsbach start_date = 1183.8.23 end_date = 1200.10.25 regnal_number = 1 } # Restored
+
+			regnal_numbers = {
+				name_conrad = 1
+				name_henry = 1
+			}
+		}
+
+		tolerated_cultures = {
+			east_franconian
+			saxon
+			angrian
+		}
+
+		capital = mainz
+	}
