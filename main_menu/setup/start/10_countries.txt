@@ -14201,13 +14201,13 @@ countries = {
 			clermont montargis sens saint_florentin senlis nemours melun
 			beauvais saint_quentin noyon
 			ribemont laon
-			cahors mirepoix limoux carcassonne lavaur castelnaudary condom nerac bazas agen
-			bergerac montauban albi millau sauveterre_de_guyenne
+			cahors mirepoix limoux carcassonne lavaur castelnaudary agen
+			montauban albi millau sauveterre_de_guyenne
 			figeac villefranche chaumont_vexin
 			bar_sur_seine
-			limeuil sarlat marmande montflanquin
+			marmande montflanquin
 			braine loudun
-			mauriac riom tour_auvergne brioude saint_flour vodable
+			riom tour_auvergne vodable
 			montaigut herment
 
 			tours chinon loches chatillon_sur_indre #D. de Touraine
@@ -14215,15 +14215,15 @@ countries = {
 			soissons crepy #Valois (Own by the ruler)
 
 			chartres auneau #C. Chartres
-			tulle #Limousin
-			limoges nontron segur st_leonard aixe thiviers #Vic. Limoges
-			turenne gourdon #Vic.Turenne
+			#Limousin
+			#Vic. Limoges
+			gourdon #Vic.Turenne
 			mende #C. de Gevaudan
 			langres grancey #D. de Langres
 			macon #C. de Macon
 			beaujeu perreux trevoux #S.de Beaujeu
 			lyon riverie #C. de Lyon
-			le_puy #C. du Velay	
+			#C. du Velay	
 			chambon #B. de Combraille
 			chalons_champagne #C. de Chalon
 			reims #D. Reims
@@ -14242,7 +14242,7 @@ countries = {
 			meaux
 			provins
 			peyrusse entraigues st_affrique
-			allegre chalancon peyre chateauneuf_de_randon florac
+			peyre chateauneuf_de_randon florac
 		}
 		own_control_integrated = {
 			#Appanages
@@ -14755,7 +14755,7 @@ countries = {
 	#Ventadour
 	VNT = {
 		own_control_core = {
-			ventadour ussel
+			ventadour ussel tulle turenne
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -14789,7 +14789,7 @@ countries = {
 	#Rochechouart
 	RCC = {
 		own_control_core = {
-			rochechouart
+			rochechouart nontron thiviers segur aixe st_leonard limoges
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -14813,7 +14813,7 @@ countries = {
 	#Carlat
 	CLT = {
 		own_control_core = {
-			aurillac
+			aurillac mauriac saint_flour
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -15258,6 +15258,9 @@ countries = {
 			auch nogaro rodez
 			lectoure #Vic. de Lomagne
 			lautrec #Vic. de Lautrec
+			nerac
+			bazas
+			condom
 		}
 
 		starting_technology_level = 3
@@ -15808,7 +15811,7 @@ countries = {
 	#Valentinois (Vassal, Fief Mouvant)
 	VLN = {
 		own_control_core = {
-			montlaur 
+			montlaur le_puy chalancon allegre brioude
 
 			# own_control_integrated, but culture accepted
 		}
@@ -15855,7 +15858,7 @@ countries = {
 	#Perigord (Vassal, Fief Mouvant)
 	PER = {
 		own_control_core = {
-			perigueux riberac
+			perigueux riberac bergerac limeuil sarlat marmande sauveterre_de_guyenne
 		}
 
 		starting_technology_level = 3
@@ -16153,7 +16156,7 @@ countries = {
 			bellac gueret aubusson #La Marche
 			angouleme #Angouleme
 			perigueux #Perigord
-			mauriac riom tour_auvergne brioude saint_flour vodable #Auvergne
+			riom tour_auvergne brioude saint_flour vodable #Auvergne
 			limoges tulle #Limousin
 		}
 
