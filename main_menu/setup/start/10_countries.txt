@@ -60939,6 +60939,142 @@ countries = {
 			ruler = random
 		}
 	}
+	ZZZ1 = {
+		country_rank = rank_county
+		starting_technology_level = 3
 
-}
+		own_control_core = {
+		medina_sidonia cadiz jerez_de_la_frontera arcos_de_la_frontera sanlucar sevilla olvera moron carmona
+		}
+
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "iberian_monarchy_no_auxilium"
+
+	}
+	ZZZ2 = {
+		country_rank = rank_county
+		starting_technology_level = 3
+
+		own_control_core = {
+		ecija osuna lucena palma_del_rio cordoba baena jaen martos carpio espiel
+		pedroche fuenteovejuna andujar ubeda jodar cazorla baeza segura_de_la_sierra
+		}
+
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "iberian_monarchy_no_auxilium"
+	}
+	ZZZ3 = {
+		country_rank = rank_county
+		starting_technology_level = 3
+
+		own_control_core = {
+		medellin zafra azuaga llerena monesterio ayamonte huelva niebla coria_del_rio sanlucar_la_mayor
+		aracena constantina
+		}
+
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "iberian_monarchy_no_auxilium"
+	}
+	ZZZ4 = {
+		country_rank = rank_county
+		starting_technology_level = 3
+
+		own_control_core = {
+		aroche puebla_de_guzman almonaster_la_real
+		}
+
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "iberian_monarchy_no_auxilium"
+	}
+	ZZZ5 = {
+		country_rank = rank_county
+		starting_technology_level = 3
+
+		own_control_core = {
+		herrera malagon manzanares ciudad_real calatrava alhambra_location puertollano almodovar_del_campo santa_eufemia almaden
+		puebla_de_alcocer escurial zalamea villanueva_de_la_serena belalcazar
+		}
+
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "iberian_monarchy_no_auxilium"
+	}
+	ZZZ6 = {
+		country_rank = rank_county
+		starting_technology_level = 3
+
+		own_control_core = {
+		badajoz caceres jaraicejo guadalupe trujillo montanchez merida barcarrota villanueva_del_fresno jerez_de_los_caballeros
+		}
+
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "iberian_monarchy_no_auxilium"
+	}
+	ZZZ7 = {
+		country_rank = rank_county
+		starting_technology_level = 3
+
+		own_control_core = {
+		montiel canete moya lezuza villapalacios alcaraz albacete requena jorquera chinchilla
+		villena hellin iniesta
+		}
+
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "iberian_monarchy_no_auxilium"
+	}
+	ZZZ8 = {
+		country_rank = rank_county
+		starting_technology_level = 3
+
+		own_control_core = {
+		molina_de_aragon beteta pareja alarcon zorita torralba cuenca huete tomelloso maqueda
+		puebla_de_montalban illescas toledo los_yebenes navalucillos talavera_de_la_reina oropesa puente_arzobispo adrada las_navas
+		el_escorial colmenar chinchon alcala_de_henares madrid siguenza cobeta buitrago_de_lozoya brihuega guadalajara
+		ucles ocana consuegra alcazar_de_san_juan belmonte villarobledo san_clemente medinaceli almazan
+		}
+
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "iberian_monarchy_no_auxilium"
+	}
+	ZZZ9 = {
+		country_rank = rank_county
+
+		own_control_core = {
+		bilbao laredo valmaseda durango tolosa vitoria onate salvatierra anana miranda_de_ebro
+		villarcayo santander reinosa san_vicente_barquera potes llanes cangas mieres villaviciosa oviedo
+		aviles tineo castropol
+		}
+	}
+	}
 }
