@@ -1612,10 +1612,13 @@ countries = {
 			}
 		}
 
-		tolerated_cultures = {
+		accepted_cultures = {
 			east_franconian
 			saxon
 			angrian
+			ripuarian_franconian
+			moselle_franconian
+			westphalian
 		}
 
 		capital = mainz
@@ -4342,7 +4345,7 @@ countries = {
 			# channel
 			jersey
 			# france			
-			abbeville montreuil #Ponthieu
+			#Ponthieu
 		}
 		own_control_conquered = {
 			berwick
@@ -10751,14 +10754,17 @@ countries = {
 			condorcet
 			vienne
 			montpellier #Lordship of Montpellier
-			beziers agde
-			saint_pons
 			lodeve
-			narbonne
+
 			st_ambroix
 			viviers # C. de Viviers	
 			privas
 			tournon #S. de Tournon	
+			montlaur
+			chambery
+			florac
+			thoire
+			belley
 		}
 		our_cores_conquered_by_others = {
 			avignon #Controlled by the Pope, but historically owned by Naples
@@ -11452,9 +11458,9 @@ countries = {
 	#Savoy - SAV
 	SAV = {
 		own_control_core = {
-			bourg_en_bresse belley chambery gex saint_jean_de_maurienne
+			bourg_en_bresse gex saint_jean_de_maurienne
 			moutiers evian
-			bage thoire 
+			bage 
 		}
 
 		starting_technology_level = 3
@@ -14207,6 +14213,7 @@ countries = {
 			bar_sur_seine
 			marmande montflanquin
 			braine
+			abbeville montreuil
 
 			#D. de Touraine
 
@@ -14217,7 +14224,7 @@ countries = {
 			#Vic. Limoges
 			gourdon #Vic.Turenne
 			mende #C. de Gevaudan
-			langres grancey #D. de Langres
+			#D. de Langres
 			#C. de Macon
 			#S.de Beaujeu
 			#C. de Lyon
@@ -14240,7 +14247,27 @@ countries = {
 			meaux
 			provins
 			peyrusse entraigues st_affrique
-			peyre chateauneuf_de_randon florac
+			peyre chateauneuf_de_randon
+
+			arques
+			longueville
+			aumale
+
+			gisors
+			rouen
+			louviers
+			fecamp
+			tancarville
+			pont_audemer
+			evreux
+			mantes
+			harcourt
+			clermont_en_beauvaisis
+			monfort_lamaury
+			dreux
+			etampes
+			bernay laigle
+			senonches
 		}
 		own_control_integrated = {
 			#Appanages
@@ -14251,22 +14278,21 @@ countries = {
 
 			#C. de Champagne
 			chateau_thierry broyes vertus nogent_sur_seine bar_sur_aube
-			chaumont vaucouleurs vitry_en_pertois troyes epernay menehould
-			rosnay villemaur choiseul
+			chaumont vitry_en_pertois troyes epernay menehould
+			villemaur
 
 			#Too small/unimportant appanages
-			guise hirson
 
 			#Too small/unimportant vassals (fiefs movants)
-			coucy marle #S. Coucy
+			coucy #S. Coucy
 			#Vic. des Quatre Valles
 			brienne #C. Brienne
 			joinville #S. Joinville
-			grandpre #C. Grandpre
+			#C. Grandpre
 		}
 
 		own_control_conquered = {
-			lille douai tournai #From Flanders after the Treaty of Athis-sur-Orge
+			 #From Flanders after the Treaty of Athis-sur-Orge
 		}
 
 		our_cores_conquered_by_others = {
@@ -14920,7 +14946,7 @@ countries = {
 			bourbon molins huriel montlucon vichy
 			jaligny st_gerand
 			# own_control_integrated, but culture accepted
-			clermont_en_beauvaisis #C. Clermont-en-Beauvaisis
+			 #C. Clermont-en-Beauvaisis
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -15338,43 +15364,6 @@ countries = {
 
 	#Dreux (Appanage)
 	DRE = {
-		own_control_core = {
-			dreux
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = dre_pierre_i_dreux
-			reforms = {
-				french_appanage_reform
-			}
-
-			ruler_term = { character = bls_eudes_i_blois start_date = 991.1.1 end_date = 996.3.12 regnal_number = 1 }
-			ruler_term = { character = chp_eudes_i_blois start_date = 996.3.12 end_date = 1022.1.1 regnal_number = 2 }
-
-			ruler_term = { character = dre_robert_i_dreux start_date = 1152.1.1 end_date = 1184.1.1 regnal_number = 1 }
-			ruler_term = { character = dre_robert_ii_dreux start_date = 1184.1.1 end_date = 1218.12.28 regnal_number = 2 }
-			ruler_term = { character = dre_robert_iii_dreux start_date = 1218.12.28 end_date = 1234.3.3 regnal_number = 3 }
-			ruler_term = { character = dre_jean_i_dreux start_date = 1234.3.3 end_date = 1249.1.1 regnal_number = 1 }
-			ruler_term = { character = dre_robert_iv_dreux start_date = 1249.1.1 end_date = 1282.11.12 regnal_number = 4 }
-			ruler_term = { character = dre_jean_ii_dreux start_date = 1282.11.12 end_date = 1309.1.1 regnal_number = 2 }
-			ruler_term = { character = dre_robert_v_dreux start_date = 1309.1.1 end_date = 1327.1.1 regnal_number = 5 }
-			ruler_term = { character = dre_jean_iii_dreux start_date = 1327.1.1 end_date = 1331.1.1 regnal_number = 3 }
-			ruler_term = { character = dre_pierre_i_dreux start_date = 1331.1.1 regnal_number = 1 }
-
-			regnal_numbers = {
-				name_otto = 2
-				name_robert = 5
-				name_john = 3
-				name_peter = 1
-			}
-		}
-
-		capital = dreux
 	}
 
 	#Vendome (Appanage)
@@ -15423,7 +15412,7 @@ countries = {
 	#Etampes (Appanage)
 	ETA = {
 		own_control_core = {
-			etampes #C. de Etampes
+			 #C. de Etampes
 			gien #C. de Gien
 		}
 		starting_technology_level = 3
@@ -15449,7 +15438,7 @@ countries = {
 			}
 		}
 
-		capital = etampes
+		capital = gien
 	}
 
 	#Forez (Vassal, Fief Mouvant)
@@ -15567,8 +15556,13 @@ countries = {
 			la_mothe_en_bassigny bar_le_duc clermont_en_argonne
 			saint_mihiel longwy #HRE
 			# own_control_integrated, but culture accepted
-			alluyes #B. du Perche-Gou�t
+			#B. du Perche-Gou�t
 			ligny etain
+			grandpre
+			vaucouleurs
+			choiseul
+			langres
+			grancey
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -15830,7 +15824,7 @@ countries = {
 	#Valentinois (Vassal, Fief Mouvant)
 	VLN = {
 		own_control_core = {
-			montlaur le_puy chalancon allegre brioude
+			le_puy chalancon allegre brioude
 
 			# own_control_integrated, but culture accepted
 		}
@@ -16003,117 +15997,16 @@ countries = {
 
 	#Montfort (Vassal, Fief Mouvant)
 	MON = {
-		own_control_core = {
-			monfort_lamaury
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast_no_censor"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = mon_jean_montfort
-			reforms = {
-				french_ducal_vassal_reform
-			}
-
-			ruler_term = { character = mon_amaury_i_montfort start_date = 1050.1.1 end_date = 1053.1.1 regnal_number = 1 }
-			ruler_term = { character = mon_simon_i_montfort start_date = 1053.1.1 end_date = 1087.9.25 regnal_number = 1 }
-			ruler_term = { character = mon_amaury_ii_montfort start_date = 1087.9.25 end_date = 1089.1.1 regnal_number = 2 }
-			ruler_term = { character = mon_richard_montfort start_date = 1089.1.1 end_date = 1092.1.1 regnal_number = 1 }
-			ruler_term = { character = mon_simon_ii_montfort start_date = 1092.1.1 end_date = 1101.9.25 regnal_number = 2 }
-			ruler_term = { character = mon_amaury_iii_montfort start_date = 1101.9.25 end_date = 1137.1.1 regnal_number = 3 }
-			ruler_term = { character = mon_simon_iii_montfort start_date = 1137.1.1 end_date = 1181.3.13 regnal_number = 3 }
-			ruler_term = { character = mon_simon_iv_montfort start_date = 1181.3.13 end_date = 1218.6.25 regnal_number = 4 }
-			ruler_term = { character = mon_amaury_vi_montfort start_date = 1218.6.25 end_date = 1241.8.28 regnal_number = 3 }
-			ruler_term = { character = mon_jean_i_montfort start_date = 1241.8.28 end_date = 1249.1.1 regnal_number = 1 }
-			ruler_term = { character = mon_beatrice_montfort start_date = 1249.1.1 end_date = 1311.3.9 regnal_number = 1 }
-			ruler_term = { character = mon_yolande_montfort start_date = 1311.3.9 end_date = 1322.8.2 regnal_number = 1 }
-			ruler_term = { character = mon_jean_montfort start_date = 1322.8.2 regnal_number = 2 }
-
-			regnal_numbers = {
-				name_william = 1
-				name_amalric = 6
-				name_simeon = 4
-				name_richard = 1
-				name_john = 2
-				name_beatrix = 1
-				name_yolande = 1
-			}
-		}
-		capital = monfort_lamaury
 	}
 
 	#Aumale (Vassal, Fief Mouvant)
 	AUM = {
-		own_control_core = {
-			aumale
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = aum_jean_burgundy_castile
-			reforms = {
-				french_ducal_vassal_reform
-			}
-
-			ruler_term = { character = aum_etienne_i_blois start_date = 1090.1.1 end_date = 1127.1.1 regnal_number = 1 }
-			ruler_term = { character = eng_guillaume_i_blois start_date = 1127.1.1 end_date = 1179.8.20 regnal_number = 1 }
-			ruler_term = { character = eng_hawise_i_blois start_date = 1179.8.20 end_date = 1194.1.1 regnal_number = 1 }
-
-			ruler_term = { character = bgn_renaud_dammartin start_date = 1204.1.1 end_date = 1206.1.1 regnal_number = 1 }
-			ruler_term = { character = aum_simon_i_dammartin start_date = 1206.1.1 end_date = 1214.1.1 regnal_number = 1 }
-
-			ruler_term = {
-				character = aum_philippe_hurepel_clermont start_date = 1214.1.1 end_date = 1234.1.1 regnal_number = 1
-				character = bgn_mathilde_ii_dammartin start_date = 1214.1.1 end_date = 1234.1.1 regnal_number = 1 # Co-Ruler
-			}
-
-			ruler_term = { character = aum_simon_i_dammartin start_date = 1234.1.1 end_date = 1239.9.21 regnal_number = 1 } # Restored
-			ruler_term = {
-				character = aum_jeanne_i_ponthieu start_date = 1239.9.21 end_date = 1252.5.30 regnal_number = 1
-				character = cas_fernando_iii_burgundy start_date = 1239.9.21 end_date = 1252.5.30 regnal_number = 1 # Marital Co-Ruler
-			}
-			ruler_term = {
-				character = aum_jeanne_i_ponthieu start_date = 1252.5.30 end_date = 1264.1.1 regnal_number = 1
-				character = aum_ferdinand_ii_ponthieu start_date = 1252.5.30 end_date = 1264.1.1 regnal_number = 2
-			}
-			ruler_term = {
-				character = aum_jeanne_i_ponthieu start_date = 1264.1.1 end_date = 1279.3.16 regnal_number = 1
-				character = aum_jean_i_ponthieu start_date = 1264.1.1 end_date = 1279.3.16 regnal_number = 1
-			}
-			ruler_term = { character = aum_jean_i_ponthieu start_date = 1279.3.16 end_date = 1302.7.11 regnal_number = 1 }
-			ruler_term = { character = aum_jean_burgundy_castile start_date = 1302.7.11 regnal_number = 2 }
-
-			regnal_numbers = {
-				#Guérimfred = 1
-				name_hugh = 1
-				name_enguerrand = 1
-				name_adelaide = 1
-				name_stephen = 1
-				name_william = 3
-				name_hedwig = 1
-				name_reginald = 1
-				name_simeon = 1
-				name_philip = 1
-				name_matilda = 1
-				name_joanna = 1
-				name_ferdinand = 2
-				name_john = 2
-			}
-		}
-		capital = aumale
 	}
 
 	#Roucy (Vassal, Fief Mouvant)
 	ROU = {
 		own_control_core = {
-			roucy
+			roucy guise marle laon
 		}
 
 		starting_technology_level = 3
@@ -16349,7 +16242,8 @@ countries = {
 	#Perche (In PU with Alençon)
 	PRC = {
 		own_control_core = {
-			belleme mortagne senonches
+			belleme mortagne
+			alluyes
 		}
 
 		starting_technology_level = 3
@@ -16829,6 +16723,7 @@ countries = {
 		own_control_core = {
 			rethel #C. Rethel
 			chateau_porcien #C. Porcien, vassal of Rethiel
+			hirson
 		}
 
 		starting_technology_level = 3
@@ -16866,60 +16761,13 @@ countries = {
 	}
 
 	EVR = {
-		own_control_core = {
-			evreux harcourt #Normandy
-			mantes #Ile de France
-			longueville #Longueville
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			ruler = nav_philip_iii_evreux
-			reforms = {
-				french_appanage_reform
-			}
-
-			ruler_term = { character = mon_amaury_iii_montfort start_date = 1118.4.18 end_date = 1137.1.1 regnal_number = 1 }
-			ruler_term = { character = evr_amaury_iv_montfort start_date = 1137.1.1 end_date = 1140.1.1 regnal_number = 2 }
-			ruler_term = { character = mon_simon_iii_montfort start_date = 1140.1.1 end_date = 1181.3.13 regnal_number = 1 }
-			ruler_term = { character = evr_amaury_v_montfort start_date = 1181.3.13 end_date = 1182.3.13 regnal_number = 3 }
-			ruler_term = { character = eng_amaury_vi_montfort start_date = 1182.3.13 end_date = 1195.1.1 regnal_number = 4 }
-
-			# Annexed to Normandy 1195-1200, later to France 1200-1298
-
-			ruler_term = { character = evr_louis_evreux start_date = 1298.4.1 end_date = 1319.1.1 regnal_number = 1 }
-			ruler_term = { character = nav_philip_iii_evreux start_date = 1319.1.1 regnal_number = 1 }
-
-			regnal_numbers = {
-				name_robert = 1
-				name_richard = 1
-				name_william = 1
-				name_amalric = 4
-				name_simeon = 1
-				name_louis = 1
-				name_philip = 1
-			}
-		}
-
-		tolerated_cultures = {
-			french
-		}
-
-		capital = evreux
 	}
 
 	#Normandy
 	NRM = {
 		own_control_core = {
-			bernay laigle louviers pont_audemer
 			caen argentan bayeux domfront falaise lisieux pont_douilly
 			cherbourg coutances avranches st_sauveur vire
-			rouen arques fecamp gisors tancarville
 		}
 
 		our_cores_conquered_by_others = {
@@ -16970,11 +16818,54 @@ countries = {
 			}
 		}
 		country_rank = rank_duchy
-		capital = rouen
+		capital = caen
 	}
 
 	#Narbonne
 	NRB = {
+		own_control_core = {
+			narbonne saint_pons beziers agde
+		}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_monarchy"
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = nrb_amalric_iii_lara
+
+			ruler_term = { character = cas_pedro_manrique_lara start_date = 1192.1.1 end_date = 1202.1.1 regnal_number = 2 }
+			ruler_term = { character = nrb_amalric_i_lara start_date = 1202.1.1 end_date = 1270.12.1 regnal_number = 1 }
+			ruler_term = { character = nrb_aimeric_iv_lara start_date = 1270.12.1 end_date = 1298.10.1 regnal_number = 4 }
+			ruler_term = { character = nrb_amalric_ii_lara start_date = 1298.10.1 end_date = 1328.6.19 regnal_number = 2 }
+			ruler_term = { character = nrb_aimeric_v_lara start_date = 1328.6.19 end_date = 1336.6.1 regnal_number = 5 }
+			ruler_term = { character = nrb_amalric_iii_lara start_date = 1336.6.1 regnal_number = 3 }
+
+			regnal_numbers = {
+				#Lindoin = 1
+				name_alberic = 2
+				#Mayeul = 1
+				name_otto = 1
+				#Volverade = 1
+				#Matfred = 1
+				name_raymond = 2
+				name_berengar = 1
+				name_bernard = 1
+				name_peter = 2
+				name_aimeric = 5
+				name_ermengard = 1
+				name_amalric = 3
+			}
+
+			reforms = {
+				french_ducal_vassal_reform
+			}
+		}
+		tolerated_cultures = {
+			sephardi
+		}
+		capital = narbonne
 	}
 
 	#Orleans (Revolter) Becomes an appanage in 1344
@@ -17019,7 +16910,6 @@ countries = {
 			villefranche figeac cahors agen peyrusse entraigues peyre mende
 			montauban albi villemur lautrec verdun_sur_garonne montflanquin gourdon
 			mirepoix limoux carcassonne fenouillet chateauneuf_de_randon st_affrique millau 
-			florac
 		}
 
 		starting_technology_level = 3
@@ -17054,9 +16944,15 @@ countries = {
 
 	#Champagne (Revolter)
 	CHP = {
-		our_cores_conquered_by_others = {
-			chateau_thierry broyes vertus meaux provins nogent_sur_seine bar_sur_aube
-			chaumont vaucouleurs vitry_en_pertois troyes epernay menehould
+		own_control_core = {
+			vertus bar_sur_aube
+			chaumont vitry_en_pertois troyes epernay menehould
+			chalons_champagne
+			reims
+			brienne
+			joinville
+			rosnay
+
 		}
 
 		starting_technology_level = 3
@@ -17211,10 +17107,11 @@ countries = {
 		own_control_core = {
 			cassel dunkirk oudenaarde ypres veurne
 			ostend bruges hulst ghent sint_niklaas aalst kortriik
-		}
-		our_cores_conquered_by_others = {
 			lille douai tournai
 		}
+		#our_cores_conquered_by_others = {
+		#	lille douai tournai
+		#}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_monarchy"

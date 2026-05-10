@@ -79,9 +79,8 @@ REPLACE:compagnie_d_ordonnance = {
 	icon = teu_teutonic_heavy_cavalry
 
 	requires = armory_advance
-
-	army_cavalry_power = 0.05
-	army_cavalry_maintenance_cost_modifier = -0.1
+	army_heavy_cavalry_power = 0.05
+	army_heavy_cavalry_maintenance_cost_modifier = -0.1
 }
 
 REPLACE:influence_of_the_burgundian_towns = {
