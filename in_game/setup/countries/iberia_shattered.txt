@@ -1,0 +1,89 @@
+﻿ZZZ1 = {
+	color = rgb { 150 100 100 }
+	color2 = red
+
+	culture_definition = castilian
+	religion_definition = sunni	
+	
+	difficulty = 2	# int between 1 and 5
+}
+
+ZZZ2 = {
+	color = rgb { 100 150 170 }
+	color2 = red
+
+	culture_definition = castilian
+	religion_definition = sunni	
+	
+	difficulty = 2	# int between 1 and 5
+}
+
+ZZZ3 = {
+	color = rgb { 100 190 170 }
+	color2 = red
+
+	culture_definition = castilian
+	religion_definition = sunni	
+	
+	difficulty = 2	# int between 1 and 5
+}
+
+ZZZ4 = {
+	color = rgb { 100 190 150 }
+	color2 = red
+
+	culture_definition = castilian
+	religion_definition = catholic	
+	
+	difficulty = 2	# int between 1 and 5
+}
+
+ZZZ5 = {
+	color = rgb { 200 130 150 }
+	color2 = red
+
+	culture_definition = castilian
+	religion_definition = catholic	
+	
+	difficulty = 2	# int between 1 and 5
+}
+
+ZZZ6 = {
+	color = rgb { 100 130 120 }
+	color2 = red
+
+	culture_definition = castilian
+	religion_definition = catholic	
+	
+	difficulty = 2	# int between 1 and 5
+}
+
+ZZZ7 = {
+	color = rgb { 100 190 120 }
+	color2 = red
+
+	culture_definition = castilian
+	religion_definition = catholic	
+	
+	difficulty = 2	# int between 1 and 5
+}
+
+ZZZ8 = {
+	color = rgb { 100 190 210 }
+	color2 = red
+
+	culture_definition = castilian
+	religion_definition = catholic	
+	
+	difficulty = 2	# int between 1 and 5
+}
+
+ZZZ9 = {
+	color = rgb { 100 150 210 }
+	color2 = red
+
+	culture_definition = castilian
+	religion_definition = catholic	
+	
+	difficulty = 2	# int between 1 and 5
+}
