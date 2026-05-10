@@ -14206,11 +14206,9 @@ countries = {
 			figeac villefranche chaumont_vexin
 			bar_sur_seine
 			marmande montflanquin
-			braine loudun
-			riom tour_auvergne vodable
-			montaigut herment
+			braine
 
-			tours chinon loches chatillon_sur_indre #D. de Touraine
+			#D. de Touraine
 
 			soissons crepy #Valois (Own by the ruler)
 
@@ -14220,9 +14218,9 @@ countries = {
 			gourdon #Vic.Turenne
 			mende #C. de Gevaudan
 			langres grancey #D. de Langres
-			macon #C. de Macon
-			beaujeu perreux trevoux #S.de Beaujeu
-			lyon riverie #C. de Lyon
+			#C. de Macon
+			#S.de Beaujeu
+			#C. de Lyon
 			#C. du Velay	
 			chambon #B. de Combraille
 			chalons_champagne #C. de Chalon
@@ -14232,9 +14230,9 @@ countries = {
 
 			orleans sully vitry_aux_loges #D. de Orleans, Appanage in 1344
 
-			issoudun bourges lignieres sancoins vierzon #Berry(On October 1360, King John II created the title)
+			#Berry(On October 1360, King John II created the title)
 
-			chateauroux boussac #S. de Chateauroux
+			#S. de Chateauroux
 
 			#C. Bigorre
 
@@ -14249,7 +14247,7 @@ countries = {
 
 			#Poitou (Own by the ruler)
 			poitiers la_roche_sur_yon montaigu thouars parthenay fontenay montmorillon
-			niort chatellerault brosse
+			niort chatellerault
 
 			#C. de Champagne
 			chateau_thierry broyes vertus nogent_sur_seine bar_sur_aube
@@ -14498,6 +14496,9 @@ countries = {
 			avallon
 			montcenis
 			aignay arnay beaune auxonne louhans
+			macon
+			trevoux
+			beaujeu
 		}
 
 		starting_technology_level = 3
@@ -14701,6 +14702,14 @@ countries = {
 	AUV = {
 		own_control_core = {
 			vic_le_comte
+			vodable
+			tour_auvergne
+			herment
+			montaigu
+			chambon
+			riom
+			montaigut
+			clermont
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -14951,6 +14960,10 @@ countries = {
 	MRC = {
 		own_control_core = {
 			bellac charroux gueret aubusson bourganeuf #La Marche
+			brosse
+			chateauroux
+			lignieres
+			boussac
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -15083,6 +15096,10 @@ countries = {
 	SAN = {
 		own_control_core = {
 			sancerre
+			vierzon
+			bourges
+			sancoins
+			issoudun
 		}
 
 		starting_technology_level = 3
@@ -15440,6 +15457,7 @@ countries = {
 		own_control_core = {
 			roanne montbrison feurs saint_etienne
 			thiers #S. Thiers
+			perreux lyon riverie
 		}
 
 		starting_technology_level = 3
@@ -15598,6 +15616,7 @@ countries = {
 	BLS = {
 		own_control_core = {
 			blois beaugency chateaudun romorantin st_aignan
+			tours chinon amboise loches chatillon_sur_indre
 		}
 
 		starting_technology_level = 3
@@ -16632,6 +16651,7 @@ countries = {
 		own_control_core = {
 			angers chateau_gontier bauge saumur
 			beaupreau le_lude passavant
+			loudun
 		}
 
 		starting_technology_level = 3
