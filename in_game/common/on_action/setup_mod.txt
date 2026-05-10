@@ -11,27 +11,9 @@ on_game_start = {
 
 mod_adjust_france = {
 	effect = {
-		location:bordeaux = {
-			change_building_level_in_location = { building = building_type:bordeaux_governor value = 1 }
-			change_building_level_in_location = {building = building_type:city_walls value = 1}
-		}
-		location:jonzac = {
-			change_building_level_in_location = {building = building_type:castle value = 1}
-		}
-		location:mimizan = {
-			change_building_level_in_location = {building = building_type:castle value = 1}
-		}
-		location:montreuil = {
-			change_building_level_in_location = {building = building_type:castle value = 1}
-		}
-		
-
 		c:FRA = {
 			cancel_subject = c:FLA
-			cancel_subject = c:BRI
-			cancel_subject = c:NRM
-			cancel_subject = c:BGN
-			
+
 			add_truce_with = { target = c:FLA mutual = yes months = 180 }
 			add_truce_with = { target = c:HAI mutual = yes months = 180 }
 			add_truce_with = { target = c:BRB mutual = yes months = 180 }
@@ -41,18 +23,10 @@ mod_adjust_france = {
 			add_truce_with = { target = c:UTR mutual = yes months = 180 }
 			add_truce_with = { target = c:LOO mutual = yes months = 180 }
 			add_truce_with = { target = c:NAM mutual = yes months = 180 }
-			hidden_effect = {
-				set_prestige = 0
-			}
-			add_country_modifier = {
-				mode = add_and_replace
-				modifier = france_cant_accept_cultures_100y_war
-				years = 5
-			}
 		}
 
 		c:ENG = {
-
+			cancel_subject = c:AQN
 			add_truce_with = { target = c:FLA mutual = yes months = 180 }
 			add_truce_with = { target = c:HAI mutual = yes months = 180 }
 			add_truce_with = { target = c:BRB mutual = yes months = 180 }
@@ -62,11 +36,6 @@ mod_adjust_france = {
 			add_truce_with = { target = c:UTR mutual = yes months = 180 }
 			add_truce_with = { target = c:LOO mutual = yes months = 180 }
 			add_truce_with = { target = c:NAM mutual = yes months = 180 }
-			add_country_modifier = {
-				mode = add_and_replace
-				modifier = eng_promote_for_forts
-				months = 6
-			}
 
 		}
 
@@ -184,6 +153,46 @@ habs_setup = {
 mod_shatter_france = {
 	effect = {
 		c:FRA = {
+			cancel_subject = c:ARS
+			cancel_subject = c:BGN
+			cancel_subject = c:STP
+			cancel_subject = c:ART
+			cancel_subject = c:RET
+			cancel_subject = c:BAR
+			cancel_subject = c:TON
+			cancel_subject = c:BUR
+			cancel_subject = c:NRM
+			cancel_subject = c:BRI
+			cancel_subject = c:ANJ
+			cancel_subject = c:ANG
+			cancel_subject = c:MRC
+			cancel_subject = c:PER
+			cancel_subject = c:AMG
+			cancel_subject = c:BRR
+			cancel_subject = c:AST
+			cancel_subject = c:COM
+			cancel_subject = c:FOI
+			cancel_subject = c:VDM
+			cancel_subject = c:CLT
+			cancel_subject = c:CNT
+			cancel_subject = c:RCC
+			cancel_subject = c:BLS
+			cancel_subject = c:VNT
+			cancel_subject = c:VLN
+			cancel_subject = c:FRZ
+			cancel_subject = c:NEV
+			cancel_subject = c:BOU
+			cancel_subject = c:AUV
+			cancel_subject = c:MRC
+			cancel_subject = c:IJO
+			cancel_subject = c:SAN
+			cancel_subject = c:AUX
+			cancel_subject = c:PRC
+			cancel_subject = c:ROU
+			cancel_subject = c:MON
+			cancel_subject = c:MRT
+			cancel_subject = c:DRE
+			cancel_subject = c:ETA
 			
 		}
 
