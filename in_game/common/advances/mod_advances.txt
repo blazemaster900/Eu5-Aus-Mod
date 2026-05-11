@@ -6,3 +6,12 @@ REPLACE:faster_levy_recruitment  = {
 	global_levy_recruitment_speed_modifier = 0.2
     correct_box_chance = 999
 }
+dan_danish_legislation = {
+	age = age_1_traditions
+	potential = {
+		has_or_had_tag = DAN
+	}
+	global_estate_target_satisfaction = tiny_permanent_target_satisfaction
+
+	requires = dan_levy_recruitment
+}

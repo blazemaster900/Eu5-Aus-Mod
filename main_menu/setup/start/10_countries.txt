@@ -181,17 +181,17 @@ countries = {
 			
 			#still owned in skane
 			laholm asbo
-		}
-
-
-		our_cores_conquered_by_others = {
 			varberg halmstad kungsbacka
 			ronneby bregne solvesborg
 			gladsax osby 
 			helsingborg lund malmo
 		}
 
-		capital = roskilde
+
+		our_cores_conquered_by_others = {
+		}
+
+		capital = kobenhavn
 		dynasty = estrid_dynasty
 		court_language = low_german_dialect
 
@@ -281,7 +281,7 @@ countries = {
 				access_to_royal_and_ecclesiastical_courts
 			}
 			laws = {
-				legal_code_law = dan_regional_law
+				legal_code_law = dan_danske_lov
 			}
 			
 
@@ -291,7 +291,7 @@ countries = {
 			serfdom_vs_free_subjects = 20
 			belligerent_vs_conciliatory = -40
 			offensive_vs_defensive = 40
-			land_vs_naval = 50
+			land_vs_naval = 55
 			outward_vs_inward = -40
 		}
 		tolerated_cultures = {
@@ -307,31 +307,6 @@ countries = {
 	}
 
 	SKE = {
-		own_control_core = {
-			varberg halmstad kungsbacka
-			ronneby bregne solvesborg
-			gladsax osby
-			helsingborg lund malmo
-		}
-		
-		our_cores_conquered_by_others = {
-			laholm asbo
-		}
-
-
-		capital = lund
-
-		include = "catholic_monarchy"
-		include = "expl_scandinavia"
-
-		country_rank = rank_kingdom
-
-
-		government = {
-			ruler = swe_magnus_eriksson
-			ruler_term = { character = swe_magnus_eriksson start_date = 1332.6.19 regnal_number = 1	}
-
-		}
 	}
 
 
