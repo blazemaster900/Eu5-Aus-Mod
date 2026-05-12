@@ -14181,100 +14181,21 @@ countries = {
 
 	FRA = {
 		own_control_core = {
-			paris brie_comte_robert corbeil montmorency
-			amiens breteuil corbie nesle peronne
-			clermont montargis sens saint_florentin senlis nemours melun
-			beauvais saint_quentin noyon
-			ribemont laon
-			cahors mirepoix limoux carcassonne lavaur castelnaudary agen
-			montauban albi millau sauveterre_de_guyenne
-			figeac villefranche chaumont_vexin
-			bar_sur_seine
-			marmande montflanquin
-			braine
-			abbeville montreuil
-
-			#D. de Touraine
-
-			soissons crepy #Valois (Own by the ruler)
-
-			chartres auneau #C. Chartres
-			#Limousin
-			#Vic. Limoges
-			gourdon #Vic.Turenne
-			mende #C. de Gevaudan
-			#D. de Langres
-			#C. de Macon
-			#S.de Beaujeu
-			#C. de Lyon
-			#C. du Velay	
-			chambon #B. de Combraille
-			chalons_champagne #C. de Chalon
-			reims #D. Reims
-
-			amboise #S.
-
-			orleans sully vitry_aux_loges #D. de Orleans, Appanage in 1344
-
-			#Berry(On October 1360, King John II created the title)
-
-			#S. de Chateauroux
-
-			#C. Bigorre
-
-			fenouillet toulouse verdun_sur_garonne villemur
-			meaux
-			provins
-			peyrusse entraigues st_affrique
-			peyre chateauneuf_de_randon
-
-			arques
-			longueville
-			aumale
-
-			gisors
-			rouen
-			louviers
-			fecamp
-			tancarville
-			pont_audemer
-			evreux
-			mantes
-			harcourt
-			clermont_en_beauvaisis
-			monfort_lamaury
-			dreux
-			etampes
-			bernay laigle
-			senonches
+			paris brie_comte_robert corbeil montmorency amiens breteuil corbie nesle peronne
+			montargis sens senlis nemours melun beauvais saint_quentin noyon ribemont
+			laon
+			chaumont_vexin bar_sur_seine braine abbeville
+			montreuil soissons crepy chartres auneau
+			orleans sully vitry_aux_loges meaux provins
+			arques longueville aumale gisors rouen
+			louviers fecamp tancarville pont_audemer evreux mantes harcourt clermont_en_beauvaisis monfort_lamaury dreux
+			etampes bernay laigle senonches
 		}
+
 		own_control_integrated = {
-			#Appanages
-
-			#Poitou (Own by the ruler)
-			poitiers la_roche_sur_yon montaigu thouars parthenay fontenay montmorillon
-			niort chatellerault
-
-			#C. de Champagne
-			chateau_thierry broyes vertus nogent_sur_seine bar_sur_aube
-			chaumont vitry_en_pertois troyes epernay menehould
-			villemaur
-
-			#Too small/unimportant appanages
-
-			#Too small/unimportant vassals (fiefs movants)
-			coucy #S. Coucy
-			#Vic. des Quatre Valles
-			brienne #C. Brienne
-			joinville #S. Joinville
-			#C. Grandpre
-		}
-
-		own_control_conquered = {
-			 #From Flanders after the Treaty of Athis-sur-Orge
-		}
-
-		our_cores_conquered_by_others = {
+			poitiers la_roche_sur_yon montaigu thouars parthenay fontenay montmorillon niort chatellerault chateau_thierry
+			broyes vertus nogent_sur_seine epernay villemaur
+			coucy
 		}
 
 		starting_technology_level = 3
