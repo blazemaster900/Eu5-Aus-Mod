@@ -129,7 +129,7 @@ REPLACE:bur_rich_soil_of_burgundy = {
 	
 	global_raw_material_output = 0.2
 }
-dan_danish_legislation = {
+REPLACE:dan_danish_legislation = {
 	age = age_1_traditions
 	potential = {
 		has_or_had_tag = DAN
