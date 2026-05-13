@@ -58,7 +58,7 @@ mod_save_fix = {
 }
 dan_setup = {
 	effect = {
-		c:DAN = {
+		c:DAN = { #for some reason, even removing the debt from DAN in the mod_countries_MAI_DAN doesn't remove it, so w/e we brute for it
 			add_gold = 500 #for starting debt, easiest way to remove it without modifying other files
 			research_advance = dan_danish_legislation #small buff for earlier law, denmark is a bad country anyway, nobody will notice ;)
 			add_government_power = 70 #okay, 55 was not enough, DAN doesn't need nerfs that other countries don't have to deal with
