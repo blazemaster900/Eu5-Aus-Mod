@@ -2,6 +2,7 @@ on_game_start = {
 	on_actions = {
 		mod_adjust_france
 		mod_save_fix
+		mod_adjust_hun
 	}
 }
 
@@ -54,4 +55,11 @@ mod_save_fix = {
 
 	}
 
+}
+mod_adjust_hun = {
+    effect = {
+        c:HUN = {
+            cancel_subject = c:BOS
+        }
+    }
 }
