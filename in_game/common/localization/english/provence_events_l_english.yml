@@ -1,0 +1,232 @@
+﻿l_english:
+ # ==========================================
+ # CHAIN 1: THE ANGEVIN INHERITANCE (1337-1380)
+ # ==========================================
+ 
+ # Event 1.1 - The Legacy of King Robert
+ provence.1.title: "The Legacy of King Robert"
+ provence.1.desc: "King Robert the Wise, our beloved sovereign, grows old. As Count of Provence and King of Naples, he has ruled with wisdom and learning, transforming our courts into centers of culture and justice. Yet a shadow hangs over his legacy - his only son Charles of Calabria died in 1328, leaving the succession uncertain.\n\nHis granddaughter Joanna stands as heir, but in an age where Salic Law spreads across Europe, many question whether a woman can truly inherit these ancient lands. The nobles whisper, foreign powers circle, and the future of the House of Anjou hangs in the balance.\n\nHow shall we secure our legacy?"
+ provence.1.historical_info: "Robert I of Anjou (1276-1343) was known as 'the Wise' for his patronage of learning and the arts. His court at Naples was one of the most cultured in Europe, hosting figures like Petrarch and Boccaccio. The death of his only son Charles in 1328 created a succession crisis that would eventually tear apart the Angevin realms."
+ provence.1.a: "Affirm the Angevin traditions of succession"
+ provence.1.a.tooltip: "We shall honor the customs of our House"
+ provence.1.b: "Formally establish cognatic succession"
+ provence.1.b.tooltip: "Joanna's right to inherit must be beyond question"
+ 
+ # Event 1.2 - The Question of Avignon
+ provence.2.title: "The Question of Avignon"
+ provence.2.desc: "The Papal Court has resided in Avignon since 1309, bringing great prestige and wealth to our borders. Yet this city technically belongs to Queen Joanna as part of her Neapolitan inheritance, not to the Holy Father who dwells within its walls.\n\nPope Clement VI has approached us with a proposal: sell Avignon to the Papacy for a substantial sum of 80,000 florins. This would ease our treasury's burdens and secure permanent papal goodwill. Yet some counsel that retaining Avignon keeps the Holy Father beholden to us and maintains our influence over Christendom's spiritual heart.\n\nWhat shall be done with this sacred city?"
+ provence.2.historical_info: "In 1348, Queen Joanna I of Naples sold Avignon to Pope Clement VI for 80,000 florins, partly to raise funds and partly to gain papal support during her political troubles. This sale formalized papal control over the city that would last until the French Revolution."
+ provence.2.a: "Sell Avignon to the Holy Father"
+ provence.2.a.tooltip: "The gold will serve us well, and papal friendship is invaluable"
+ provence.2.b: "Retain our rights over Avignon"
+ provence.2.b.tooltip: "Let the Pope remain our guest, not our equal"
+ 
+ # Event 1.3 - A Troubled Marriage
+ provence.3.title: "A Troubled Marriage"
+ provence.3.desc: "The marriage between Queen Joanna and Andrew of Hungary was meant to unite two branches of the Angevin dynasty and bring peace to our realms. Instead, it has bred only discord.\n\nAndrew, backed by his powerful mother Elizabeth of Poland and King Louis of Hungary, demands to be crowned King in his own right - not merely as Joanna's consort. The Hungarian party at court grows bold, while our Provençal nobles chafe under the threat of foreign domination.\n\nTensions simmer, and whispers of darker solutions echo through the corridors of power. How shall we navigate these treacherous waters?"
+ provence.3.historical_info: "Andrew of Hungary (1327-1345) was married to Joanna I as children. Their marriage was deeply unhappy, with Andrew demanding equal rule and backed by Hungarian interests. He was murdered in 1345 at Aversa, likely with Joanna's knowledge if not direct involvement, leading to decades of conflict with Hungary."
+ provence.3.a: "Accommodate Hungarian demands for peace"
+ provence.3.a.tooltip: "Perhaps Andrew can be placated with honors"
+ provence.3.b: "Resist Hungarian interference in our affairs"
+ provence.3.b.tooltip: "Provence shall not bow to Budapest"
+ 
+ # Event 1.4 - The Neapolitan Crisis
+ provence.4.title: "The Neapolitan Crisis"
+ provence.4.desc: "Dark rumors swirl through the courts of Europe. Andrew of Hungary is dead, strangled at Aversa under mysterious circumstances. King Louis of Hungary denounces Queen Joanna as a murderess and prepares for war. Even Pope Clement VI has been pressured to investigate.\n\nOur position is precarious. If the Pope finds against us, we may face excommunication and the loss of legitimacy. If Hungary invades, our Neapolitan possessions may be lost. We must act to preserve our honor and our realm.\n\nHow shall we respond to these accusations?"
+ provence.4.historical_info: "After Andrew's murder in 1345, Pope Clement VI launched an investigation into Joanna's involvement. While she was eventually acquitted in 1348, the scandal permanently damaged her reputation. King Louis I of Hungary invaded Naples twice (1347-1348 and 1350), forcing Joanna to flee to Provence."
+ provence.4.a: "Cooperate fully with the papal investigation"
+ provence.4.a.tooltip: "Demonstrate our innocence through transparency"
+ provence.4.b: "Maintain dignified silence on these slanders"
+ provence.4.b.tooltip: "A queen does not answer to common gossip"
+ 
+ # Event 1.5 - The Plague Reaches Provence
+ provence.5.title: "The Plague Reaches Provence"
+ provence.5.desc: "The Great Mortality has reached our shores. Ships arriving at Marseille bring not only goods but death itself - a terrible pestilence that kills within days, covering victims in black swellings.\n\nThe disease spreads like wildfire through our towns and villages. Priests die administering last rites, physicians fall treating patients, and entire families perish in their homes. Some say it is God's punishment for our sins; others blame poisoned wells or corrupted air.\n\nOur realm reels under this catastrophe. What measures shall we take?"
+ provence.5.historical_info: "The Black Death arrived in Provence through the port of Marseille in November 1347. The region was devastated, losing perhaps 50% of its population. The plague also killed Pope Clement VI's physician and many members of the papal court at Avignon."
+ provence.5.a: "Pray for deliverance and trust in God's mercy"
+ provence.5.a.tooltip: "This is a divine trial we must endure"
+ provence.5.b: "Implement quarantine measures and fund physicians"
+ provence.5.b.tooltip: "We must fight this plague with all means available"
+ 
+ # Event 1.6 - The Mercenary Scourge
+ provence.6.title: "The Mercenary Scourge"
+ provence.6.desc: "The truces in the Hundred Years' War have released upon our lands a plague perhaps worse than pestilence - the Free Companies. These bands of unemployed mercenaries, hardened by war and hungry for plunder, ravage the countryside.\n\nLed by ruthless captains, they hold towns for ransom, burn villages, and terrorize our peasants. Neither noble walls nor church sanctuary provide protection from these roving armies.\n\nHow shall we protect our people from these wolves in human form?"
+ provence.6.historical_info: "The Free Companies (Grandes Compagnies) terrorized southern France and Provence from the 1350s through the 1380s. Led by notorious captains like Arnaud de Cervole and John Hawkwood, they extracted massive ransoms and caused widespread destruction until many were diverted to fight in Spain and Italy."
+ provence.6.a: "Build fortifications and raise a militia"
+ provence.6.a.tooltip: "We must protect our people behind strong walls"
+ provence.6.b: "Accept their depredations as unavoidable"
+ provence.6.b.tooltip: "Fighting them risks worse destruction"
+ provence.6.c: "Hire them into our service"
+ provence.6.c.tooltip: "Turn these wolves into our hunting hounds"
+ 
+ # Event 1.7 - A New Dynasty?
+ provence.7.title: "A New Dynasty?"
+ provence.7.desc: "Queen Joanna, now thrice-widowed and childless, faces a terrible choice. Without an heir of her body, the Angevin line faces extinction, and our realms will fall to foreign claimants.\n\nLouis I of Anjou, brother of King Charles V of France, has presented himself as a solution. He offers to be adopted as Joanna's heir, promising French protection against Hungary and the maintenance of our realm's independence under a new Anjou-Valois dynasty.\n\nOthers counsel resistance - surely we can find a solution that does not bind us so closely to France. What path shall we choose?"
+ provence.7.historical_info: "In 1380, Joanna I adopted Louis I of Anjou as her heir, founding the Second House of Anjou (Anjou-Valois). This decision was motivated by her need for French protection against the rival claims of Charles of Durazzo, who was backed by Hungary and eventually murdered Joanna in 1382."
+ provence.7.a: "Accept Louis of Anjou as heir"
+ provence.7.a.tooltip: "French protection is worth a French successor"
+ provence.7.b: "Seek an alternative solution"
+ provence.7.b.tooltip: "Our independence must not be sacrificed"
+ 
+ # Event 1.8 - The Second House of Anjou
+ provence.8.title: "The Second House of Anjou"
+ provence.8.desc: "The old order passes. Queen Joanna is gone, and with her the direct Angevin line that ruled from Naples to Provence for generations. Now the Second House of Anjou, sprung from French royal blood, takes up the inheritance.\n\nThis is both an ending and a beginning. Our new rulers bring the wealth and power of France behind them, but also French ambitions and French priorities. Provence stands at a crossroads between independence and integration.\n\nHow shall we greet this new dynasty?"
+ provence.8.historical_info: "The Second House of Anjou ruled Provence from 1382 to 1481. While they maintained Provençal autonomy and developed the region's culture (especially under René of Anjou), they were increasingly tied to French interests. The line ended with Charles V of Anjou, whose death in 1481 led to Provence's annexation by France."
+ provence.8.a: "Embrace our new French-Angevin lords"
+ provence.8.a.tooltip: "With France behind us, who can stand against us?"
+ provence.8.b: "Maintain Provençal traditions and autonomy"
+ provence.8.b.tooltip: "New rulers must respect old rights"
+ 
+ # ==========================================
+ # CHAIN 2: THE MEDITERRANEAN CROSSROADS (1380-1500)
+ # ==========================================
+ 
+ # Event 2.1 - Marseille's Ambitions
+ provence.9.title: "Marseille's Ambitions"
+ provence.9.desc: "Marseille, our greatest port and the gateway to the Mediterranean, grows restless. The city's merchants have grown wealthy on the Levant trade, and they demand greater autonomy in managing their affairs.\n\nThe municipal authorities present a charter of privileges: self-governance in trade matters, reduced taxation, and the right to negotiate directly with foreign powers. They argue this will increase commerce and benefit all of Provence.\n\nYet our nobles view this as an affront to comital authority. Shall the tail wag the dog? How shall we respond to Marseille's demands?"
+ provence.9.historical_info: "Marseille maintained significant autonomy throughout the medieval period, with its own consuls and trade privileges. The city's merchants dominated Provençal commerce with the Levant, competing with Venice and Genoa for the lucrative Eastern trade."
+ provence.9.a: "Grant Marseille's requested autonomy"
+ provence.9.a.tooltip: "A prosperous Marseille enriches all Provence"
+ provence.9.b: "Assert comital authority over the city"
+ provence.9.b.tooltip: "The merchants must remember who rules here"
+ 
+ # Event 2.2 - The Levant Trade
+ provence.10.title: "The Levant Trade"
+ provence.10.desc: "The spices, silks, and precious goods of the East flow through Alexandria and Constantinople to the markets of Europe. Venice and Genoa have long dominated this trade, but Marseille's merchants see opportunity.\n\nThey propose an ambitious plan: establish permanent trading posts in the Levant, negotiate directly with the Mamluk Sultan, and challenge Italian dominance of the Eastern trade. The venture would require significant investment but promises enormous returns.\n\nShall we risk our gold on this Mediterranean gamble?"
+ provence.10.historical_info: "Provençal merchants, particularly from Marseille, were active in the Levant trade throughout the medieval period. While never matching Venice or Genoa in scale, they maintained trading relationships with Egypt and the Crusader states, dealing in spices, cloth, and other luxury goods."
+ provence.10.a: "Fund the expansion of Levantine trade"
+ provence.10.a.tooltip: "Fortune favors the bold"
+ provence.10.b: "Focus on local and regional commerce"
+ provence.10.b.tooltip: "Better modest gains than ruinous speculation"
+ 
+ # Event 2.3 - Corsican Unrest
+ provence.11.title: "Corsican Unrest"
+ provence.11.desc: "Our hold on Corsica is challenged. The island's fierce inhabitants resent outside rule, whether Genoese, Aragonese, or Provençal. Clan feuds and vendettas complicate any attempt at governance.\n\nNow a new rebellion has broken out in the mountains. Local lords refuse to pay taxes, citing ancient privileges. Genoa watches eagerly, ready to reassert its claims if we show weakness.\n\nHow shall we deal with our troublesome island possession?"
+ provence.11.historical_info: "Corsica changed hands multiple times during the medieval period, with Genoa, Aragon, and various local lords competing for control. The island's mountainous terrain and fiercely independent population made it difficult to govern effectively."
+ provence.11.a: "Crush the rebellion with military force"
+ provence.11.a.tooltip: "Rebels must be taught the price of defiance"
+ provence.11.b: "Negotiate and grant local autonomy"
+ provence.11.b.tooltip: "A peaceful Corsica is more valuable than a conquered one"
+ 
+ # Event 2.4 - The Arsenal of Toulon
+ provence.12.title: "The Arsenal of Toulon"
+ provence.12.desc: "Toulon's magnificent natural harbor has long sheltered our galleys, but our naval facilities remain primitive compared to those of Venice or Genoa. Our admirals propose a grand project: construct a proper arsenal at Toulon.\n\nWith dedicated shipyards, rope walks, and warehouses, we could build and maintain a fleet worthy of Mediterranean power. The cost would be substantial, but the strategic benefits are clear.\n\nShall we invest in Provençal sea power?"
+ provence.12.historical_info: "Toulon's natural harbor made it an obvious choice for naval development. While the great arsenal was primarily built under French rule in the 17th century, medieval Provence maintained significant naval forces operating from Toulon and Marseille."
+ provence.12.a: "Build the Arsenal of Toulon"
+ provence.12.a.tooltip: "A fleet shall be our shield and sword"
+ provence.12.b: "The expense is too great at present"
+ provence.12.b.tooltip: "Perhaps this project can wait for better times"
+ 
+ # Event 2.5 - Good King René's Court
+ provence.13.title: "Good King René's Court"
+ provence.13.desc: "René of Anjou, Duke of Lorraine, King of Naples (in title if not in fact), and Count of Provence, has made our lands his true home. Abandoning his fruitless Italian claims, he has transformed Aix-en-Provence into a center of arts and culture.\n\nPoets, painters, and musicians flock to his court. René himself writes verse, paints, and stages elaborate festivals. His passion for tournaments and chivalric romance brings nobles from across Europe to witness his spectacles.\n\nShall we embrace this golden age of culture, or counsel more practical pursuits?"
+ provence.13.historical_info: "René of Anjou (1409-1480), known as 'Good King René,' was one of the most cultured rulers of his age. His court at Aix-en-Provence became famous for its artistic patronage, tournaments, and festivals. He wrote poetry and allegories, and his 'Book of the Tournament' remains a valuable source on medieval chivalry."
+ provence.13.a: "Support René's cultural patronage"
+ provence.13.a.tooltip: "Our court shall be the envy of Europe"
+ provence.13.b: "Encourage more practical governance"
+ provence.13.b.tooltip: "Poetry does not fill the treasury"
+ 
+ # Event 2.6 - The Tournament of Tarascon
+ provence.14.title: "The Tournament of Tarascon"
+ provence.14.desc: "King René proposes to host a grand tournament at Tarascon, the greatest spectacle of chivalry our age has seen. Knights from across Christendom would compete for honor and glory, watched by the flower of European nobility.\n\nThe tournament would be enormously expensive, but it would demonstrate Provençal magnificence to the world. Our nobles are eager, seeing opportunity for glory and advantageous marriages. The merchants see opportunity for profit.\n\nHow shall we approach this grand enterprise?"
+ provence.14.historical_info: "René of Anjou was famous for his elaborate tournaments, which combined martial competition with theatrical pageantry. His castle at Tarascon was a center for these activities, and his 'Livre des Tournois' (Book of the Tournament) codified the rules and ceremonies of chivalric combat."
+ provence.14.a: "Focus on martial competitions"
+ provence.14.a.tooltip: "Let prowess in arms bring us glory"
+ provence.14.b: "Make it a diplomatic showcase"
+ provence.14.b.tooltip: "Alliances forged amid festival may prove more valuable than prizes"
+ 
+ # Event 2.7 - Italian Entanglements
+ provence.15.title: "Italian Entanglements"
+ provence.15.desc: "The wars of Italy rage on, as Milan, Venice, Florence, and Naples struggle for dominance. Our Angevin claims to Naples and our position on the Italian frontier make neutrality difficult.\n\nVarious Italian powers seek our alliance. Milan offers gold and trade privileges for our support against Venice. Florence hints at cultural partnerships. Even the Pope suggests advantages might flow from backing his temporal ambitions.\n\nShall we plunge into the Italian maelstrom, or maintain a prudent distance?"
+ provence.15.historical_info: "The Italian Wars of the 15th century drew in powers from across Europe. Provence's position and its rulers' claims to Naples made it an important player, though the Angevins never succeeded in permanently recovering their Italian kingdom."
+ provence.15.a: "Seek Italian alliances"
+ provence.15.a.tooltip: "Our future lies across the Alps"
+ provence.15.b: "Maintain Provençal neutrality"
+ provence.15.b.tooltip: "Let the Italians exhaust themselves"
+ 
+ # Event 2.8 - The French Shadow
+ provence.16.title: "The French Shadow"
+ provence.16.desc: "King Louis XI of France, the 'Universal Spider,' weaves his webs ever closer to Provence. Our Count Charles, last of the Anjou line, grows old without legitimate heirs. Louis makes no secret of his intentions - when Charles dies, France will claim Provence.\n\nSome counsel accommodation - better to negotiate favorable terms now than be absorbed without conditions. Others urge resistance - find an heir, build alliances, maintain our independence at any cost.\n\nThe shadow of France falls long across our sunlit land. What shall we do?"
+ provence.16.historical_info: "Louis XI of France (1461-1483) systematically worked to bring Provence under French control. When René's grandson Charles III died without heirs in 1481, Provence was bequeathed to France. The union was formalized in 1486, ending Provençal independence while preserving some local privileges."
+ provence.16.a: "Negotiate terms with France"
+ provence.16.a.tooltip: "If union is inevitable, let us secure the best conditions"
+ provence.16.b: "Resist French absorption"
+ provence.16.b.tooltip: "Provence shall remain free!"
+ 
+ # ==========================================
+ # CHAIN 3: RENAISSANCE AND REFORMATION (1500-1600)
+ # ==========================================
+ 
+ # Event 3.1 - The Parliament of Aix
+ provence.17.title: "The Parliament of Aix"
+ provence.17.desc: "The Parliament of Aix, established to administer justice and register royal edicts, has become a powerful institution. Its magistrates, drawn from the educated bourgeoisie and lesser nobility, jealously guard Provençal privileges against royal centralization.\n\nShould we strengthen this Parliament, creating a bulwark of local governance? Or should we align with royal authority, accepting centralization in exchange for the crown's favor and protection?\n\nThe balance between Paris and Aix hangs in question."
+ provence.17.historical_info: "The Parliament of Aix-en-Provence was established in 1501 and became a defender of Provençal privileges against French royal centralization. Its magistrates formed a 'noblesse de robe' that played important roles in regional governance until the French Revolution."
+ provence.17.a: "Strengthen central administration"
+ provence.17.a.tooltip: "Efficient governance serves the realm"
+ provence.17.b: "Preserve local autonomy and privileges"
+ provence.17.b.tooltip: "Our ancient rights must be maintained"
+ 
+ # Event 3.2 - Humanist Circles
+ provence.18.title: "Humanist Circles"
+ provence.18.desc: "The Renaissance has reached Provence. In Aix and other cities, circles of scholars study classical texts, debate philosophy, and correspond with the great minds of Italy and the North.\n\nThese humanists propose educational reforms: teaching Greek alongside Latin, studying ancient authors in the original, applying reason to all questions. Some churchmen view these ideas with suspicion, fearing they lead to religious doubt.\n\nShall we encourage this new learning, or maintain traditional education?"
+ provence.18.historical_info: "Provence was an early center of Renaissance humanism in France, partly due to its proximity to Italy and the legacy of King René's cultural patronage. The University of Aix and various scholarly circles fostered the study of classical languages and literature."
+ provence.18.a: "Patronize humanist scholarship"
+ provence.18.a.tooltip: "Knowledge illuminates the path to greatness"
+ provence.18.b: "Support traditional learning"
+ provence.18.b.tooltip: "Innovation should not displace proven wisdom"
+ 
+ # Event 3.3 - The Wars of Italy
+ provence.19.title: "The Wars of Italy"
+ provence.19.desc: "French armies march through Provence on their way to Italy, pursuing ancient Angevin claims to Naples and new ambitions in Milan. Our roads groan under military traffic, our towns quarter foreign soldiers, and our merchants profit - or suffer - from the endless campaigns.\n\nThe crown expects our support in these ventures. Some see opportunity: join the campaigns and win glory and plunder. Others prefer to profit from the war without fighting in it.\n\nHow shall Provence contribute to the Italian Wars?"
+ provence.19.historical_info: "The Italian Wars (1494-1559) saw French armies repeatedly march through Provence en route to Italy. The region provided troops, supplies, and staging areas for campaigns that ultimately failed to secure lasting French gains in Italy."
+ provence.19.a: "Provide troops and military support"
+ provence.19.a.tooltip: "Our valor shall bring honor to Provence"
+ provence.19.b: "Focus on supplying the armies profitably"
+ provence.19.b.tooltip: "Let others fight while we profit"
+ 
+ # Event 3.4 - Waldensian Heresy
+ provence.20.title: "Waldensian Heresy"
+ provence.20.desc: "In the high valleys of the Luberon, a heretical sect has taken root. The Waldensians, followers of a medieval preacher who rejected papal authority, have quietly maintained their faith for generations. Now, with Protestant ideas spreading from Germany, they grow bolder.\n\nThe Church demands action against these heretics. Yet they are peaceful folk, hard-working farmers and craftsmen who trouble no one. Many local lords protect them, valuing their industry.\n\nHow shall we deal with this religious dissent?"
+ provence.20.historical_info: "The Waldensians had lived in the Luberon mountains since the 13th century. In the 1530s, they made contact with Protestant reformers and began practicing their faith more openly. This led to increased persecution, culminating in the Massacre of Mérindol in 1545."
+ provence.20.a: "Tolerate their presence quietly"
+ provence.20.a.tooltip: "They harm no one, and persecution breeds trouble"
+ provence.20.b: "Maintain vigilance against heresy"
+ provence.20.b.tooltip: "We must not let error spread unchecked"
+ 
+ # Event 3.5 - The Massacre of Mérindol
+ provence.21.title: "The Massacre of Mérindol"
+ provence.21.desc: "The Parliament of Aix has issued the Arrêt de Mérindol, condemning the Waldensian communities of the Luberon. Royal forces stand ready to execute this judgment with fire and sword.\n\nThousands of men, women, and children face death or displacement. The villages of Mérindol, Cabrières, and others will be destroyed. Some call this justice against heresy; others name it murder.\n\nShall we participate in this terrible enterprise, or attempt to mitigate its horrors?"
+ provence.21.historical_info: "The Massacre of Mérindol (1545) saw French royal troops destroy numerous Waldensian villages in the Luberon, killing an estimated 2,700-3,000 people and enslaving hundreds more. The atrocity shocked many contemporaries and remains a dark chapter in Provençal history."
+ provence.21.a: "Support the suppression of heresy"
+ provence.21.a.tooltip: "The faith must be defended, whatever the cost"
+ provence.21.b: "Attempt to protect the innocent"
+ provence.21.b.tooltip: "Surely there must be limits to persecution"
+ 
+ # Event 3.6 - Nostradamus of Salon
+ provence.22.title: "Nostradamus of Salon"
+ provence.22.desc: "A strange figure has risen to prominence in Salon-de-Provence. Michel de Nostredame, a physician turned prophet, publishes almanacs and cryptic verses that he claims foretell the future. His 'Prophecies' have caught the attention of the great and powerful.\n\nQueen Catherine de Medici herself has consulted him. Some hail him as a true seer; others denounce him as a charlatan or worse. His presence brings both fame and controversy to our region.\n\nHow shall we regard this peculiar celebrity?"
+ provence.22.historical_info: "Nostradamus (1503-1566) spent much of his later life in Salon-de-Provence, where he wrote his famous 'Prophecies.' He served as physician and astrologer to several notable figures, including Queen Catherine de Medici. His cryptic quatrains continue to fascinate and puzzle readers to this day."
+ provence.22.a: "Celebrate his prophecies and fame"
+ provence.22.a.tooltip: "His renown brings glory to Provence"
+ provence.22.b: "Patronize his scholarly work quietly"
+ provence.22.b.tooltip: "Support the man of learning, not the showman"
+ 
+ # Event 3.7 - Wars of Religion
+ provence.23.title: "Wars of Religion"
+ provence.23.desc: "France tears itself apart. Catholic and Huguenot armies ravage the kingdom, and Provence cannot remain untouched. Protestant communities have grown in our cities, while Catholic zealots form their own leagues.\n\nThe Catholic League demands our commitment to the holy cause. The crown, struggling to maintain order, offers rewards for loyalty. And in the background, Spain watches, ready to intervene.\n\nIn this time of religious fury, where shall Provence stand?"
+ provence.23.historical_info: "The French Wars of Religion (1562-1598) deeply affected Provence. The region remained largely Catholic, but Protestant communities existed in several cities. The Catholic League was strong in Provence, and the region saw significant violence during the conflicts."
+ provence.23.a: "Join the Catholic League"
+ provence.23.a.tooltip: "We shall defend the true faith"
+ provence.23.b: "Maintain a moderate, politique stance"
+ provence.23.b.tooltip: "Peace and order matter more than doctrinal purity"
+ 
+ # Event 3.8 - The Edict of Nantes
+ provence.24.title: "The Edict of Nantes"
+ provence.24.desc: "King Henri IV has issued the Edict of Nantes, granting Huguenots freedom of worship and civil rights. The Wars of Religion are finally at an end, but the peace remains fragile.\n\nIn Provence, Catholic sentiment runs strong. Many resent the concessions to heresy, even as they welcome the return of peace. The Parliament of Aix delays registering the Edict, reflecting local opposition.\n\nShall we embrace this new era of religious coexistence, or work to limit Protestant rights in our region?"
+ provence.24.historical_info: "The Edict of Nantes (1598) ended the Wars of Religion but faced resistance in strongly Catholic regions like Provence. The Parliament of Aix delayed registering the Edict until 1599, and Protestant rights in Provence remained more limited than in other regions."
+ provence.24.a: "Accept the Edict and religious peace"
+ provence.24.a.tooltip: "Enough blood has been shed over doctrine"
+ provence.24.b: "Minimize Protestant rights in Provence"
+ provence.24.b.tooltip: "Our region shall remain a bastion of the true faith"
+ 
+ 
