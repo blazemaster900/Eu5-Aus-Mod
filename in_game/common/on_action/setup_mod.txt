@@ -20,6 +20,9 @@ mod_adjust_france = {
 			add_truce_with = { target = c:UTR mutual = yes months = 180 }
 			add_truce_with = { target = c:LOO mutual = yes months = 180 }
 			add_truce_with = { target = c:NAM mutual = yes months = 180 }
+			hidden_effect = {
+				set_prestige = 5
+			}
 		}
 
 		c:ENG = {
