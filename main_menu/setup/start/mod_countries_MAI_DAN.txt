@@ -47,7 +47,7 @@ countries = {
 		include = "expl_western_europe"
 		include = "catholic_bishopric_no_coast"
 		include = "expl_northern_europe"
-		country_rank = rank_duchy
+		country_rank = rank_kingdom
 		government = {
 			ruler = mai_heinrich_iii_von_virneburg
 
@@ -290,7 +290,6 @@ countries = {
 			outward_vs_inward = -40
 		}
 		tolerated_cultures = {
-			estonian
 		}
 	
 	}
