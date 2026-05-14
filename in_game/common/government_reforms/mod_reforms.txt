@@ -13,10 +13,11 @@ REPLACE:ancient_french_taxation = {
 	}
 
 	country_modifier = {
-		#monthly_legitimacy = 0.1
+		monthly_legitimacy = 0.1
 		global_peasant_enfranchisment = -0.20
 		government_reform_slots = 1
-		nobles_estate_max_tax = 0.10
+		nobles_estate_max_tax = -0.05
+		monthly_towards_decentralization = societal_value_tiny_monthly_move
 	}
 	years = 2
 }
