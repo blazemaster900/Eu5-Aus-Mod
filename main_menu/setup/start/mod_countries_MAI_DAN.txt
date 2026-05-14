@@ -61,13 +61,13 @@ countries = {
 		}
 
 		accepted_cultures = {
-			east_franconian
+			
 			ripuarian_franconian
 			moselle_franconian
 			westphalian
 			low_franconian
-			saxon
-			angrian
+			
+			
 		}
 
 		capital = mainz

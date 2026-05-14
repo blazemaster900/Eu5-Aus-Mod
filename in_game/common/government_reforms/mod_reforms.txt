@@ -16,7 +16,7 @@ REPLACE:ancient_french_taxation = {
 		#monthly_legitimacy = 0.1
 		global_peasant_enfranchisment = -0.20
 		government_reform_slots = 1
-		#nobles_estate_max_tax = 0.20
+		nobles_estate_max_tax = 0.10
 	}
 	years = 2
 }
