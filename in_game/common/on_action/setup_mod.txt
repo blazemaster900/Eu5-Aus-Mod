@@ -3,6 +3,7 @@ on_game_start = {
 		mod_adjust_france
 		mod_save_fix
 		dan_setup
+		mod_goods_change # for DS
 	}
 }
 
@@ -66,5 +67,41 @@ dan_setup = {
 			research_advance = dan_danish_legislation #small buff for earlier law, denmark is a bad country anyway, nobody will notice ;)
 			add_government_power = 70 #okay, 55 was not enough, DAN doesn't need nerfs that other countries don't have to deal with
 		}
+	}
+}
+
+mod_goods_change = {
+	effect = {
+		location:tivenden = { change_raw_material = goods:tea }
+		location:riseberga = { change_raw_material = goods:tea }
+		location:varnum = { change_raw_material = goods:tea }
+		location:tingvalla = { change_raw_material = goods:tea }
+		location:amal = { change_raw_material = goods:tea }
+		location:vardal = { change_raw_material = goods:tea }
+		location:kvinnherad = { change_raw_material = goods:tea }
+		location:leksand = { change_raw_material = goods:tea }
+		location:mora = { change_raw_material = goods:tea }
+		location:soderala = { change_raw_material = goods:tea }
+		location:sjalevad = { change_raw_material = goods:tea }
+		location:uleaborg = { change_raw_material = goods:tea }
+		location:paltamo = { change_raw_material = goods:tea }
+		location:kajana = { change_raw_material = goods:tea }
+		location:sotkamo = { change_raw_material = goods:tea }
+		location:jamsa = { change_raw_material = goods:tea }
+		location:olofsborg = { change_raw_material = goods:tea }
+		location:juuka = { change_raw_material = goods:tea }
+		location:ikalis = { change_raw_material = goods:tea }
+		location:oland = { change_raw_material = goods:tea }
+		location:navskov = { change_raw_material = goods:tea }
+		location:falster = { change_raw_material = goods:tea }
+		location:hammershus = { change_raw_material = goods:tea }
+		location:kastelholm = { change_raw_material = goods:tea }
+		location:rugen = { change_raw_material = goods:tea }
+		location:vordingborg = { change_raw_material = goods:tea }
+		location:svendborg = { change_raw_material = goods:tea }
+		location:aabenraa = { change_raw_material = goods:tea }
+		location:ekholm = { change_raw_material = goods:tea }
+		location:vartofta = { change_raw_material = goods:tea }
+		location:tebourba = { change_raw_material = goods:elephants }
 	}
 }
