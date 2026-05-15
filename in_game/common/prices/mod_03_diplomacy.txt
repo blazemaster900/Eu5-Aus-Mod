@@ -1,0 +1,5 @@
+﻿REPLACE:abdicate_price = {
+	prestige = 10
+	legitimacy = 25
+	stability = 10
+}

@@ -48,6 +48,7 @@ NCombat = {
 	COMBAT_SPEED_SCALE = 0.22 # 0.05
 	BASE_MORALE_DAMAGE = 4.54 # 1.0
 #	DAYS_PER_SIEGE_PHASE = 16
+
 }
 
 #NCountry = {
