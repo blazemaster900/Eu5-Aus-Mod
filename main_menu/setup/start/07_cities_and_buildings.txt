@@ -4441,4 +4441,8 @@ building_manager = {
 	aqueduct_system = { tag = PAP level = 1 location = rome }
 	aqueduct_system = { tag = PAP level = 1 location = avignon }
 	aqueduct_system = { tag = CAS level = 1 location = segovia }
+
+	#mod
+	bordeaux_governor = { tag = ENG level 1 location = bordeaux }
+	kyiv_pech_lavra = { tag = KIE level 1 location = kyiv }
 }
