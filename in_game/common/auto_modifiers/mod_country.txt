@@ -1,0 +1,31 @@
+REPLACE:debt_impact = {
+    scales_with = {
+        value = total_debt
+        divide = country_economical_base
+    }
+
+    #global_crown_estate_power = -0.025
+    monthly_doom = 0.005
+    monthly_righteousness = -0.001
+}
+
+REPLACE:complacency_impact = {
+	potential_trigger = {
+		modifier:has_complacency_effects = yes
+	}
+
+
+	scales_with = {
+		value = complacency
+		multiply = 0
+	}
+	
+}
+
+INJECT:country_base_values = {
+	max_diplomats = 4 ## PREV: 1 (used more frequently in mp)
+	monthly_diplomats = 0.15 ## PREV 0.1 (doubled)
+	mercenary_maintenance_cost = 0.75
+	hire_mercenary_premium_cost_modifier = 0.75
+	hire_mercenary_leader_cost_modifier = 0.75
+}
