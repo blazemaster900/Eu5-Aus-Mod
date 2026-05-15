@@ -159,6 +159,7 @@ diplomacy_manager = {
 	#scripted_oneway = { first = FRA second = SCO type = guarantee }
 	
     #Appanages
+    dependency = { first = FRA second = TOU subject_type = appanage }
     dependency = { first = FRA second = BUR subject_type = appanage }
     dependency = { first = FRA second = ALE subject_type = appanage }
     dependency = { first = FRA second = BOU subject_type = appanage }
@@ -167,10 +168,11 @@ diplomacy_manager = {
     dependency = { first = FRA second = ETA subject_type = appanage }
     dependency = { first = FRA second = NRM subject_type = vassal }
     dependency = { first = FRA second = ANJ subject_type = vassal }
-    dependency = { first = FRA second = ARS subject_type = vassal }
+    dependency = { first = FRA second = ARS subject_type = appanage }
     dependency = { first = FRA second = ANG subject_type = appanage }
 
     #Vassal, Fief Mouvant of France
+    dependency = { first = FRA second = POI subject_type = vassal }
     dependency = { first = FRA second = BRI subject_type = vassal }
     dependency = { first = FRA second = FOI subject_type = vassal }
     dependency = { first = FRA second = AMG subject_type = vassal }
@@ -187,7 +189,6 @@ diplomacy_manager = {
     dependency = { first = FRA second = MON subject_type = vassal }
     dependency = { first = FRA second = AUM subject_type = vassal }
     dependency = { first = FRA second = ROU subject_type = vassal }
-    dependency = { first = FRA second = FLA subject_type = vassal start_date = 1305.6.23 } #Reined in as a vassal of France by the Treaty of Athis-sur-Orge in 1305, confirmed after the Battle of Cassel in 1328
     dependency = { first = FRA second = NEV subject_type = vassal } #In a PU with FLA
     dependency = { first = FRA second = RET subject_type = vassal } #In a PU with FLA
     dependency = { first = FRA second = NRB subject_type = vassal }
@@ -202,7 +203,6 @@ diplomacy_manager = {
 
     #Vassals of vassals
     dependency = { first = ANJ second = MIE subject_type = fiefdom }
-    dependency = { first = FLA second = NAM subject_type = vassal }
     dependency = { first = ARS second = STP subject_type = vassal }
     dependency = { first = FOI second = BRR subject_type = fiefdom }
     dependency = { first = FOI second = MDM subject_type = fiefdom }
@@ -282,13 +282,20 @@ diplomacy_manager = {
     dependency = { first = KMM second = NWG subject_type = vassal }
     dependency = { first = BRA second = SOR subject_type = fiefdom }
     scripted_mutual = { first = MEI second = HES type = alliance }
-    scripted_oneway = { first = FLA second = HOL type = trade_access }
 
     #------Byzantium--------
     dependency = { first = BYZ second = EPI subject_type = vassal }
 
     #-------Low Lands-------
+    scripted_mutual = { first = ENG second = NAV type = alliance }
     dependency = { first = HOL second = ZEE subject_type = fiefdom }
+    dependency = { first = HOL second = GEL subject_type = vassal }
+    dependency = { first = GEL second = UTR subject_type = vassal }
+    dependency = { first = FLA second = HOL subject_type = vassal }
+    dependency = { first = FLA second = BRB subject_type = vassal }
+    dependency = { first = BRB second = CJK subject_type = vassal }
+    dependency = { first = BRB second = NAM subject_type = vassal }
+
 
     #-------Baltics-------
     dependency = { first = TEU second = ERM subject_type = vassal }

@@ -1,0 +1,30 @@
+diplomacy_manager = {
+	
+	#French vassals
+	
+	opinion = { first = FRA second = BUR type = opinion_mildly_displeased }
+	opinion = { first = FRA second = ALE type = opinion_mildly_displeased }
+	opinion = { first = FRA second = BOU type = opinion_mildly_displeased }
+	opinion = { first = FRA second = DRE type = opinion_mildly_displeased }
+	opinion = { first = FRA second = EVR type = opinion_mildly_displeased }
+	opinion = { first = FRA second = ETA type = opinion_mildly_displeased }
+	opinion = { first = FRA second = NRM type = opinion_mildly_displeased }
+	opinion = { first = FRA second = ANJ type = opinion_mildly_displeased }
+	opinion = { first = FRA second = ARS type = opinion_mildly_displeased }
+	opinion = { first = FRA second = ANG type = opinion_mildly_displeased }
+	opinion = { first = FRA second = POI type = opinion_mildly_displeased }
+	opinion = { first = FRA second = BRI type = opinion_mildly_displeased }
+	opinion = { first = FRA second = FOI type = opinion_mildly_displeased }
+	opinion = { first = FRA second = AMG type = opinion_mildly_displeased }
+	opinion = { first = FRA second = FRZ type = opinion_mildly_displeased }
+	opinion = { first = FRA second = BAR type = opinion_mildly_displeased }
+	opinion = { first = FRA second = BLS type = opinion_mildly_displeased }
+	opinion = { first = FRA second = AST type = opinion_mildly_displeased }
+	opinion = { first = FRA second = COM type = opinion_mildly_displeased }
+	opinion = { first = FRA second = IJO type = opinion_mildly_displeased }
+	opinion = { first = FRA second = MRT type = opinion_mildly_displeased }
+	opinion = { first = FRA second = VLN type = opinion_mildly_displeased }
+	opinion = { first = FRA second = PER type = opinion_mildly_displeased }
+	opinion = { first = FRA second = TON type = opinion_mildly_displeased }
+	opinion = { first = FRA second = MON type = opinion_mildly_displeased }
+}
