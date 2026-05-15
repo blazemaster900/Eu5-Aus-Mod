@@ -2,7 +2,9 @@
 	estate = peasants_estate
 	
 	potential = { 
-		has_or_had_tag = SWE
+		OR = { has_or_had_tag = SWE
+				has_or_had_tag = SCA
+			}
 	}
 	allow = {
 	}	
