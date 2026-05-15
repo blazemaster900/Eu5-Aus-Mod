@@ -55,3 +55,75 @@ REPLACE:french_feudal_nobility = { # French Feudalism
 	}
 	years = 2
 }
+REPLACE:celtic_traditions_reform = {
+	major = yes
+	age = age_1_traditions
+	potential = {
+		OR = {
+			culture = { has_culture_group = culture_group:celtic_group }
+
+			any_neighbor_country = {
+				has_reform = government_reform:celtic_traditions_reform
+			}
+			AND = {
+				overlord ?= { has_reform = government_reform:celtic_traditions_reform }
+			}
+		}
+	}
+	allow = {
+		has_embraced_institution = institution:legalism
+		OR = {
+			court_language = language:brythonic_language
+			court_language = language:gaelic_language
+		}
+	}
+	country_modifier = {
+		cultural_tradition = 0.5
+		monthly_towards_decentralization = societal_value_tiny_monthly_move
+		monthly_towards_traditional_economy = societal_value_tiny_monthly_move
+		can_be_member_of_a_high_kingship = yes
+		government_reform_slots = 1
+		court_language_is_common_language_importance_modifier = 1.0
+	}
+	years = 2
+}
+REPLACE:manden_kurufa_reform = {
+	major = yes
+	unique = yes
+	age = age_1_traditions
+	potential = {
+		has_advance = kouroukan_fouga_advance
+	}
+	locked = {
+		is_locked_mechanic = {
+			mechanic = government_reform
+			type = manden_kurufa_reform
+		}
+	}
+	country_modifier = {
+		cultural_tradition = 0.5
+		monthly_towards_decentralization = societal_value_minor_monthly_move
+		stability_decay = -0.00025
+		government_reform_slots = 1
+		global_crown_estate_power = 0.10
+	}
+	years = 2
+}
+REPLACE:malian_tribute_system = {
+	potential = {
+		has_unlocked_government_reform_trigger = { type = malian_tribute_system }
+	}
+	allow = {
+	}
+
+	country_modifier = {
+		allow_tributary_subject = yes
+		subject_pays_vassal_cost_modifier = 0.3
+		government_size = 1
+		government_reform_slots = 1
+		monthly_towards_decentralization = societal_value_minor_monthly_move
+	}
+
+	years = 4
+}
+
