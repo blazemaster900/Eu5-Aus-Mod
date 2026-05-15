@@ -9,9 +9,12 @@ on_game_start = {
 
 mod_adjust_france = {
 	effect = {
+		location:bordeaux = {
+			change_building_level_in_location = { building = building_type:bordeaux_governor value = 1 }
+		}
 		c:FRA = {
 			cancel_subject = c:FLA
-
+			
 			add_truce_with = { target = c:FLA mutual = yes months = 180 }
 			add_truce_with = { target = c:HAI mutual = yes months = 180 }
 			add_truce_with = { target = c:BRB mutual = yes months = 180 }
@@ -24,10 +27,10 @@ mod_adjust_france = {
 			hidden_effect = {
 				set_prestige = 5
 			}
+			
 		}
 
 		c:ENG = {
-
 			add_truce_with = { target = c:FLA mutual = yes months = 180 }
 			add_truce_with = { target = c:HAI mutual = yes months = 180 }
 			add_truce_with = { target = c:BRB mutual = yes months = 180 }
