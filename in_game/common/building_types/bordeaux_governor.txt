@@ -22,7 +22,8 @@ bordeaux_governor = {
 	}
 
 	remove_if = {
-	}
+            NOT = { location.owner = { has_advance = english_tradition } }
+    }
 
 	expensive = yes
 	
