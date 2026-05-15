@@ -16,6 +16,7 @@
 			crown_estate
 		}
 		years = 2
+		}
 	}	
 	REPLACE:allotment_system_policy = {
 		unique = yes
