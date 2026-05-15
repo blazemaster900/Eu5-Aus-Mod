@@ -25,7 +25,7 @@
 			data = population
 		}
 		visible = {
-			population < 150
+			population < 30
 			OR = {
 				area = area:finland_area
 				area = area:norrland_area
@@ -52,7 +52,7 @@
 
 	is_finished = {
 		scope:target ?= {
-			population > 150
+			population > 30
 		}
 	}
 	
