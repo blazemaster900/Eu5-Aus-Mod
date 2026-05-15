@@ -11,7 +11,7 @@ scriptorium = {
 	
 	town = yes
 	city = yes
-	
+	megalopolis = yes	
 	
 
 	build_time = guild_build_time
@@ -44,7 +44,7 @@ REPLACE:printing_press_shop = {
 	
 	town = yes
 	city = yes
-
+	megalopolis = yes
 	
 
 
@@ -83,7 +83,7 @@ printing_manufactory = {
 	
 	town = yes
 	city = yes
-
+	megalopolis = yes
 	
 
 	obsolete = printing_press_shop
@@ -123,7 +123,7 @@ REPLACE:printing_mill = {
 	
 	town = yes
 	city = yes
-
+	megalopolis = yes
 	
 
 
