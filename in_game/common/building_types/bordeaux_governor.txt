@@ -11,17 +11,18 @@ bordeaux_governor = {
 	rural_settlement = no
 	town = no
 	city = yes
-		 
+	megalopolis = yes	 
+
+	country_potential = {
+		has_or_had_tag = ENG
+	}
 
 	allow = {
 		always = never
 	}
 
-
 	remove_if = {
-		owner = FRA
-		owner = SPA
-		owner = CAS
+		 owner != ENG 
 	}
 
 	expensive = yes
