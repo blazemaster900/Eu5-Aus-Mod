@@ -11,21 +11,26 @@ bordeaux_governor = {
 	rural_settlement = no
 	town = no
 	city = yes
-	megalopolis = yes
+	megalopolis = yes	 
+
 	country_potential = {
-		has_or_had_tag = ENG
-	}
-	buildable = no
-	allow = {
+		always = no
 	}
 
-	remove_if = { #remove if owned by ENG, please help :)
+	allow = {
+		always = never
+	}
+
+	remove_if = {
 	}
 
 	expensive = yes
+	
 	automation_build_allowed = no
 	ai_forbid_shutdown = yes
 	forbidden_for_estates = yes
+
+
 	build_time = government_build_time
 
 
