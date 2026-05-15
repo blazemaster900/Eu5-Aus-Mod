@@ -24,7 +24,7 @@ REPLACE:french_feudal_nobility = { # French Feudalism
 	}
 	country_modifier = {
 		has_appanages_subjects = yes
-		diplomatic_capacity = 1
+		diplomatic_reputation = 1
 		monthly_towards_serfdom = societal_value_large_monthly_move
 		monthly_towards_aristocracy = societal_value_monthly_move
 	}
@@ -48,8 +48,8 @@ REPLACE:ancient_french_taxation = {
 	country_modifier = {
 		monthly_legitimacy = 0.1
 		global_peasant_enfranchisment = -0.20
-		government_reform_slots = 1
-		nobles_estate_max_tax = -0.20
+		nobles_estate_max_tax = -0.05
+		tax_income_efficiency = medium_tax_income_efficiency_penalty
 		monthly_towards_decentralization = societal_value_tiny_monthly_move
 	}
 	years = 2
@@ -85,4 +85,43 @@ REPLACE:celtic_traditions_reform = {
 		court_language_is_common_language_importance_modifier = 1.0
 	}
 	years = 2
+}
+REPLACE:manden_kurufa_reform = {
+	major = yes
+	unique = yes
+	age = age_1_traditions
+	potential = {
+		has_advance = kouroukan_fouga_advance
+	}
+	locked = {
+		is_locked_mechanic = {
+			mechanic = government_reform
+			type = manden_kurufa_reform
+		}
+	}
+	country_modifier = {
+		cultural_tradition = 0.5
+		monthly_towards_decentralization = societal_value_minor_monthly_move
+		stability_decay = -0.00025
+		government_reform_slots = 1
+		global_crown_estate_power = 0.10
+	}
+	years = 2
+}
+REPLACE:malian_tribute_system = {
+	potential = {
+		has_unlocked_government_reform_trigger = { type = malian_tribute_system }
+	}
+	allow = {
+	}
+
+	country_modifier = {
+		allow_tributary_subject = yes
+		subject_pays_vassal_cost_modifier = 0.3
+		government_size = 1
+		government_reform_slots = 1
+		monthly_towards_decentralization = societal_value_minor_monthly_move
+	}
+
+	years = 4
 }
