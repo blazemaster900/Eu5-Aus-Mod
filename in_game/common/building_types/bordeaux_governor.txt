@@ -20,6 +20,8 @@ bordeaux_governor = {
 
 	remove_if = {
 		owner = FRA
+		owner = SPA
+		owner = CAS
 	}
 
 	expensive = yes
