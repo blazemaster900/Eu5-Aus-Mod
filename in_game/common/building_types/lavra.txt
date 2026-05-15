@@ -8,13 +8,14 @@
 	rural_settlement = no
 	town = yes
 	city = yes
+	megalopolis = yes	
 	
 	build_time = religious_building_time
 
 	expensive = yes
 	
 	country_potential = {
-		always = no
+		has_or_had_tag = KIE
 	}
 
 	allow = {
