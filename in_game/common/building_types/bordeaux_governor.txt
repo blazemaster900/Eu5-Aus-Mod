@@ -14,7 +14,7 @@ bordeaux_governor = {
 	megalopolis = yes	 
 
 	country_potential = {
-		has_or_had_tag = ENG
+		always = no
 	}
 
 	allow = {
