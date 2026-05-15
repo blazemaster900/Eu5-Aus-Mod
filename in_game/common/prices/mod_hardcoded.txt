@@ -1,6 +1,6 @@
 REPLACE:destroy_market = {
-	prestige = 5
+	prestige = 1
 }
 REPLACE:change_main_school = {
-	 stability = 15
+	 stability = 25
 }
