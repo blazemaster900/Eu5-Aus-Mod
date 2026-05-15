@@ -1,0 +1,298 @@
+countries = {
+	countries = {	
+	MAI = {	#Mainz
+		own_control_core = {
+			mainz aschaffenburg miltenberg buchen tauberbischofsheim
+			hofgeismar bensheim 
+			katzenelnbogen darmstadt
+			kreuznach birkenfeld castellaun
+			lichtenberg_veldenz meisenheim 
+			usingen 
+			diez 
+			wetzlar
+			worms
+			heidelberg
+			neustadt_an_der_haardt germersheim kaiserslautern sinsheim oppenheim
+			landau_rhineland
+			zweibrucken bitche pirmasens 
+			leiningen 
+			speyer
+			trier wittlich
+			mayen coblenz saarburg
+			baden durlach
+			wiesbaden
+			simmern
+			friedberg_hesse offenbach
+			frankfurt
+			hanau
+			daun cochem
+			erbach
+			mosbach
+			wied
+			cologne ahrweiler neuss attendorn brilon soest recklinghausen
+			bonn
+			dusseldorf remscheid siegburg solingen
+			dillenburg #Nassau Dillenburg
+			siegen #Nassau Siegen
+			altenkirchen gummersbach
+			hadamar
+			bergheim duren monchengladbach
+			kassel rotenburg eschwege frankenberg marburg alsfeld
+			giessen melsungen
+			ziegenhain
+			korbach
+			berleburg
+		}
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_bishopric_no_coast"
+		include = "expl_northern_europe"
+		country_rank = rank_kingdom
+		government = {
+			ruler = mai_heinrich_iii_von_virneburg
+
+			ruler_term = { character = mai_konrad_i_wittelsbach start_date = 1161.1.1 end_date = 1165.1.1 regnal_number = 1 }
+			ruler_term = { character = mai_konrad_i_wittelsbach start_date = 1183.8.23 end_date = 1200.10.25 regnal_number = 1 } # Restored
+
+			regnal_numbers = {
+				name_conrad = 1
+				name_henry = 1
+			}
+		}
+
+		accepted_cultures = {
+			
+			ripuarian_franconian
+			moselle_franconian
+			westphalian
+			low_franconian
+			
+			
+		}
+
+		capital = mainz
+	}
+
+    
+    KTZ = {}
+    SPO = {}
+    VEL = {}
+    NSW = {}
+    DIE = {}
+    WRM = {}
+    WTZ = {}
+    ZWE = {}
+    LNN = {}
+    SPY = {}
+    TRI = {}
+    BAD = {}
+    NSI = {}
+    PSZ = {}
+    FLK = {}
+    FRN = {}
+    HNA = {}
+    DUN = {}
+    ERB = {}
+    MSB = {}
+    WIE = {}
+    KOL = {}
+    BRG = {}
+    NSS = {}
+    SYN = {}
+    NSH = {}
+    JUL = {}
+    HES = {}
+    ZIG = {}
+    WDE = {}
+    WTG = {}
+    LDA = {}
+
+
+
+    	PAL = {	#The Palatinate
+		own_control_core = {
+			amberg eschenbach neumarkt roding sulzbach #Oberpfalz
+		}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_monarchy_no_coast"
+		include = "expl_northern_europe"
+		include = "german_principality"
+		capital = heidelberg
+		dynasty = wittelsbach_dynasty
+		government = {
+			ruler = pal_rudolf_ii_wittelsbach
+
+			ruler_term = { character = pal_konrad_hohenstaufen start_date = 1156.1.1 end_date = 1195.11.8 regnal_number = 1 }
+
+			ruler_term = { character = pal_heinrich_v_welf start_date = 1195.11.8 end_date = 1213.1.1 regnal_number = 5 }
+			ruler_term = { character = pal_heinrich_vi_welf start_date = 1213.1.1 end_date = 1214.4.26 regnal_number = 6 }
+
+			ruler_term = { character = bav_ludwig_i_wittelsbach start_date = 1214.4.26 end_date = 1231.9.5 regnal_number = 1 }
+			ruler_term = { character = bav_otto_ii_wittelsbach start_date = 1231.9.5 end_date = 1253.11.29 regnal_number = 2 }
+			ruler_term = { character = ubv_ludwig_ii_wittelsbach start_date = 1253.11.29 end_date = 1294.2.2 regnal_number = 2 }
+			ruler_term = {
+				character = ubv_rudolf_i_wittelsbach start_date = 1294.2.2 end_date = 1317.1.1 regnal_number = 1
+				character = ubv_ludwig_iv_wittelsbach start_date = 1294.2.2 end_date = 1317.1.1 regnal_number = 4
+			}
+			ruler_term = { character = ubv_ludwig_iv_wittelsbach start_date = 1317.1.1 end_date = 1329.8.4 regnal_number = 3 }
+			ruler_term = { character = pal_rudolf_ii_wittelsbach start_date = 1329.8.4 regnal_number = 2 }
+			regnal_numbers = {
+				name_herman = 3
+				#Ezzo = 1
+				name_otto = 2
+				name_henry = 6
+				name_sigfrid = 1
+				name_godfrey = 1
+				name_william = 1
+				name_conrad = 1
+				name_louis = 3
+				name_rudolf = 2
+			}
+		}
+
+		accepted_cultures = {
+			upper_palatine
+			east_franconian
+		}
+
+		country_rank = rank_county
+
+	}
+    DAN = {
+		own_control_core = {
+			thisted skagen hjorring
+			kolding aarhus grindsted silkeborg kalo
+			bolling ringkobing holstebro_lundenes varde
+			randers viborg aalborg ars
+			ribe tonder
+			odense navskov assens svendborg
+			roskilde ringsted kalundborg helsingor hammershus
+			kobenhavn slagelse vordingborg falster
+
+			# own_control_integrated, but culture accepted
+			tallinn narva padise rakvere rapla toolse vasknarva
+			
+			#still owned in skane
+			laholm asbo
+			varberg halmstad kungsbacka
+			ronneby bregne solvesborg
+			gladsax osby 
+			helsingborg lund malmo
+		}
+
+
+		our_cores_conquered_by_others = {
+		}
+
+		capital = kobenhavn
+		dynasty = estrid_dynasty
+		court_language = low_german_dialect
+
+		country_rank = rank_kingdom
+
+		include = "expl_scandinavia"
+		include = "catholic_monarchy"
+
+		government = {
+			ruler_term = { character = dan_gorm_the_old start_date = 936.1.1 end_date = 963.1.1 regnal_number = 1 }
+			ruler_term = { character = dan_harald_bluetooth start_date = 963.1.1 end_date = 986.11.1 regnal_number = 1 }
+			ruler_term = { character = eng_sweyn_forkbeard start_date = 986.11.1 end_date = 1014.2.3 regnal_number = 1 }
+			ruler_term = { character = dan_harald_ii start_date = 1014.2.3 end_date = 1018.1.1 regnal_number = 2 }
+			ruler_term = { character = eng_cnut_the_great start_date = 1018.1.1 end_date = 1035.11.12 regnal_number = 2 }
+			ruler_term = { character = eng_harthacnute start_date = 1035.11.12 end_date = 1042.6.8 regnal_number = 3 }
+			ruler_term = { character = dan_magnus_fairhair start_date = 1042.6.8 end_date = 1047.10.25 regnal_number = 1 }
+			ruler_term = { character = dan_sweyn_estridsson start_date = 1047.10.25 end_date = 1076.4.28 regnal_number = 2 }
+			ruler_term = { character = dan_harald_iii start_date = 1076.4.28 end_date = 1080.4.17 regnal_number = 3 }
+			ruler_term = { character = dan_canute_iv start_date = 1080.4.17 end_date = 1086.7.10 regnal_number = 4 }
+			ruler_term = { character = dan_olaf_hunger start_date = 1086.7.10 end_date = 1095.8.18 regnal_number = 1 }
+			ruler_term = { character = dan_erik_i start_date = 1095.8.18 end_date = 1103.7.10 regnal_number = 1 }
+			ruler_term = { character = dan_niels start_date = 1104.1.1 end_date = 1134.6.25 regnal_number = 1 }
+			ruler_term = { character = dan_erik_ii start_date = 1134.6.25 end_date = 1137.9.18 regnal_number = 2 }
+			ruler_term = { character = dan_erik_iii start_date = 1137.9.18 end_date = 1146.5.1 regnal_number = 3 }
+			ruler_term = {
+				character = dan_sweyn_iii start_date = 1146.5.1 end_date = 1154.1.1 regnal_number = 3
+				character = dan_canute_v start_date = 1146.5.1 end_date = 1154.1.1 regnal_number = 5
+			}
+			ruler_term = {
+				character = dan_sweyn_iii start_date = 1154.1.1 end_date = 1157.10.23 regnal_number = 3
+				character = dan_canute_v start_date = 1154.1.1 end_date = 1157.10.23 regnal_number = 5
+				character = dan_valdemar_i start_date = 1154.1.1 end_date = 1157.10.23 regnal_number = 1
+			}
+
+			ruler_term = { character = dan_valdemar_i start_date = 1157.10.23 end_date = 1182.5.12 regnal_number = 1 }
+			ruler_term = { character = dan_canute_vi start_date = 1182.5.12 end_date = 1202.11.12 regnal_number = 6 }
+			ruler_term = { character = dan_valdemar_ii start_date = 1202.11.12 end_date = 1215.1.1 regnal_number = 2 }
+			ruler_term = {
+				character = dan_valdemar_ii start_date = 1215.1.1 end_date = 1231.11.28 regnal_number = 2
+				character = dan_valdemar_the_young start_date = 1215.1.1 end_date = 1231.11.28 regnal_number = 3
+			}
+
+			ruler_term = { character = dan_valdemar_ii start_date = 1231.11.28 end_date = 1232.5.30 regnal_number = 2 }
+
+			ruler_term = {
+				character = dan_valdemar_ii start_date = 1232.5.30 end_date = 1241.3.28 regnal_number = 2
+				character = dan_erik_iv start_date = 1232.5.30 end_date = 1241.3.28 regnal_number = 4
+			}
+
+			ruler_term = { character = dan_abel start_date = 1250.8.10 end_date = 1252.6.29 regnal_number = 1 }
+			ruler_term = { character = dan_christopher_i start_date = 1252.12.25 end_date = 1259.5.29 regnal_number = 1 }
+			ruler_term = { character = dan_erik_v start_date = 1259.5.29 end_date = 1286.11.22 regnal_number = 5 }
+			ruler_term = { character = dan_erik_vi start_date = 1286.11.22 end_date = 1319.11.13 regnal_number = 6 }
+			ruler_term = { character = dan_chistopher_ii start_date = 1320.1.25 end_date = 1326.1.1 regnal_number = 2 }
+			ruler_term = { character = dan_valdemar_iii start_date = 1326.1.1 end_date = 1329.1.1 regnal_number = 3 } #Yes, there are 2 Valdemar III
+			ruler_term = { character = dan_chistopher_ii start_date = 1329.1.1 end_date = 1332.8.2 regnal_number = 2 }
+
+
+			regency = nobles_estate_regency
+			active_regent = shl_gerhard_iii_holstein_rendsburg
+			start_regency_date = 1332.8.2
+			end_regency_date = 1400.1.1
+			heir = dan_valdemar_atterdag
+			designated_heir_reason = prince_in_exile
+
+			regnal_numbers = {
+				name_guthrum = 1
+				name_harold = 3
+				name_sven = 3
+				name_canute = 6
+				name_magnus = 1
+				name_olaf = 1
+				name_eric = 6
+				name_nicholas = 1
+				name_waldemar = 3
+				name_abel = 1
+				name_christopher = 2
+			}
+
+			privilege = {
+				#Nobles
+				primacy_of_nobility
+				#Clergy
+				#Peasants
+				peasants_free_peasantry
+				peasants_allowed_weapons_privilege
+				access_to_royal_and_ecclesiastical_courts
+			}
+			laws = {
+				legal_code_law = dan_danske_lov
+			}
+			
+
+			#Societal Values
+			centralization_vs_decentralization = 100
+			aristocracy_vs_plutocracy = -60
+			serfdom_vs_free_subjects = 20
+			belligerent_vs_conciliatory = -40
+			offensive_vs_defensive = 40
+			land_vs_naval = 55
+			outward_vs_inward = -40
+		}
+		tolerated_cultures = {
+		}
+	
+	}
+    SKE = {}
+	}
+}

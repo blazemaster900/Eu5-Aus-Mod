@@ -1,0 +1,18 @@
+REPLACE:swedish = { #fix so that Denmark doesn't want to immediately genocide the swedes
+	language = swedish_dialect
+	
+	color = map_swedish
+	
+	tags = { swedish_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		danish = kindred
+		finnish = positive
+	}
+
+	culture_groups = {
+		scandinavian_group
+	}
+	
+	use_patronym = yes
+}
