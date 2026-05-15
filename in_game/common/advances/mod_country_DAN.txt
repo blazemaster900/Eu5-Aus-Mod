@@ -114,18 +114,6 @@ REPLACE:dan_expanded_dockyards = {
 
 	requires = maritime_advance_age_4
 }
-REPLACE:dan_danish_legislation = {
-	age = age_5_absolutism
-	potential = {
-				OR = {
-			has_or_had_tag = DAN
-			has_or_had_tag = SCA
-			}
-	}
-	global_estate_target_satisfaction = tiny_permanent_target_satisfaction
-
-	requires = the_constitution
-}
 
 REPLACE:dan_danish_agriculture = {
 	content_priority = 100
