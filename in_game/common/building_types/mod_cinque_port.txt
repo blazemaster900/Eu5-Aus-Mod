@@ -1,0 +1,44 @@
+REPLACE:cinque_port = {  # ESTATE BUILDING
+	is_special = yes
+	is_foreign = no
+	max_levels = 1
+	pop_type = burghers
+	
+	category = military_category
+	
+	employment_size = military_support_employment
+	
+	estate = burghers_estate
+	
+	rural_settlement = yes
+	town = yes
+	city = yes
+	megalopolis = yes
+	
+	country_potential = {
+		tag = ENG
+	}
+	location_potential = {
+		is_port = yes
+	}
+	
+	allow = {
+		always = no
+	}
+	
+	build_time = medium_port_building_time
+
+	
+	
+	possible_production_methods = {
+		estate_building_input
+	}
+	construction_demand = port_building_construction
+	
+
+	modifier = {
+		local_navy_levy_size_modifier = 40
+		local_sailors = 0.002
+		local_burghers_estate_power = 1.0
+	}
+}

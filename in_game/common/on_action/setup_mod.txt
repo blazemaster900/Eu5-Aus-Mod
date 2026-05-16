@@ -11,6 +11,7 @@ mod_adjust_france = {
 	effect = {
 		location:bordeaux = {
 			change_building_level_in_location = { building = building_type:bordeaux_governor value = 1 }
+			change_building_level_in_location = {building = building_type:castle value = -1}
 		}
 		location:jonzac = {
 			change_building_level_in_location = {building = building_type:castle value = 1}
@@ -18,6 +19,10 @@ mod_adjust_france = {
 		location:mimizan = {
 			change_building_level_in_location = {building = building_type:castle value = 1}
 		}
+		location:belin = {
+			change_building_level_in_location = {building = building_type:castle value = 1}
+		}
+
 		c:FRA = {
 			cancel_subject = c:FLA
 			
