@@ -1,0 +1,22 @@
+﻿##############################################
+REPLACE:offensive_vs_defensive = {
+	left_modifier = {
+		siege_ability = 0.1
+		assault_ability = 0.1
+		
+		army_movement_speed = 0.1
+		defence_importance_modifier = -0.2
+		bias_for_militarist_policies = 50
+
+		antagonism_declared_war_no_cb_giving_modifier = -0.1
+	}
+	right_modifier = {
+		fort_maintenance_cost = -0.2
+		combat_speed_modifier = 0.1
+		
+		army_movement_speed = -0.1
+		defence_importance_modifier = 0.2
+		bias_for_diplomat_policies = 50
+		fort_limit_modifier = 0.5
+	}
+}
