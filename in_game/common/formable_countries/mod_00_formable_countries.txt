@@ -47,34 +47,6 @@ REPLACE:PRU_f = { #Prussia
 		}
 	}
 }
-REPLACE:POL_f = { 
-
-	level = 1
-	required_locations_fraction = 0.75
-	rule = historical
-	potential = {
-		culture = { has_culture_group = culture_group:polish_group }
-	}
-	allow = {
-		owns = location:krakow
-		owns = location:warsaw
-	}
-	
-	name = POL
-	flag = POL
-	adjective = POL_ADJ
-	tag = POL
-	color = map_POL
-	
-	areas = {
-		central_poland_area
-		greater_poland_area
-		lesser_poland_area
-		mazovia_area
-	}
-	form_effect = {
-	}
-}
 REPLACE:UKR_f = { #Ruthenia
 
 	level = 3
