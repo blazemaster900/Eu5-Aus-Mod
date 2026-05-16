@@ -1,4 +1,4 @@
-﻿#Foundation Law
+#Foundation Law
 union_foundation_law = {
 	type = international_organization
 	law_category = foundation
@@ -6,7 +6,7 @@ union_foundation_law = {
 		international_organization_type = international_organization_type:union
 	}
 	allow = {
-		international_organization_lifetime >= 10
+		international_organization_lifetime >= 5
 		# NOT = { has_cooldown = union_recent_policy_change_cd }
 	}
 	locked = {
@@ -174,7 +174,7 @@ union_codified_inheritance_law = {
 		international_organization_type = international_organization_type:union
 	}
 	allow = {
-		international_organization_lifetime >= 10
+		international_organization_lifetime >= 5
 		# NOT = { has_cooldown = union_recent_policy_change_cd }
 		international_organization_has_law = law:union_foundation_law
 	}
@@ -292,7 +292,7 @@ union_economic_law = {
 		international_organization_type = international_organization_type:union
 	}
 	allow = {
-		international_organization_lifetime >= 15
+		international_organization_lifetime >= 10
 		# NOT = { has_cooldown = union_recent_policy_change_cd }
 		international_organization_has_law = law:union_codified_inheritance_law
 	}
@@ -396,7 +396,7 @@ union_diplomatic_law = {
 		international_organization_type = international_organization_type:union
 	}
 	allow = {
-		international_organization_lifetime >= 20
+		international_organization_lifetime >= 15
 		# NOT = { has_cooldown = union_recent_policy_change_cd }
 		international_organization_has_law = law:union_economic_law
 	}
@@ -635,8 +635,9 @@ union_unification_of_crowns_law = {
 		international_organization_type = international_organization_type:union
 	}
 	allow = {
-		international_organization_lifetime >= 10
+		international_organization_lifetime >= 20
 		# NOT = { has_cooldown = union_recent_policy_change_cd }
+		international_organization_has_law = law:union_legislature_law
 	}
 	locked = {
 	}
@@ -662,7 +663,7 @@ union_unification_of_crowns_law = {
 		international_organization_modifier = {
 			union_integration_level = 3
 		}
-		annexation_speed = 2.5
+		annexation_speed = 3
 		international_organization_modifier = {
 			years_to_annex_members = -20
 			enable_annexation_of_members = yes
