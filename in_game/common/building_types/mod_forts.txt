@@ -10,6 +10,7 @@
 	rural_settlement = yes
 	town = yes
 	city = yes
+	megalopolis = yes
 	
 	
 	build_time = small_fort_building
@@ -66,7 +67,7 @@ REPLACE:castle = {
 	rural_settlement = yes
 	town = yes
 	city = yes
-	
+	megalopolis = yes
 	
 	build_time = medium_fort_building
 
@@ -120,7 +121,7 @@ REPLACE:bastion = {
 	rural_settlement = yes
 	town = yes
 	city = yes
-	
+	megalopolis = yes	
 	
 	build_time = medium_fort_building
 
@@ -174,7 +175,7 @@ REPLACE:star_fort = {
 	rural_settlement = yes
 	town = yes
 	city = yes
-	
+	megalopolis = yes	
 	
 	build_time = large_fort_building
 
@@ -227,7 +228,7 @@ REPLACE:fortress = {
 	rural_settlement = yes
 	town = yes
 	city = yes
-	
+	megalopolis = yes	
 	
 	build_time = large_fort_building
 
