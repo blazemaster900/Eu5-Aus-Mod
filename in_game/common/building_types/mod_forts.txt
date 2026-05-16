@@ -10,7 +10,7 @@
 	rural_settlement = yes
 	town = yes
 	city = yes
-	megalopolis = yes
+	
 	
 	build_time = small_fort_building
 
@@ -30,6 +30,15 @@
 	}
 	construction_demand = stockade_construction
 	
+	allow = {
+		NOT = { OR = {
+			has_building = building_type:castle
+			has_building = building_type:bastion 
+			has_building = building_type:star_fort 
+			has_building = building_type:fortress
+				}
+			}
+	}
 
 	modifier = {
 		local_garrison_size = 0.1
@@ -57,7 +66,7 @@ REPLACE:castle = {
 	rural_settlement = yes
 	town = yes
 	city = yes
-	megalopolis = yes
+	
 	
 	build_time = medium_fort_building
 
@@ -75,6 +84,15 @@ REPLACE:castle = {
 	}
 	construction_demand = castle_construction
 	
+	allow = {
+		NOT = { OR = {
+			has_building = building_type:stockade
+			has_building = building_type:bastion 
+			has_building = building_type:star_fort 
+			has_building = building_type:fortress
+				}
+			}
+	}
 
 	modifier = {
 		local_garrison_size = 0.5
@@ -102,7 +120,7 @@ REPLACE:bastion = {
 	rural_settlement = yes
 	town = yes
 	city = yes
-	megalopolis = yes	
+	
 	
 	build_time = medium_fort_building
 
@@ -121,6 +139,16 @@ REPLACE:bastion = {
 
 	}
 	construction_demand = fort_construction
+
+	allow = {
+		NOT = { OR = {
+			has_building = building_type:castle
+			has_building = building_type:stockade 
+			has_building = building_type:star_fort 
+			has_building = building_type:fortress
+				}
+			}
+	}
 	
 	modifier = {
 		local_garrison_size = 1.0
@@ -146,7 +174,7 @@ REPLACE:star_fort = {
 	rural_settlement = yes
 	town = yes
 	city = yes
-	megalopolis = yes	
+	
 	
 	build_time = large_fort_building
 
@@ -163,6 +191,16 @@ REPLACE:star_fort = {
 		}
 	}
 	construction_demand = fort_construction
+
+	allow = {
+		NOT = { OR = {
+			has_building = building_type:castle
+			has_building = building_type:bastion 
+			has_building = building_type:stockade
+			has_building = building_type:fortress
+				}
+			}
+	}
 	
 	modifier = {
 		local_garrison_size = 2.0
@@ -189,7 +227,7 @@ REPLACE:fortress = {
 	rural_settlement = yes
 	town = yes
 	city = yes
-	megalopolis = yes	
+	
 	
 	build_time = large_fort_building
 
@@ -206,7 +244,16 @@ REPLACE:fortress = {
 		}
 	}
 	construction_demand = fort_construction
-	
+
+	allow = {
+		NOT = { OR = {
+			has_building = building_type:castle
+			has_building = building_type:bastion 
+			has_building = building_type:star_fort 
+			has_building = building_type:stockade
+				}
+			}
+	}	
 	
 	modifier = {
 		local_garrison_size = 4.0
