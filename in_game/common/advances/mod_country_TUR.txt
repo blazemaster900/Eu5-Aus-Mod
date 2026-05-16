@@ -1,0 +1,11 @@
+REPLACE:seljuk_heritage = {
+	age = age_1_traditions
+	icon = seljuk_roots
+	potential = {
+		#has_or_had_tag = TUR
+	}
+	
+	global_integration_speed_modifier = 0.33
+	
+	requires = feudalism_advance
+}
