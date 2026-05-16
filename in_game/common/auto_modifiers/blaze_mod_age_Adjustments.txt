@@ -33,3 +33,85 @@ blaze_mod_merc_cost_age5 = {
         hire_mercenary_premium_cost_modifier = 1.5
 	    hire_mercenary_leader_cost_modifier = 1.5
 }
+
+############################################################ Integration speed Changes for minor nations
+
+blaze_minor_integration_speed_age1 = {
+	potential_trigger = {
+		custom_description = {
+			text = blaze_minor_integration_speed_age1
+			is_ai = no
+			NOT = { has_or_had_tag  = TUR } # they get integration buffs already.
+			current_age = age_1_traditions
+			blaze_total_population_with_subjects < 2000
+		}
+	}
+
+	global_integration_speed_modifier = 2
+    levy_recovery_modifier = 0.30
+    government_size = 1
+}
+
+blaze_minor_integration_speed_age2 = {
+	potential_trigger = {
+		custom_description = {
+			text = blaze_minor_integration_speed_age2
+			is_ai = no
+			NOT = { has_or_had_tag  = TUR } # they get integration buffs already.
+			current_age = age_2_renaissance
+			blaze_total_population_with_subjects < 2500
+		}
+	}
+
+	global_integration_speed_modifier = 2
+    levy_recovery_modifier = 0.30
+    government_size = 1
+}
+
+blaze_minor_integration_speed_age3 = {
+	potential_trigger = {
+		custom_description = {
+			text = blaze_minor_integration_speed_age3
+			is_ai = no
+			NOT = { has_or_had_tag  = TUR }
+			current_age = age_3_discovery
+			blaze_total_population_with_subjects < 3500
+		}
+	}
+
+	global_integration_speed_modifier = 2
+    levy_recovery_modifier = 0.30
+    government_size = 1
+}
+
+blaze_minor_integration_speed_age4 = {
+	potential_trigger = {
+		custom_description = {
+			text = blaze_minor_integration_speed_age4
+			is_ai = no
+			NOT = { has_or_had_tag  = TUR }
+			current_age_or_later = { age = age_4_reformation }
+			blaze_total_population_with_subjects < 4500
+		}
+	}
+
+	global_integration_speed_modifier = 2
+    levy_recovery_modifier = 0.30
+    government_size = 1
+}
+
+blaze_minor_integration_speed_age5 = {
+	potential_trigger = {
+		custom_description = {
+			text = blaze_minor_integration_speed_age5
+			is_ai = no
+			NOT = { has_or_had_tag  = TUR }
+			current_age_or_later = { age = age_5_absolutism }
+			blaze_total_population_with_subjects < 6000
+		}
+	}
+
+	global_integration_speed_modifier = 2
+    levy_recovery_modifier = 0.30
+    government_size = 1
+}
