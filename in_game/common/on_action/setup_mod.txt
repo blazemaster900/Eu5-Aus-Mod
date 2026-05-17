@@ -28,6 +28,8 @@ mod_adjust_france = {
 			cancel_subject = c:FLA
 			cancel_subject = c:BRI
 			cancel_subject = c:NRM
+			cancel_subject = c:BGN
+			
 			add_truce_with = { target = c:FLA mutual = yes months = 180 }
 			add_truce_with = { target = c:HAI mutual = yes months = 180 }
 			add_truce_with = { target = c:BRB mutual = yes months = 180 }
