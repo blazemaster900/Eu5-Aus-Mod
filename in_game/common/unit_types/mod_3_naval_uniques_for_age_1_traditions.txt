@@ -35,7 +35,7 @@ n_super_cog = {
 	buildable = yes
 
 
-	crew_size = 0.08
+	crew_size = 0.04
 	#root = location. Checks location_potential first so don't need that scripting in
 	
 	age = "age_1_traditions"
