@@ -21,3 +21,15 @@ france_cant_accept_cultures_100y_war = {
 	add_accepted_culture_cost_modifier = 20
 	add_tolerated_culture_cost_modifier = 20
 }
+REPLACE:western_schism_modifier = {
+	game_data = {
+		category = religion
+	}
+	monthly_reform_desire = 0.0005
+	cardinal_price_cost_modifier = -0.5
+}
+REPLACE:papal_conclave_modifier = {
+	game_data = {
+		category = religion
+	}
+}
