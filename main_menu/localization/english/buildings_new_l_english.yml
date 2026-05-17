@@ -13,3 +13,9 @@
  bordeaux_governor: "Bordeaux Governor"
  bordeaux_governor_desc: "England's gateway into France for rule and subjugation of the locals"
  bordeaux_governor_maintenance: "Bordeaux maintenance"
+ # MAMLUK GOVERNMENT REFORM
+mams_nerf: "Bahri Mamluk Sultanate"
+mams_nerf_desc: "In 1337, the Bahri order concentrates power in Cairo around the Sultan, his barracks households, and competing amirs. Military strength comes from purchased and trained mamluk professionals, not deep rural musters, so peasant levy capacity remains limited. At the same time, centralized fiscal rule and urban market society reinforce crown authority and slowly erode rigid bound-labor structures in favor of freer subject relations."
+#Navy Units
+n_super_cog: "Super Cog"
+n_super_cog_desc: "A very large transport vessel which sole purpose is to transport large armies across water."
