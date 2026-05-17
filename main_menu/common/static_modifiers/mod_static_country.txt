@@ -14,3 +14,10 @@ mod_location_disabled_static_modifier = {
     cap_maximum_population_growth_at_zero = yes
     local_migration_attraction = -10
 }
+france_cant_accept_cultures_100y_war = {
+    game_data = {
+        category = country
+    }
+	add_accepted_culture_cost_modifier = 20
+	add_tolerated_culture_cost_modifier = 20
+}

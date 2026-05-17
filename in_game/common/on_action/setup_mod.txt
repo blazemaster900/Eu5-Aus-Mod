@@ -19,10 +19,15 @@ mod_adjust_france = {
 		location:mimizan = {
 			change_building_level_in_location = {building = building_type:castle value = 1}
 		}
+		location:montreuil = {
+			change_building_level_in_location = {building = building_type:castle value = 1}
+		}
+		
 
 		c:FRA = {
 			cancel_subject = c:FLA
-			
+			cancel_subject = c:BRI
+			cancel_subject = c:NRM
 			add_truce_with = { target = c:FLA mutual = yes months = 180 }
 			add_truce_with = { target = c:HAI mutual = yes months = 180 }
 			add_truce_with = { target = c:BRB mutual = yes months = 180 }
@@ -35,7 +40,11 @@ mod_adjust_france = {
 			hidden_effect = {
 				set_prestige = 0
 			}
-			
+			add_country_modifier = {
+				mode = add_and_replace
+				modifier = france_cant_accept_cultures_100y_war
+				years = 5
+			}
 		}
 
 		c:ENG = {

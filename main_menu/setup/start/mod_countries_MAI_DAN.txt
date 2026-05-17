@@ -13,6 +13,12 @@ countries = {
 			bayonne mauleon
 			# English towns on the Welsh March
 			shrewsbury hereford
+			boulogne_sur_mer
+			calais
+			saint_omer
+			hesdin
+			saint_pol
+			bethune
 		}
 		own_control_integrated = {
 			# Earldom of Chester
@@ -153,7 +159,42 @@ countries = {
 		ai_advance_preference_tags = {
 			exploration = 5
 		}
-	}	
+	}
+	BGN = {}
+	STP = {}
+	#Artois
+	ARS = {
+		own_control_core = {
+			arras bapaume lens
+		}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_monarchy"
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = bur_jeanne_iii_capet
+
+			ruler_term = { character = ars_robert_i_artois start_date = 1237.1.1 end_date = 1250.2.8 regnal_number = 1 }
+			ruler_term = { character = ars_robert_ii_artois start_date = 1250.9.1 end_date = 1302.7.11 regnal_number = 2 }
+			ruler_term = { character = ars_mahaut_artois start_date = 1302.7.11 end_date = 1329.11.27 regnal_number = 1 }
+			ruler_term = { character = fra_jeanne_ii_chalon_burgundy start_date = 1329.11.27 end_date = 1330.1.21 regnal_number = 1 }
+			ruler_term = { character = bur_jeanne_iii_capet start_date = 1330.1.21 regnal_number = 2 }
+
+			regnal_numbers = {
+				name_robert = 2
+				name_matilda = 1
+				name_joanna = 2
+			}
+		}
+
+		tolerated_cultures = {
+			low_franconian
+		}
+
+		capital = arras
+	}
 	MAI = {	#Mainz
 		own_control_core = {
 			mainz aschaffenburg miltenberg buchen tauberbischofsheim
