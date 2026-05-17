@@ -28,4 +28,6 @@ INJECT:country_base_values = {
 	mercenary_maintenance_cost = 0.75
 	hire_mercenary_premium_cost_modifier = 0.75
 	hire_mercenary_leader_cost_modifier = 0.75
+	army_logistics_distance = 20 # Add an additional 20 logistics distance to take the default base value back up to 50 after patch 1.2 nerfed it to 20
 }
+
