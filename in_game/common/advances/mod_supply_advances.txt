@@ -1,0 +1,31 @@
+
+REPLACE:supply_depot_advance_age_2_renaissance = {
+	age = age_2_renaissance
+			
+	supply_depot_capacity = 1000
+		
+	requires = regiment_reinforcement_speed_renaissance
+}
+REPLACE:supply_depot_advance_age_3_discovery = {
+	age = age_3_discovery
+	icon = global_supply_limit_modifier_advance_5
+			
+	supply_depot_capacity = 1000
+		
+	requires = pike_and_shot_advance
+}
+REPLACE:supply_depot_advance_age_4_reformation = {
+	age = age_4_reformation
+	icon = zmw_merchant_taxes
+			
+	supply_depot_capacity = 1000
+		
+	requires = correct_box_advance_reformation
+}
+REPLACE:supply_lines = {
+	icon = maritime_advance_age_2
+	age = age_3_discovery
+	
+	requires = pike_square
+	army_logistics_distance = 1000
+}
