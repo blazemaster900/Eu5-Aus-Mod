@@ -18,3 +18,26 @@
 
 	gfx_tags = { mediterranean_galley_tag }
 }
+
+n_super_cog = {
+	is_special = yes
+	category = navy_transport
+	
+	maritime_presence = ship_neglible_maritime
+
+	movement_speed = 4
+
+	hull_size = 16
+	cannons = 1
+	
+	transport_capacity = 1
+	
+	buildable = yes
+
+
+	crew_size = 0.04
+	#root = location. Checks location_potential first so don't need that scripting in
+	
+	age = "age_1_traditions"
+	
+}
