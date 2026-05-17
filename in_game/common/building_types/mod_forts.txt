@@ -12,6 +12,7 @@
 	city = yes
 	
 	
+	
 	build_time = small_fort_building
 
 	expensive = yes

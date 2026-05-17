@@ -1,4 +1,4 @@
-﻿#Foundation Law
+#Foundation Law
 union_foundation_law = {
 	type = international_organization
 	law_category = foundation
