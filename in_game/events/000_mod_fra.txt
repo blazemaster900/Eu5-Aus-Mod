@@ -1,0 +1,248 @@
+﻿namespace = hate_france_love_england
+hate_france_love_england.1 = {
+	type = country_event
+	title = hate_france_love_england.1.title
+	desc = hate_france_love_england.1.desc
+	trigger = {
+		c:ENG = {has_country_modifier = victory_in_the_hyw_modifier}
+	}
+	dynamic_historical_event = {
+		tag = FRA
+		from = 1337.1.1
+		to = 1836.1.1
+		monthly_chance = 100
+	}
+	fire_only_once = yes
+	immediate = {
+		set_variable = { name = enable_taille_tax value = 1 }
+		event_illustration_estate_effect = { foreground = estate_type:peasants_estate background = estate_type:peasants_estate }
+		ruler ?= {
+            save_scope_as = ruler_fra
+        }
+	}
+option = {
+    name = hate_france_love_england.1.a
+    historical_option = yes
+    custom_tooltip = enables_taille_laws
+    remove_reform = government_reform:ancient_french_taxation
+    add_policy = policy:permanent_tax
+    # Annex all subjects with capital in France region
+    every_subject_or_below = {
+    limit = {
+        capital_scope = {
+            region = region:france_region
+        }
+    }
+    save_scope_as = current_subject
+    ROOT = {
+        annex_country = {
+            country = scope:current_subject
+            reason = Diplomatic
+        }
+    }
+}
+}
+}
+namespace = flavor_fra
+flavor_fra.1 = { # Birth of a Permanent Taxation System
+	type = country_event
+	title = flavor_fra.1.title
+	desc = flavor_fra.1.desc
+	outcome = neutral
+	historical_info = flavor_fra.1.historical_info
+
+
+	fire_only_once = yes
+	dynamic_historical_event = {
+		tag = FRA
+		from = 1420.1.1
+		to = 1836.1.1
+		monthly_chance = 100
+	}
+
+	illustration_tags = {
+		10 = angry
+		10 = interior
+	}
+
+	immediate = {
+		set_variable = { name = enable_taille_tax value = 1 }
+		event_illustration_estate_effect = { foreground = estate_type:peasants_estate background = estate_type:peasants_estate }
+		ruler ?= {
+            save_scope_as = ruler_fra
+        }
+	}
+
+	trigger = {
+		owns = location:paris
+		stability > 25
+		at_war = no
+		has_ruler = yes
+	}
+
+	option = {
+		name = flavor_fra.1.a
+		historical_option = yes
+		custom_tooltip = enables_taille_laws
+		remove_reform = government_reform:ancient_french_taxation
+		add_policy = policy:permanent_tax
+		ruler ?= {
+			add_adm = 10
+			add_dip = 5
+		}
+	}
+
+	option = {
+		name = flavor_fra.1.b
+		custom_tooltip = enables_taille_laws
+		remove_reform = government_reform:ancient_french_taxation
+		add_policy = policy:exceptional_only
+		ruler ?= {
+			add_adm = 5
+			add_dip = 10
+		}
+	}
+}
+namespace = hundred_years_war
+hundred_years_war.100 = {
+	type = country_event
+	category = situation_event	
+
+	title = hundred_years_war.100.title
+	desc = hundred_years_war.100.desc
+	outcome = neutral
+	
+	image = "gfx/interface/illustrations/situation/hundred_years_war.dds"
+
+
+
+	immediate = {
+		c:ENG.ruler_or_regent ?= {
+			save_scope_as = target_char
+		}
+	}
+	
+	option = {
+		name = hundred_years_war.100.a
+		custom_tooltip = hundred_years_war.101_tt
+
+		if = {
+			limit = { tag = ENG }
+			change_score = 1000
+			add_prestige = prestige_extreme_bonus
+			add_country_modifier = {
+				modifier = victory_in_the_hyw_modifier
+				mode = replace
+			}
+		}
+		
+		
+		if = {
+			limit = { tag = FRA }
+			change_score = {
+				value = 1500
+				subtract = current_year
+				min = 1
+				multiply = -10
+			}
+		}
+	}
+
+}
+hundred_years_war.202 = {
+	type = country_event
+	category = situation_event
+	title = hundred_years_war.202.title
+	desc = hundred_years_war.202.desc 
+	outcome = neutral
+
+
+	image = "gfx/interface/illustrations/situation/hundred_years_war.dds"
+
+	fire_only_once = yes
+	dynamic_historical_event = {
+		tag = FRA
+		from = 1337.1.1
+		to = 1342.1.1
+		monthly_chance = 100
+	}
+
+	immediate = {
+		character:eng_robert_iii_artois = {
+			save_scope_as = fugitive_robert_de_artois
+		}
+	}
+
+	trigger = {
+		has_variable = robert_the_fugitive_not_returned	
+		character:eng_robert_iii_artois ?= {
+			is_alive = yes	
+			owner = c:ENG
+		}		
+	}
+
+	option = { # Edward has forfeited his right to rule Aquitaine
+		name = hundred_years_war.202.a
+		historical_option = yes
+		custom_tooltip = hundred_years_war.202.tt.a
+		add_army_tradition = army_tradition_extreme_bonus
+		remove_variable = robert_the_fugitive_not_returned	
+		change_societal_value = {
+			type = offensive_vs_defensive
+			value = societal_value_move_to_left
+		}		
+		add_casus_belli = { target = c:ENG type = casus_belli:cb_hundred_years_war_fra }
+		show_as_tooltip = {
+			c:ENG = {
+				add_casus_belli = { target = c:FRA type = casus_belli:cb_hundred_years_war }
+			}	
+		}	
+		set_variable = { name = demanded_aquitaine_returned value = 1 }		
+		ai_chance = {
+			base = 90
+		}		
+	}
+	
+	option = { # Let the English keep him, it would be unwise to fight them
+		name = hundred_years_war.202.b
+		historical_option = no
+		custom_tooltip = may_still_trigger_hyw_tt
+		add_prestige = prestige_severe_penalty
+		remove_variable = robert_the_fugitive_not_returned	
+		change_societal_value = {
+			type = offensive_vs_defensive
+			value = societal_value_huge_move_to_right
+		}		
+		ai_chance = {
+			base = 10
+		}		
+	}
+
+	after = {
+    hidden_effect = {
+        if = {
+            limit = {
+                has_variable = demanded_aquitaine_returned
+            }
+            c:AQN = {
+                every_owned_location = {
+                    limit = {
+                        owner = c:AQN
+                        NOT = { previous_owner = c:FRA }
+                    }
+                    add_core = c:FRA
+                }
+            }
+            c:AQN = {
+                every_core_location = {
+                    limit = {
+                        owner = c:ENG
+                    }
+                    add_core = c:FRA
+                }
+            }
+        }
+    }
+    remove_variable = demanded_aquitaine_returned
+}
+}

@@ -6,10 +6,14 @@ REPLACE:ancient_french_taxation = {
 	}
 
 	locked = {
-		custom_tooltip = {
-			text = fra_ancient_french_taxation_removal_conditions
-			societal_value:centralization_vs_decentralization >= -50
-		}
+			OR = {
+				custom_tooltip = {
+					text = fra_ancient_french_taxation_removal_conditions
+					societal_value:centralization_vs_decentralization >= -50
+				}
+				societal_value:centralization_vs_decentralization >= -50
+				NOT = {c:ENG = {has_country_modifier = victory_in_the_hyw_modifier}}
+			}
 	}
 
 	country_modifier = {
