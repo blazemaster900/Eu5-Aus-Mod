@@ -265,7 +265,7 @@ REPLACE:complacency_impact = {
 REPLACE:num_locations_impact = {
 	scales_with = {
 		value = num_locations
-		divide = 20
+		divide = 25
 	}
 	
 	fort_limit = 1
