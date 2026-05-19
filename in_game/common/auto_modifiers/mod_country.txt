@@ -21,6 +21,14 @@ REPLACE:complacency_impact = {
 	}
 	
 }
+num_locations_impact = {
+	scales_with = {
+		value = num_locations
+		divide = 20
+	}
+	
+	fort_limit = 1
+}
 
 INJECT:country_base_values = {
 	max_diplomats = 4 ## PREV: 1 (used more frequently in mp)
