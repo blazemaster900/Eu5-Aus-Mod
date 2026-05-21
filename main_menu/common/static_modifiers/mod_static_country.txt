@@ -33,3 +33,6 @@ REPLACE:papal_conclave_modifier = {
 		category = religion
 	}
 }
+hyw_no_levies = {
+	global_army_levy_size_modifier = -2
+}
