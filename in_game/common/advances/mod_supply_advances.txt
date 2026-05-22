@@ -27,5 +27,5 @@ REPLACE:supply_lines = {
 	age = age_3_discovery
 	
 	requires = pike_square
-	army_logistics_distance = 1000
+	army_logistics_distance = 50
 }
