@@ -32,12 +32,88 @@ n_super_cog = {
 	
 	transport_capacity = 1
 	
-	buildable = yes
+	buildable = no
 
-
+	food_storage_per_strength = 500
 	crew_size = 0.04
 	#root = location. Checks location_potential first so don't need that scripting in
 	
 	age = "age_1_traditions"
 	
+} #RIP SUPER COG o7
+REPLACE:n_cog = {
+	category = navy_transport
+	copy_from = n_age_1_traditions_transport
+	#root = location. Checks location_potential first so don't need that scripting in
+	mercenaries_per_location = {
+		pop_type = burghers
+		multiply = 0.05
+	}
+	food_storage_per_strength = 990 #template has 10
+	transport_capacity = 0.75
+	
+	age = "age_1_traditions"
+	
+	upgrades_to = n_hulk
+}
+REPLACE:n_hulk = {
+	category = navy_transport
+	copy_from = n_age_2_renaissance_transport
+	#root = location. Checks location_potential first so don't need that scripting in
+	mercenaries_per_location = {
+		pop_type = burghers
+		multiply = 0.05
+	}
+	age = "age_2_renaissance"
+	food_storage_per_strength = 1480
+	transport_capacity = 1
+	upgrades_to = n_flute
+}
+
+REPLACE:n_flute = {
+	category = navy_transport
+	copy_from = n_age_3_discovery_transport
+	
+	mercenaries_per_location = {
+		pop_type = burghers
+		multiply = 0.025
+	}
+	food_storage_per_strength = 1960
+	transport_capacity = 1.25
+	age = "age_3_discovery"
+	upgrades_to = n_brig
+}
+
+REPLACE:n_brig = {
+	category = navy_transport
+	copy_from = n_age_4_reformation_transport
+	age = "age_4_reformation"
+	
+	mercenaries_per_location = {
+		pop_type = burghers
+		multiply = 0.01
+	}
+	food_storage_per_strength = 2420
+	transport_capacity = 1.5
+
+	
+	upgrades_to = n_merchantman
+}
+
+REPLACE:n_merchantman = {
+	category = navy_transport
+	copy_from = n_age_5_absolutism_transport
+	age = "age_5_absolutism"
+	upgrades_to = n_eastindiaman
+	food_storage_per_strength = 2840
+	transport_capacity = 1.75
+}
+
+REPLACE:n_eastindiaman = {
+	category = navy_transport
+	copy_from = n_age_6_revolutions_transport
+	age = "age_6_revolutions"
+	food_storage_per_strength = 3680
+	transport_capacity = 1.5
+
 }
