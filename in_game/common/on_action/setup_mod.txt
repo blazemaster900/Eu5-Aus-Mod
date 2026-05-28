@@ -4,6 +4,7 @@ on_game_start = {
 		mod_save_fix
 		dan_setup
 		mod_goods_change # for DS
+		habs_setup
 	}
 }
 
@@ -59,6 +60,11 @@ mod_adjust_france = {
 			add_truce_with = { target = c:UTR mutual = yes months = 180 }
 			add_truce_with = { target = c:LOO mutual = yes months = 180 }
 			add_truce_with = { target = c:NAM mutual = yes months = 180 }
+			add_country_modifier = {
+				mode = add_and_replace
+				modifier = eng_promote_for_forts
+				months = 2
+			}
 
 		}
 
@@ -126,4 +132,13 @@ mod_goods_change = {
 		location:vartofta = { change_raw_material = goods:tea }
 		location:tebourba = { change_raw_material = goods:elephants }
 	}
+}
+mod_habs_setup = {
+	effect = {
+		location:bordeaux = {
+			change_building_level_in_location = { building = building_type:bordeaux_governor value = 1 }
+			change_building_level_in_location = {building = building_type:city_walls value = 1}
+		}
+	}
+
 }
