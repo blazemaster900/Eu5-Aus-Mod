@@ -658,8 +658,6 @@ countries = {
 
 		accepted_cultures = {
 			high_alemannic
-			southern_bavarian
-			slovene
 		}
 
 		country_rank = rank_duchy
