@@ -1,0 +1,42 @@
+styrian_gateway = {
+	is_special = yes
+	max_levels = 1
+	pop_type = nobles
+	
+	employment_size = noble_cultural_employment
+	
+	rural_settlement = yes
+	town = yes
+	city = yes
+	buildable = no
+	build_time = small_fort_building
+
+	expensive = yes
+	
+	
+
+	
+	unique_production_methods = {
+	
+		stockade_maintenance = {
+			lumber = 0.1
+			weaponry = 0.02
+			tar = 0.02
+			category = building_maintenance
+		}
+	}
+	construction_demand = stockade_construction
+	
+	allow = {
+		always = no
+	}
+
+	modifier = {
+		local_distance_from_capital_speed_propagation = 1
+		local_nobles_estate_power = 0.5
+	}
+	
+	raw_modifier = {
+		local_nobles_desired_pop = 0.005
+	}
+}

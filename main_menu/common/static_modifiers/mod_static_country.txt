@@ -35,4 +35,6 @@ REPLACE:papal_conclave_modifier = {
 }
 eng_promote_for_forts = {
 	global_pop_promotion_speed_modifier= 1000
+	global_monthly_control = 100
+
 }
