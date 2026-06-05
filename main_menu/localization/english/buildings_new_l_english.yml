@@ -11,7 +11,7 @@
  scientific_revolution_advance: "Scientific revolution advance"
  
  bordeaux_governor: "Bordeaux Governor"
- bordeaux_governor_desc: "England's gateway into France for rule and subjugation of the locals"
+ bordeaux_governor_desc: "As the Dukes of Aquitaine, the Plantagenets have taken a keen interest in the development of Bordeaux and its surrounds"
  bordeaux_governor_maintenance: "Bordeaux maintenance"
  # MAMLUK GOVERNMENT REFORM
 mams_nerf: "Bahri Mamluk Sultanate"
@@ -19,3 +19,4 @@ mams_nerf_desc: "In 1337, the Bahri order concentrates power in Cairo around the
 #Navy Units
 n_super_cog: "Super Cog"
 n_super_cog_desc: "A very large transport vessel which sole purpose is to transport large armies across water."
+styrian_gateway: "Styrian Gateway"

@@ -63,7 +63,7 @@ mod_adjust_france = {
 			add_country_modifier = {
 				mode = add_and_replace
 				modifier = eng_promote_for_forts
-				months = 2
+				months = 6
 			}
 
 		}
@@ -133,12 +133,49 @@ mod_goods_change = {
 		location:tebourba = { change_raw_material = goods:elephants }
 	}
 }
-mod_habs_setup = {
+habs_setup = {
 	effect = {
-		location:bordeaux = {
-			change_building_level_in_location = { building = building_type:bordeaux_governor value = 1 }
-			change_building_level_in_location = {building = building_type:city_walls value = 1}
+		c:HAB = {
+			set_capital = location:leoben
+			add_country_modifier = {
+				mode = add_and_replace
+				modifier = eng_promote_for_forts
+				months = 6
+			}
+			
+		}
+		location:steyr = {
+			change_building_level_in_location = { building = building_type:styrian_gateway value = 1 }
+		}
+		location:rottenmann = {
+			add_road_to = {
+ 				target = location:leoben
+ 				type = gravel_road
+			}
+			#add_road_to = {
+ 			#	target = location:steyr
+ 			#	type = gravel_road
+			#}
+			add_road_to = {
+ 				target = location:melk
+ 				type = gravel_road
+			}
+			add_road_to = {
+ 				target = location:wels
+ 				type = gravel_road
+			}
+			change_building_level_in_location = {building = building_type:styrian_gateway value = 1}
+		}
+		location:leoben = {
+			change_building_level_in_location = {building = building_type:styrian_gateway value = 1}
+			add_road_to = {
+ 				target = location:weiz
+ 				type = gravel_road
+			}
+		}
+		location:scheibbs = {
+			change_building_level_in_location = {building = building_type:styrian_gateway value = 1}
 		}
 	}
-
+	
 }
