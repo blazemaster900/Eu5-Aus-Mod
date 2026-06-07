@@ -15,12 +15,10 @@ FRA = {
             arques longueville aumale gisors rouen
             louviers fecamp tancarville pont_audemer evreux mantes harcourt clermont_en_beauvaisis monfort_lamaury dreux
             etampes bernay laigle senonches
+			nogent_sur_sein villemaur broyes chateau_thierry coucy
          }
 
          own_control_integrated = {
-            poitiers la_roche_sur_yon montaigu thouars parthenay fontenay montmorillon niort chatellerault chateau_thierry
-            broyes vertus nogent_sur_seine epernay villemaur
-            coucy
          }
 
          include = "expl_western_europe"
@@ -186,6 +184,7 @@ PRO = {
          capital = marseille
          country_rank = rank_duchy
          starting_technology_level = 3
+		 
 
          own_control_core = {
             aix_en_provence arles brignoles marseille toulon tarascon apt barcelonnette forcalquier sisteron
@@ -197,7 +196,7 @@ PRO = {
          }
 
          our_cores_conquered_by_others = {
-            avignon
+            #avignon
          }
 
          include = "expl_mediterranean"
@@ -256,7 +255,7 @@ PRO = {
                name_charles = 2
                name_robert = 1
             }
-
+			serfdom_vs_free_subjects = -80
           }
       }
 
@@ -2252,6 +2251,8 @@ PRO = {
 	BGN = {
 		own_control_core = {
 			boulogne_sur_mer
+			montreuil
+			abbeville
 		}
 
 		starting_technology_level = 3

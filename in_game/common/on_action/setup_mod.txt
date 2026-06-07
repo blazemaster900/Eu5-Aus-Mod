@@ -11,6 +11,15 @@ on_game_start = {
 
 mod_adjust_france = {
 	effect = {
+		region:france_region = {
+    		every_location_in_region = {
+				limit = {
+					NOT = { owner = c:FRA }
+					has_core = c:FRA
+				}
+        		remove_core = c:FRA
+    		}
+		}
 		c:FRA = {
 			cancel_subject = c:FLA
 
@@ -23,10 +32,51 @@ mod_adjust_france = {
 			add_truce_with = { target = c:UTR mutual = yes months = 180 }
 			add_truce_with = { target = c:LOO mutual = yes months = 180 }
 			add_truce_with = { target = c:NAM mutual = yes months = 180 }
+			remove_tolerated_culture = culture:norman
+			remove_tolerated_culture = culture:picard
+			remove_tolerated_culture = culture:champenais
+			remove_tolerated_culture = culture:burgundian
+			
+		}
+		c:PRO = {
+			remove_tolerated_culture = culture:vivaro_alpine
+			add_gold = 250 #build a market
+			set_capital = location:arles
+			add_country_modifier = {
+				mode = add_and_replace
+				modifier = eng_promote_for_forts
+				months = 6
+			}
+		}
+		location:valence = {
+			add_road_to = {
+ 				target = location:vienne
+ 				type = gravel_road
+			}
+		}
+		location:arles = {
+			add_road_to = {
+ 				target = location:ales
+ 				type = gravel_road
+			}
+		}
+		location:arles = {
+			add_road_to = {
+ 				target = location:florac
+ 				type = gravel_road
+			}
+		}
+		location:arles = {
+			add_road_to = {
+ 				target = location:nice
+ 				type = gravel_road
+			}
 		}
 
 		c:ENG = {
 			cancel_subject = c:AQN
+			cancel_subject = c:PLE
+			cancel_subject = c:WLS
 			add_truce_with = { target = c:FLA mutual = yes months = 180 }
 			add_truce_with = { target = c:HAI mutual = yes months = 180 }
 			add_truce_with = { target = c:BRB mutual = yes months = 180 }
@@ -44,6 +94,7 @@ mod_adjust_france = {
 
 		c:FLA = {
 			cancel_subject = c:NAM
+			add_accepted_culture = culture:picard
 		}
 	}
 }
@@ -51,11 +102,9 @@ mod_adjust_france = {
 mod_save_fix = {
 
 	effect = {
-
 		sub_continent:east_asia = { mod_remove_and_disable_sub_continent = yes }
 		sub_continent:south_east_asia = { mod_remove_and_disable_sub_continent = yes }
 		sub_continent:pacific_islands = { mod_remove_and_disable_sub_continent = yes }
-
 	}
 
 }
@@ -193,6 +242,7 @@ mod_shatter_france = {
 			cancel_subject = c:MRT
 			cancel_subject = c:DRE
 			cancel_subject = c:ETA
+			cancel_subject = c:NRB
 			
 		}
 

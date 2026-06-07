@@ -6,19 +6,13 @@ countries = {
 
 			# Earldom of Chester
 			#chester macclesfield nantwich
-			bordeaux castelnau_de_medoc benauges lesparre_medoc libourne
-			dax belin la_teste_de_buch mimizan tartas tosse
-			labrit
-			saintes jonzac montendre oleron royan rochefort
-			bayonne mauleon
+			#bordeaux castelnau_de_medoc benauges lesparre_medoc libourne
+			#dax belin la_teste_de_buch mimizan tartas tosse
+			#labrit
+			#saintes jonzac montendre oleron royan rochefort
+			#bayonne mauleon
 			# English towns on the Welsh March
 			shrewsbury hereford
-			boulogne_sur_mer
-			calais
-			saint_omer
-			hesdin
-			saint_pol
-			bethune
 		}
 		own_control_integrated = {
 			# Earldom of Chester
@@ -27,7 +21,7 @@ countries = {
 			# channel
 			jersey
 			# france			
-			abbeville montreuil #Ponthieu
+			 #Ponthieu
 		}
 		own_control_conquered = {
 			berwick
@@ -267,7 +261,6 @@ countries = {
 
 		capital = mainz
 	}
-	AQN = {}
     KTZ = {}
     SPO = {}
     VEL = {}
