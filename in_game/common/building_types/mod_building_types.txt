@@ -31,12 +31,12 @@ REPLACE:local_governor = {
 	}
 
 	location_potential = {
-		has_road_to_capital = yes
+		#has_road_to_capital = yes
 		owner.capital != this
 	}
 
 	remove_if = {
-		location = { has_road_to_capital = no }
+		#location = { has_road_to_capital = no }
 		NOT = { owner = { at_war = yes } }
 		NOT = { owner = { in_civil_war = yes } }
 	}
@@ -89,13 +89,14 @@ REPLACE:naval_governor = {
 	town = yes
 	city = yes
 	megalopolis = yes
-
+	country_potential = {always = no} #so you can't see it, I hope
 	allow = {
-		custom_tooltip = {
-			text = naval_governor_tt
-			scope:actor = {	total_building_levels_including_construction:naval_governor < modifier:num_naval_governors }
-		}
-		owner = scope:actor #not in subjects
+		always = no
+		# custom_tooltip = {
+		# 	text = naval_governor_tt
+		# 	scope:actor = {	total_building_levels_including_construction:naval_governor < modifier:num_naval_governors }
+		# }
+		# owner = scope:actor #not in subjects
 	}
 
 	location_potential = {

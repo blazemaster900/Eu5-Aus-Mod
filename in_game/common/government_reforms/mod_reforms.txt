@@ -146,4 +146,84 @@ mams_nerf = {
 	}
 	years = 2
 }
+#these are removing the naval governors as a mechanic, replacing them with local governors, and moving one governor to the land reform
+REPLACE:harbor_administration = {
+	age = age_1_traditions
+	potential = {
+		NOR = {
+			country_type = pop
+			country_type = building
+		}
+	}
+	societal_values = {
+		naval_focus
+	}
 
+	country_modifier = {
+		num_local_governors = 1
+		monthly_towards_naval = societal_value_large_monthly_move
+	}
+	location_modifier = {
+		potential_trigger = {
+			custom_tooltip = {
+				text = every_coastal_location_gains_tt
+				is_coastal = yes
+			}
+		}
+		local_monthly_development_modifier = 0.1
+		local_port_cost_distance_impact = -0.2
+	}
+
+	years = 2
+}
+REPLACE:naval_infrastructure_act = {
+	age = age_4_reformation
+
+	societal_values = {
+		naval_focus
+	}
+	
+	country_modifier = {
+		monthly_towards_naval = societal_value_monthly_move
+		port_cost_distance_from_capital = -2
+	}
+
+	location_modifier = {
+		potential_trigger = {
+			custom_tooltip = {
+				text = coastal_city_or_town_gets_tt
+				is_coastal = yes
+				OR = {
+					location_rank = location_rank:town
+					location_rank = location_rank:city
+				}
+			}
+		}
+		harbor_suitability = 0.1
+	}
+
+	years = 2
+}
+REPLACE:town_specialization = {
+	age = age_2_renaissance
+	
+	
+	potential = {
+		num_of_non_rural > 0 
+	}
+
+
+
+	societal_values = {
+		land_focus
+	}
+
+	country_modifier = {
+		global_burghers_pop_growth = 0.25
+		monthly_towards_land = societal_value_large_monthly_move
+		global_non_rural_monthly_development = 0.002
+		num_local_governors = 1
+	}
+
+	years = 2
+}

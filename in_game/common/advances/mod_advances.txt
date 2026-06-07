@@ -138,3 +138,12 @@ REPLACE:dan_danish_legislation = {
 
 	requires = dan_levy_recruitment
 }
+REPLACE:maritime_advance_age_3 = {
+	age = age_3_discovery
+	icon = maritime_advance_age_4
+
+	requires = colonial_charters
+
+	global_maritime_presence_modifier = 0.1
+	num_local_governors = 1
+}
