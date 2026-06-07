@@ -1,0 +1,35 @@
+namespace = prices
+prices.7 = {
+	type = country_event
+
+	title = prices.7.title
+	desc = prices.7.desc
+	outcome = neutral
+
+	fire_only_once = yes
+	dynamic_historical_event = {
+		tag = ENG
+		from = 1300.1.1
+		to = 1800.1.1
+		monthly_chance = 5
+	}
+
+	trigger = {
+		capital = {
+			market = {
+				is_traded_in_market = goods:tea
+				is_traded_in_market = goods:sugar
+			}
+		}
+	}
+
+	image = "gfx/interface/icons/trade_goods/illustrations/icon_goods_tea.dds"
+
+	option = {
+		name = prices.7.a
+		every_market_present_in_country = {
+			add_temporary_demand = { type = demand:tea_and_sugar_for_britain months = 12 scale_with_pop = 0.01 }
+		}
+
+	}
+}
