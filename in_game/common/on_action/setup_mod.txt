@@ -7,6 +7,7 @@ on_game_start = {
 		habs_setup
 		mod_shatter_france
 		mod_cas_setup
+		mod_boh_setup
 	}
 }
 
@@ -272,6 +273,35 @@ mod_cas_setup = {
 		}
 		c:ARA = {
 			remove_tolerated_culture = culture:andalusi
+		}
+	}
+}
+mod_boh_setup = {
+	effect = {
+		c:BOH = {
+			cancel_subject = c:MVA
+			cancel_subject = c:TES
+			cancel_subject = c:OSW
+			cancel_subject = c:RCB
+			cancel_subject = c:OPV
+			cancel_subject = c:RCB
+			cancel_subject = c:OPL
+			cancel_subject = c:BYM
+			cancel_subject = c:SIZ
+			cancel_subject = c:STZ
+			cancel_subject = c:PDK
+			cancel_subject = c:NYZ
+			cancel_subject = c:NMD
+			cancel_subject = c:ZIE
+			cancel_subject = c:LGC
+			cancel_subject = c:NMS
+			cancel_subject = c:NYS
+			cancel_subject = c:BRZ
+			cancel_subject = c:WRC
+			cancel_subject = c:OEL
+			cancel_subject = c:SCI
+			cancel_subject = c:GLO
+			cancel_subject = c:ZAG
 		}
 	}
 }
