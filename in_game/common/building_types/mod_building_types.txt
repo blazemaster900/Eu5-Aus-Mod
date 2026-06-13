@@ -33,10 +33,12 @@ REPLACE:local_governor = {
 	location_potential = {
 		#has_road_to_capital = yes
 		owner.capital != this
+		NOT ={integration_level = conquered }
 	}
 
 	remove_if = {
 		#location = { has_road_to_capital = no }
+		location = { integration_level = conquered }
 		#NOT = { owner = { at_war = yes } }
 		#NOT = { owner = { in_civil_war = yes } }
 	}
