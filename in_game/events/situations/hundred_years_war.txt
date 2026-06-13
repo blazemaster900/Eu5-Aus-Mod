@@ -1,0 +1,10 @@
+﻿namespace = hundred_years_war
+
+######################################
+# The start of the situation events
+######################################
+
+#hopefully this removes all the events
+
+
+

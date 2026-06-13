@@ -38,3 +38,38 @@ REPLACE:BGP_f = {
 	form_effect = {
 	}
 }
+
+REPLACE:ADU_f = { 
+
+	level = 3
+	required_locations_fraction = 0.75
+	rule = plausible
+	
+	potential = {
+		OR = {
+			culture = { has_culture_group = culture_group:maghrebi_group }
+			culture = { has_culture_group = culture_group:iberian_group }
+		}
+		religion.group = religion_group:muslim
+	}
+
+	allow = {
+		owns = location:granada
+		owns = location:cordoba
+	}
+	areas = {
+		andalusia_area
+		granada_area
+		morocco_area
+	}
+	name = ADU
+	flag = ADU
+	adjective = ADU_ADJ
+	tag = ADU
+	color = map_ADU
+	
+	regions = {
+	}
+	form_effect = {
+	}
+}

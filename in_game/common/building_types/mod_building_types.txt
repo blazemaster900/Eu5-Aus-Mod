@@ -37,8 +37,8 @@ REPLACE:local_governor = {
 
 	remove_if = {
 		#location = { has_road_to_capital = no }
-		NOT = { owner = { at_war = yes } }
-		NOT = { owner = { in_civil_war = yes } }
+		#NOT = { owner = { at_war = yes } }
+		#NOT = { owner = { in_civil_war = yes } }
 	}
 
 	expensive = yes

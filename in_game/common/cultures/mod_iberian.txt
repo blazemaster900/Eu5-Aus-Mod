@@ -1,0 +1,53 @@
+REPLACE:andalusi = { 
+	language = maghrebi_dialect
+	
+	color = map_ADU
+	
+	tags = { andalusi_gfx maghrebi_gfx middle_east_gfx }
+	
+	opinions = {
+		castilian = enemy
+		moroccan = kindred	
+		algerian = positive
+		tunisian = positive
+        catalan = kindred
+	}
+	
+	culture_groups = {
+		iberian_group
+		maghrebi_group
+		arabic_group
+	}
+}
+
+REPLACE:aragonese = { 
+	language = aragonese_dialect
+	
+	color = rgb { 192 113 116 }
+	
+	tags = { catalan_gfx iberian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		catalan = kindred
+	}
+	
+	culture_groups = {
+		iberian_group
+		pyrenean_group
+	}
+}
+REPLACE:sardinian = { 
+	language = sardinian_dialect
+	
+	color = map_sardinian
+	
+	tags = { south_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+    opinions = {
+		catalan = kindred
+	}
+	
+	culture_groups = {
+		italian_group
+	}
+    
+}

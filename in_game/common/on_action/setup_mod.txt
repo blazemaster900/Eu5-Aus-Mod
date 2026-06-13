@@ -6,6 +6,7 @@ on_game_start = {
 		mod_goods_change # for DS
 		habs_setup
 		mod_shatter_france
+		mod_cas_setup
 	}
 }
 
@@ -255,6 +256,22 @@ mod_shatter_france = {
 
 		c:FLA = {
 			cancel_subject = c:NAM
+		}
+	}
+}
+mod_cas_setup = {
+	effect = {
+		region:iberia_region = {
+    		every_location_in_region = {
+				limit = {
+					NOT = { owner = c:CAS }
+					has_core = c:CAS
+				}
+        		remove_core = c:CAS
+    		}
+		}
+		c:ARA = {
+			remove_tolerated_culture = culture:andalusi
 		}
 	}
 }

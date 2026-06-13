@@ -1980,8 +1980,8 @@ PRO = {
 		include = "expl_western_europe"
 		include = "catholic_monarchy_no_coast"
 		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
+			type = republic
+			heir_selection = republic_4_year_terms
 			ruler = fra_jean_ii_valois
 
 			ruler_term = { character = anj_geoffroy_v_anjou start_date = 1129.1.1 end_date = 1151.9.7 regnal_number = 2 }
@@ -2383,11 +2383,11 @@ PRO = {
 		include = "expl_western_europe"
 		include = "catholic_monarchy_no_coast"
 		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
+			type = republic
+			heir_selection = republic_4_year_terms
 			ruler = fra_jean_ii_valois
 			reforms = {
-				french_appanage_reform
+				#french_appanage_reform
 			}
 
 			ruler_term = { character = anj_robert_le_fort start_date = 862.1.1 end_date = 866.9.15 regnal_number = 1 }
@@ -2612,8 +2612,8 @@ PRO = {
 		include = "expl_western_europe"
 		include = "catholic_monarchy"
 		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
+			type = republic
+			heir_selection = republic_4_year_terms
 			ruler = fra_jean_ii_valois
 
 			ruler_term = { character = eng_william_the_conquerer start_date = 1035.7.2 end_date = 1087.9.9 regnal_number = 1 }

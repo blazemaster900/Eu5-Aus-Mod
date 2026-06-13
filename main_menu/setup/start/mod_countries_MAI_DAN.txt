@@ -123,7 +123,7 @@ countries = {
 
 			centralization_vs_decentralization = 30
 			aristocracy_vs_plutocracy = -60
-			serfdom_vs_free_subjects = -80
+			serfdom_vs_free_subjects = -15
 			traditionalist_vs_innovative = -40
 			spiritualist_vs_humanist = -50
 			mercantilism_vs_free_trade = -25
@@ -656,6 +656,194 @@ countries = {
 		country_rank = rank_duchy
 		dynasty = habsburg_dynasty
 		capital = vienna
+	}
+	
+	POR = {
+		own_control_core = {
+			lagos faro silves tavira
+			evora alvalade alvito avis beja crato elvas estremoz mertola montemor mora_portugal moura odemira ourique ponte_sor portalegre portel salvaterra serpa sines vila_vicosa
+			coimbra besteiros castelo_branco covilha esgueira feira guarda idanha lamego meda pinhel proenca_nova sabugal seia trancoso viseu
+			lisbon alcacer_do_sal alcobaca chao_de_couce figueira leiria santarem setubal tomar torres_novas torres_vedras
+			porto aguiar barcelos braga guimaraes montalegre valenca viana_do_castelo
+			braganca chaves macedo miranda_de_i_douro mirandela moncorvo vila_real
+			coruna betanzos ferrol mondonedo vivero #A Coruña
+			lugo monforte_de_lemos navia_de_suarna sarria villalba #Lugo
+			ourense barco_de_valdeorras ginzo_de_limia monterrey ribadavia viana_bolo #Ourense
+			santiago_compostela finisterre lalin mellid noya pontevedra tuy #Santiago de Compostela
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "iberian_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = por_afonso_iv_portugal
+
+			ruler_term = { character = lon_ramiro_ii_leon start_date = 926.2.12 end_date = 931.11.6 regnal_number = 0 }
+
+			ruler_term = { character = por_afonso_i_portugal start_date = 1143.10.5 end_date = 1185.12.6 regnal_number = 1 }
+			ruler_term = { character = por_sancho_i_portugal start_date = 1185.12.6 end_date = 1211.3.26 regnal_number = 1 }
+			ruler_term = { character = por_afonso_ii_portugal start_date = 1211.3.26 end_date = 1223.3.25 regnal_number = 2 }
+			ruler_term = { character = por_sancho_ii_portugal start_date = 1223.3.25 end_date = 1247.12.4 regnal_number = 2 }
+			ruler_term = { character = por_afonso_iii_portugal start_date = 1247.12.4 end_date = 1279.2.16 regnal_number = 3 }
+			ruler_term = { character = por_dinis_i_portugal start_date = 1279.2.16 end_date = 1325.1.7 regnal_number = 1 }
+			ruler_term = { character = por_afonso_iv_portugal start_date = 1325.1.7 regnal_number = 4 }
+
+			regnal_numbers = {
+				name_alphonse = 4
+				name_sancho = 2
+				name_dennis = 1
+			}
+
+			reforms = {
+				portuguese_monarchy_reform
+
+			}
+			privilege = {
+				#Clergy
+				clergy_military_orders
+				#Burghers
+				land_of_commerce
+			}
+			laws = {
+				administrative_system = central_councils
+				censorship = limited_censorship
+				cultural_traditions_law = civil_society
+				distribution_of_power_law = dop_traditional_distribution_of_power
+				education_masses_law = basic_religious_education
+				feudal_de_jure_law = by_blood
+				heir_religion_law = heir_same_religion
+				maritime_law = protect_trade_routes
+				medieval_levy_law = noble_levies
+				piracy_law = anti_piracy_policy
+				royal_court_customs_law = itinerant_court_policy
+			}
+
+			centralization_vs_decentralization = 15
+			mercantilism_vs_free_trade = -20
+			land_vs_naval = -10
+			quality_vs_quantity = -10
+			capital_economy_vs_traditional_economy = 80
+			serfdom_vs_free_subjects = -80
+		}
+
+		accepted_cultures = {
+			galician
+		}
+
+		country_rank = rank_kingdom
+		capital = lisbon
+		ai_advance_preference_tags = {
+			exploration = 5
+		}
+	}
+	ARA = {
+		own_control_core = {
+			barcelona berga besalu ripoll castellon_ampurias girona manresa sant_feliu sitges terrassa vic
+			cervera balaguer flix lleida montblanc tarragona tarrega tortosa villafranca_del_penedes
+			seu_durgell agramunt cardona talarn vielha
+			huesca ainsa almudevar anso barbastro benabarre ejea_de_los_caballeros fraga jaca monzon sarinena sos
+			teruel albarracin alcaniz alfambra cantavieja montalban mora_de_rubielos valderrobres
+			zaragoza ariza belchite carinena caspe calatayud daroca pina_de_ebro tarazona zuera
+			castellon_de_la_plana ares_del_maestre llucena morella peniscola
+			jativa alcoy alicante denia elche orihuela
+			valencia gandia ayora bunol chelva lliria
+			cagliari tratalias villa_di_chiesa isili muravera seddori tortoli orosei terranova_pausania posada tempiopausania
+			sassari
+			jumilla
+		}
+
+		own_control_integrated = {
+			
+		}
+
+		own_control_conquered = {
+			
+		}
+
+		our_cores_conquered_by_others = {
+			puigcerda prades perpignan
+			palma ciudadela_de_menorca ibiza manacor pollensa #Majorca
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "iberian_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = ara_peter_iv_arago
+
+			ruler_term = { character = ara_ramiro_i_aragon start_date = 1035.10.18 end_date = 1063.5.8 regnal_number = 1 }
+			ruler_term = { character = ara_sancho_i_aragon start_date = 1063.5.8 end_date = 1094.6.4 regnal_number = 1 }
+			ruler_term = { character = ara_pedro_i_aragon start_date = 1094.6.4 end_date = 1104.12.28 regnal_number = 1 }
+			ruler_term = { character = ara_alfonso_i_aragon start_date = 1104.12.28 end_date = 1134.9.7 regnal_number = 1 }
+			ruler_term = { character = ara_ramiro_ii_aragon start_date = 1134.9.29 end_date = 1157.8.16 regnal_number = 2 }
+			ruler_term = { character = ara_petronila_i_aragon start_date = 1157.8.16 end_date = 1164.7.18 regnal_number = 1 }
+
+			ruler_term = { character = ara_alfons_ii_arago start_date = 1164.7.18 end_date = 1196.4.25 regnal_number = 2 }
+			ruler_term = { character = ara_pere_ii_arago start_date = 1196.4.25 end_date = 1213.9.13 regnal_number = 2 }
+			ruler_term = { character = ara_jacme_i_arago start_date = 1213.9.13 end_date = 1276.7.27 regnal_number = 1 }
+			ruler_term = { character = ara_pere_iii_arago start_date = 1276.7.27 end_date = 1285.11.11 regnal_number = 3 }
+			ruler_term = { character = ara_alfons_iii_arago start_date = 1285.11.11 end_date = 1291.6.18 regnal_number = 3 }
+			ruler_term = { character = ara_jaume_ii_arago start_date = 1291.6.18 end_date = 1327.11.2 regnal_number = 2 }
+			ruler_term = { character = ara_alfonso_iv_arago start_date = 1327.11.2 end_date = 1336.1.24 regnal_number = 4 }
+			ruler_term = { character = ara_peter_iv_arago start_date = 1336.1.24 regnal_number = 4 }
+
+			regnal_numbers = {
+				name_ramiro = 2
+				name_sancho = 1
+				name_peter = 4
+				name_alphonse = 4
+				name_petronilla = 1
+				name_james = 2
+			}
+
+			reforms = {
+				crown_aragon_reform
+				pyrenean_fueros_reform
+			}
+
+			centralization_vs_decentralization = 50
+			traditionalist_vs_innovative = -20
+			spiritualist_vs_humanist = -50
+			aristocracy_vs_plutocracy = -20
+			mercantilism_vs_free_trade = 0
+			land_vs_naval = 10
+			serfdom_vs_free_subjects = -80
+
+			privilege = {
+				#Noble Privileges
+				general_privilege
+				#Clergy
+				clergy_military_orders
+			}
+			laws = {
+				royal_court_customs_law = itinerant_court_policy
+			}
+
+		}
+
+		court_language = catalan_dialect
+		country_rank = rank_kingdom
+		capital = barcelona
+		accepted_cultures = { aragonese andalusi sardinian }
+		tolerated_cultures = {
+			sephardi
+			gascon
+			castilian
+		}
 	}
 }
 }
