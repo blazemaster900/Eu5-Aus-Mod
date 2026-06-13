@@ -591,6 +591,15 @@ countries = {
 			schaffhausen
 			fribourg
 			glarus
+			st_polten
+			waidhofen
+			wolfsberg
+			feldkirchen
+			leibnitz
+			ptuj
+			friesach
+			celje
+			lasko
 		}
 
 		own_control_integrated = {
