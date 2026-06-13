@@ -883,7 +883,7 @@ countries = {
 		government = {
 			type = republic
 			heir_selection = republic_4_year_terms
-			ruler = boh_charles_iv_luxembourg
+			ruler = zie_bolko_ii_ziebice
 
 			ruler_term = { character = boh_otakar_ii_premyslid start_date = 1253.12.23 end_date = 1278.8.26 regnal_number = 1 }
 			ruler_term = { character = hab_rudolf_i_habsburg start_date = 1278.8.26 end_date = 1283.1.1 regnal_number = 1 }

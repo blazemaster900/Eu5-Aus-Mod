@@ -302,6 +302,14 @@ mod_boh_setup = {
 			cancel_subject = c:SCI
 			cancel_subject = c:GLO
 			cancel_subject = c:ZAG
+			add_truce_with = { target = c:MVA years = 5 }
+			add_truce_with = { target = c:RCB years = 5 }
+			add_truce_with = { target = c:WRC years = 5 }
+			add_truce_with = { target = c:GLO years = 5 }
+			add_truce_with = { target = c:ZIE years = 5 }
+			add_truce_with = { target = c:BRZ years = 5 }
+			add_truce_with = { target = c:OEL years = 5 }
 		}
+		
 	}
 }
