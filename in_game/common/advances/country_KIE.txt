@@ -11,6 +11,8 @@
 
 	global_wheat_output_modifier = 0.25
 	global_millet_output_modifier = 0.25
+	global_legumes_output_modifier = 0.10
+	global_fiber_crops_output_modifier = 0.10
 }
 kasztelanowie = {
 	age = age_1_traditions
