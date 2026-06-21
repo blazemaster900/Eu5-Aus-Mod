@@ -94,21 +94,24 @@ REPLACE:naval_governor = {
 	country_potential = {always = no} #so you can't see it, I hope
 	allow = {
 		always = no
-		# custom_tooltip = {
-		# 	text = naval_governor_tt
-		# 	scope:actor = {	total_building_levels_including_construction:naval_governor < modifier:num_naval_governors }
-		# }
-		# owner = scope:actor #not in subjects
+		custom_tooltip = {
+			text = naval_governor_tt
+			scope:actor = {	total_building_levels_including_construction:naval_governor < modifier:num_naval_governors }
+		}
+		owner = scope:actor #not in subjects
 	}
 
 	location_potential = {
-		NOT = { is_connected_to = owner.capital }
-		is_overseas_for_owner = no
-		is_port = yes
+		#has_road_to_capital = yes
+		owner.capital != this
+		NOT ={integration_level = conquered }
 	}
 
 	remove_if = {
-		location = { is_connected_to = owner.capital }
+		#location = { has_road_to_capital = no }
+		location = { integration_level = conquered }
+		#NOT = { owner = { at_war = yes } }
+		#NOT = { owner = { in_civil_war = yes } }
 	}
 
 	expensive = yes
