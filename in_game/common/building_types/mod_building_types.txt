@@ -103,6 +103,7 @@ REPLACE:naval_governor = {
 
 	location_potential = {
 		#has_road_to_capital = yes
+		is_port = yes
 		owner.capital != this
 		NOT ={integration_level = conquered }
 	}
