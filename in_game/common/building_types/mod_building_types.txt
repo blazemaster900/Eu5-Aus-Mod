@@ -91,9 +91,9 @@ REPLACE:naval_governor = {
 	town = yes
 	city = yes
 	megalopolis = yes
-	country_potential = {always = no} #so you can't see it, I hope
+	#country_potential = {always = no} #so you can't see it, I hope
 	allow = {
-		always = no
+		#always = no
 		custom_tooltip = {
 			text = naval_governor_tt
 			scope:actor = {	total_building_levels_including_construction:naval_governor < modifier:num_naval_governors }
