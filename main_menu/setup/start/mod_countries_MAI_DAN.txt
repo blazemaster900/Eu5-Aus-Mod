@@ -865,11 +865,9 @@ countries = {
 		court_language = catalan_dialect
 		country_rank = rank_kingdom
 		capital = barcelona
-		accepted_cultures = { aragonese andalusi sardinian }
+		accepted_cultures = { sardinian }
 		tolerated_cultures = {
-			sephardi
-			gascon
-			castilian
+			
 		}
 	}
 	MVA = {	#Moravia
