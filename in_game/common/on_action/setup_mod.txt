@@ -153,6 +153,94 @@ mod_goods_change = {
 		location:ekholm = { change_raw_material = goods:tea }
 		location:vartofta = { change_raw_material = goods:tea }
 		location:tebourba = { change_raw_material = goods:elephants }
+		#gold, theres gold everywhere in NA but in none in game? Anti-NA bias clearly. 
+		location:maidu = { change_raw_material = goods:goods_gold }
+		location:nisenan = { change_raw_material = goods:goods_gold }
+		location:tuolomne = { change_raw_material = goods:goods_gold }
+		location:chalahume = { change_raw_material = goods:goods_gold }
+		location:watauga = { change_raw_material = goods:goods_gold }
+		location:sequatchie = { change_raw_material = goods:goods_gold }
+		location:menageesenog = { change_raw_material = goods:goods_gold }
+		location:pokegama = { change_raw_material = goods:goods_gold }
+		location:wihlink = { change_raw_material = goods:goods_gold }
+		location:kiamichi = { change_raw_material = goods:goods_gold }
+		location:st_francois_mts = { change_raw_material = goods:goods_gold }
+#gems, scavenging for stones was fairly common
+		location:manitoulin = { change_raw_material = goods:gems }
+		location:minong = { change_raw_material = goods:gems }
+		location:italwa = { change_raw_material = goods:gems }
+		location:escatawppa = { change_raw_material = goods:gems }
+		location:minnetonka = { change_raw_material = goods:gems }
+		location:shebeon = { change_raw_material = goods:gems }
+		location:bland = { change_raw_material = goods:gems }
+		location:monahassanugh = { change_raw_material = goods:gems }
+		location:wawassan = { change_raw_material = goods:gems }
+		location:ammoscongon = { change_raw_material = goods:gems }
+#silver, as with gold
+		location:quanasee = { change_raw_material = goods:silver }
+		location:memesagamesing = { change_raw_material = goods:silver }
+		location:mittaywanquam = { change_raw_material = goods:silver }
+		location:katahdin = { change_raw_material = goods:silver }
+		location:anasagunticook = { change_raw_material = goods:silver }
+		location:kawenote = { change_raw_material = goods:silver }
+		location:adirondacks = { change_raw_material = goods:silver }
+		location:oneyotdehaga = { change_raw_material = goods:silver }
+		location:lenape = { change_raw_material = goods:silver }
+#tobacco, tobacco was a stable crop of NA colonies
+		location:lackawaxen = { change_raw_material = goods:tobacco }
+		location:antietam = { change_raw_material = goods:tobacco }
+		location:pintahae = { change_raw_material = goods:tobacco }
+		location:sapo = { change_raw_material = goods:tobacco }
+		location:nabiti = { change_raw_material = goods:tobacco }
+		location:nisohone = { change_raw_material = goods:tobacco }
+		location:ichisi = { change_raw_material = goods:tobacco }
+		location:mastigon = { change_raw_material = goods:tobacco }
+		location:tittabawassee = { change_raw_material = goods:tobacco }
+		location:saginaw = { change_raw_material = goods:tobacco }
+#dyes, dyes saved several colonies from bankrupcy
+		location:saakak_hukaahaanu = { change_raw_material = goods:dyes }
+		location:tachi = { change_raw_material = goods:dyes }
+		location:pitahauerat = { change_raw_material = goods:dyes }
+		location:oshawa = { change_raw_material = goods:dyes }
+		location:kamouraska = { change_raw_material = goods:dyes }
+		location:pictou = { change_raw_material = goods:dyes }
+		location:maatawamkeag = { change_raw_material = goods:dyes }
+		location:tionesta = { change_raw_material = goods:dyes }
+		location:olentangy = { change_raw_material = goods:dyes }
+		location:assereniet = { change_raw_material = goods:dyes }
+		location:oheyandewa = { change_raw_material = goods:dyes }
+		location:chatahoochee = { change_raw_material = goods:dyes }
+#chili, wild chilis grew thoughout NA and were farmed in some areas
+		location:amaye = { change_raw_material = goods:chili }
+		location:washita = { change_raw_material = goods:chili }
+		location:monecato = { change_raw_material = goods:chili }
+		location:apotaka_hacha = { change_raw_material = goods:chili }
+		location:altamaha = { change_raw_material = goods:chili }
+		location:icafui = { change_raw_material = goods:chili }
+		location:eno = { change_raw_material = goods:chili }
+		location:ya_ttaish = { change_raw_material = goods:chili }
+		location:keyauwee = { change_raw_material = goods:chili }
+		location:tullahoma = { change_raw_material = goods:chili }
+		location:ayish = { change_raw_material = goods:chili }
+#pearls, freshwater pearls were a commonly harvested from NA's many rivers
+		location:manitowoc = { change_raw_material = goods:pearls }
+		location:manistique = { change_raw_material = goods:pearls }
+		location:mackinac = { change_raw_material = goods:pearls }
+		location:kenosha = { change_raw_material = goods:pearls }
+		location:asiniike = { change_raw_material = goods:pearls }
+		location:niagara = { change_raw_material = goods:pearls }
+		location:unquachog = { change_raw_material = goods:pearls }
+		location:nantucket = { change_raw_material = goods:pearls }
+		location:pemetic = { change_raw_material = goods:pearls }
+#cocoa, most of NA is too cold for cocoa but not the gulf coast
+		location:guarungube = { change_raw_material = goods:cocoa }
+		location:uriparacoxi = { change_raw_material = goods:cocoa }
+		location:utina = { change_raw_material = goods:cocoa }
+		location:watappo = { change_raw_material = goods:cocoa }
+		location:atchafalaya = { change_raw_material = goods:cocoa }
+		location:capoque = { change_raw_material = goods:cocoa }
+		location:tamathli = { change_raw_material = goods:cocoa }
+		location:alapaha = { change_raw_material = goods:cocoa }
 	}
 }
 habs_setup = {
