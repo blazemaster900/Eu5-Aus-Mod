@@ -1,0 +1,270 @@
+namespace = flavor_byz
+flavor_byz.25 = { #https://en.wikipedia.org/wiki/Gemistos_Plethon May God have mercy as to what I am about to do
+	type = country_event
+	title = flavor_byz.25.title
+	desc = flavor_byz.25.desc
+	outcome = neutral
+
+	fire_only_once = yes
+
+	dynamic_historical_event = {
+		tag = BYZ
+		from = 1800.1.1
+		to = 1801.1.1
+		monthly_chance = 1
+	}
+
+	trigger = {
+		always = no
+		has_or_had_tag = BYZ
+	}
+
+	illustration_tags = {
+		10 = regular
+		10 = interior
+	}
+
+	historical_info = flavor_byz.25.historical_info
+
+	immediate = {
+		event_illustration_estate_effect = { foreground = estate_type:clergy_estate background = estate_type:clergy_estate }
+		create_character = {#https://es.wikipedia.org/wiki/Plet%C3%B3n
+			first_name = name_gemistos
+			last_name = plethon
+			artist = philosopher
+			artist_skill = 0.55
+			culture = culture:greek_culture
+			birth_location = location:constantinople
+			birth_date = 1380.8.6
+			save_scope_as = target_artist
+			religion = religion:hellenism_religion
+			adm = 74
+			dip = 63
+			mil = 34
+			estate = estate_type:burghers_estate
+			create_in_limbo = yes
+			script = byz_gemistos_plethon
+		}
+	}
+
+	option = {
+		name = flavor_byz.25.a
+
+		historical_option = yes
+
+		add_estate_satisfaction = {
+			type = estate_type:clergy_estate
+			value = estate_satisfaction_mild_penalty
+		}
+
+		location:constantinople = {
+			create_art = {
+				quality = 47
+				type = work_of_art_type:treatise
+				key = reforms_of_the_peloponnese
+				artist = scope:target_artist
+			}
+		}
+
+		custom_tooltip = while_remains_chance_to_revive_hellenism_tt
+		scope:target_artist = { move_country = root }
+	}
+
+	option = {
+		name = flavor_byz.25.b
+
+		add_estate_satisfaction = {
+			type = estate_type:clergy_estate
+			value = estate_satisfaction_mild_bonus
+		}
+
+		kill_character = {
+			target = scope:target_artist
+			reason = beheading
+			killer = ruler
+		}
+	}
+
+	after = {
+		religion:hellenism_religion = {
+			enable_religion = yes
+		}
+	}
+}
+flavor_byz.1502 = { #Greek Pagan Larper Spreads his Heresy!
+	type = country_event
+	title = flavor_byz.1502.title
+	desc = flavor_byz.1502.desc
+	outcome = neutral
+	fire_only_once = yes
+	illustration_tags = {
+		10 = angry
+		10 = exterior
+	}
+
+	dynamic_historical_event = {
+		tag = BYZ
+		from = 1800.1.1
+		to = 1800.1.2
+		monthly_chance = 1
+	}
+
+	trigger = {
+		always = no
+		has_or_had_tag = BYZ
+		character:byz_gemistos_plethon ?= {
+			is_alive = yes
+			owner = root
+		}
+	}
+
+	immediate = {
+		character:byz_gemistos_plethon = { save_scope_as = target_character }
+		ruler_or_regent = { save_scope_as = target_character2 }
+		ordered_country_in_diplomatic_range = {
+			limit = {
+				country_type = location
+				this != root
+			}
+			order_by = average_country_literacy
+			check_range_bounds = no
+			max = 1
+			save_scope_as = target_country
+		}
+		event_illustration_estate_effect = { foreground = estate_type:clergy_estate	background = estate_type:clergy_estate }
+	}
+
+	option = {	#Banish him!
+		name = flavor_byz.1502.a
+
+		trigger = {
+			exists = scope:target_country
+		}
+
+		scope:target_character = { move_country = scope:target_country }
+		add_estate_satisfaction = {
+			type = estate_type:clergy_estate
+			value = estate_satisfaction_mild_bonus
+		}
+	}
+
+	option = {	#Kill him!
+		name = flavor_byz.1502.b
+
+		kill_character = {
+			target = scope:target_character
+			reason = beheading
+			killer = scope:target_character2
+		}
+
+		add_estate_satisfaction = {
+			type = estate_type:clergy_estate
+			value = estate_satisfaction_extreme_bonus
+		}
+	}
+
+	option = {	#Allow him to continue only as an artist
+		name = flavor_byz.1502.c
+
+		add_estate_satisfaction = {
+			type = estate_type:clergy_estate
+			value = estate_satisfaction_mild_penalty
+		}
+		change_societal_value = {
+			type = spiritualist_vs_humanist
+			value = societal_value_move_to_right
+		}
+	}
+
+	option = {
+		name = flavor_byz.1502.d
+
+		trigger = {
+			is_ai = no
+			ruler_or_regent = { has_trait = tolerant }
+		}
+
+		add_estate_satisfaction = {
+			type = estate_type:clergy_estate
+			value = estate_satisfaction_extreme_penalty
+		}
+		change_societal_value = {
+			type = spiritualist_vs_humanist
+			value = societal_value_large_move_to_right
+		}
+
+		add_stability = stability_extreme_penalty
+		add_religious_aspect = religious_aspect:monism_aspect
+		custom_tooltip = {
+			text = everyone_converts_tt
+			ruler_or_regent ?= {
+				change_character_religion = religion:hellenism_religion
+				every_child = {
+					limit = {
+						is_heir = no
+					}
+					change_character_religion = religion:hellenism_religion
+				}
+			}
+			heir ?= {
+				change_character_religion = religion:hellenism_religion
+			}
+			consort ?= {
+				change_character_religion = religion:hellenism_religion
+			}
+		}
+	}
+
+	option = {
+		name = flavor_byz.1502.e
+
+		trigger = {
+			is_ai = no
+		}
+
+		add_estate_satisfaction = {
+			type = estate_type:clergy_estate
+			value = estate_satisfaction_ultimate_penalty
+		}
+
+		change_societal_value = {
+			type = spiritualist_vs_humanist
+			value = societal_value_huge_move_to_right
+		}
+		add_stability = stability_ultimate_penalty
+
+		change_religion = religion:hellenism_religion
+
+		add_religious_aspect = religious_aspect:monism_aspect
+		custom_tooltip = {
+			text = everyone_converts_tt
+			ruler_or_regent ?= {
+				change_character_religion = religion:hellenism_religion
+				every_child = {
+					limit = {
+						is_heir = no
+					}
+					change_character_religion = religion:hellenism_religion
+				}
+			}
+			heir ?= {
+				change_character_religion = religion:hellenism_religion
+			}
+			consort ?= {
+				change_character_religion = religion:hellenism_religion
+			}
+		}
+		if = {
+			limit = { has_dlc = "d008_fate_of_the_phoenix" }
+			capital = {
+				spawn_movement = {
+					movement_definition = movement_definition:hellenism_religion_movement
+					supporters = {
+						value = population
+						multiply = 0.1
+					}
+				}
+			}
+		}
+	}
+}
